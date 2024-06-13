@@ -1,0 +1,310 @@
+dialogue_id: 106_00000
+<<<Start: Conversation no 1>>>
+USER:Could you help me with a restaurant reservation?
+SYSTEM:In what city and at what restaurant?
+USER:The restaurant is Everest in Albany.
+SYSTEM:What time would you like the reservation?
+USER:I'd like it at 11 in the morning.
+SYSTEM:Confirming a table for 2 at Everest Kitchen in Albany at 11 AM on March 1st.
+USER:Can you change that to one person on the 4th of this month?
+SYSTEM:Confirming a reservation for 1 person on March 4th.
+USER:Sounds great. Do you know if they have live music?
+SYSTEM:No, they don't. The booking is complete.
+USER:Thank you for that. I'd like to see a movie, too. I'm interested in a drama at the Albany Twin, a regular show.
+<<<End: Conversation no 1>>>
+<<<Start: User Instruction>>>
+Help me make a reservation for one person at Everest Kitchen in Albany at 11 AM on March 4th.
+<<<End: User Instruction>>>
+=========================================================================================================================
+dialogue_id: 106_00001
+<<<Start: Conversation no 2>>>
+USER:I'd like to book a table at a restaurant in Vacaville.
+SYSTEM:What time are you looking to book for and which restaurant are you interested in?
+USER:I want to go tio Umi Sushi at a quarter to 6 in the evening.
+SYSTEM:Okay so to confirm: You'd like to book a table for 2 at Umi Sushi in Vacaville at 5:45 pm on March 1st.
+USER:I'd only like a reservation for one person.
+SYSTEM:No problem. So that's 1 person at 5:45 pm
+USER:Actually, thinking about it, I think I want to invite a couple of friends. Can you make a reservation for three people instead?
+SYSTEM:Sure thing. So that's 3 people at 5:45 pm.
+USER:Yes that's correct. Where is the restaurant located and do they serve alcohol there?
+SYSTEM:This place doesn't serve alcohol. Their address is 501 Davis Street. Unfortunately I have not been able to make your reservation at Umi Sushi. Would you like me to try for 3 people at 6 pm on March 1st?
+USER:Yes please, go ahead and try to make the reservation.
+SYSTEM:Your reservation has been confirmed.
+<<<End: Conversation no 2>>>
+<<<Start: User Instruction>>>
+Help me make a reservation for three people at Umi Sushi in Vacaville at 6 PM on March 1st.
+<<<End: User Instruction>>>
+============================================
+dialogue_id: 106_00003
+<<<Start: Conversation no 4>>>
+USER:I would like to make a restaurant reservation.
+SYSTEM:What city and what time?
+USER:I would like to eat in SFO at 5:30 in the evening.
+SYSTEM:Is there a specific restaurant you prefer?
+USER:I like Aslam's.
+SYSTEM:So you want to book at Aslam's Rasoi in San Francisco for 2? The reservation is for 5:30 pm on March 1st.
+USER:Actually it is for one person on March 14th.
+SYSTEM:Please confirm that you want to make a reservation for 1 person on March 14th.
+USER:Yep, that is right. Is it a fancy price range?
+SYSTEM:Your reservation was a success. The price range is moderate.
+USER:Thank you so much. I'd also like ot watch a movie around there at AMC Metreon. I am into 3d adventure movies.
+<<<End: Conversation no 4>>>
+<<<Start: User Instruction>>>
+Help me make a reservation for one person at Aslam's Rasoi in San Francisco at 5:30 PM on March 14th.
+<<<End: User Instruction>>>
+=======================================================================================================================
+dialogue_id: 106_00004
+<<<Start: Conversation no 5>>>
+USER:I'm meeting a client for lunch and I need to make a restaurant reservation for 1 o"clock in the afternoon.
+SYSTEM:Is there a certain restaurant or city I should search in?
+USER:I'd like to book the Limon Rotisserie in Walnut Creek.
+SYSTEM:Let's confirm the details: You are making a reservation for 2 people at Limon Rotisserie Walnut Creek located in Walnut Creek on March 1st at 1 pm.
+USER:Yes, that's great. What's their address?
+SYSTEM:Your table is reserved. Their address is 1524 Locust Street.
+<<<End: Conversation no 5>>>
+<<<Start: User Instruction>>>
+Help me make a reservation for two people at Limon Rotisserie in Walnut Creek at 1 PM on March 1st.
+<<<End: User Instruction>>>
+======================================================================
+dialogue_id: 106_00005
+<<<Start: Conversation no 6>>>
+USER:I want to eat out at a restaurant in Berkeley.
+SYSTEM:At which restaurant and for what time?
+USER:I want to eat at Ippuku for 11:45 am
+SYSTEM:You would like a table for 2 at Ippuku in Berkeley for 11:45 am on March 1st?
+USER:That would be fine.
+SYSTEM:I was not able to make the reservation. Would you like a reservation at Ippuku for 2 on March 1st at 12 pm?
+USER:That would be great.
+SYSTEM:I have made the reservation.
+USER:What is the budget I should work with?
+SYSTEM:The restaurant is expensive.
+USER:Do they serve Tacos and where are they located?
+SYSTEM:They serve Izakaya and they are located at 2130 center street.
+USER:I want to see a 3d movie at the california theatre.
+<<<End: Conversation no 6>>>
+<<<Start: User Instruction>>>
+Help me make a reservation for two people at Ippuku in Berkeley at 12 PM on March 1st.
+<<<End: User Instruction>>>
+=============================================================
+dialogue_id: 106_00006
+<<<Start: Conversation no 7>>>
+USER:Can you make me a reservation at the restaurant A16?
+SYSTEM:Sure, what city is it in?
+USER:It's in San Fran.
+SYSTEM:What time do you want me to make it for?
+USER:Try for a quarter to 6 in the evening.
+SYSTEM:Can you confirm you'd like a table for 2 at A16 in San Francisco on March 1st at 5:45 pm?
+USER:Yup, do you know is they have live music and can I get their phone number?
+SYSTEM:They're at 415-771-2216 and no live music. I apologize but I couldn't make a reservation at A16 for 2 at that time. Should I try March 1st at 6 pm instead?
+USER:Yes, that's fine.
+SYSTEM:Your booking was confirmed.
+USER:Thanks, I also want to see a movie near there. Any Biographical movies playing at the Roxie Theater?
+<<<End: Conversation no 7>>>
+<<<Start: User Instruction>>>
+Help me make a reservation for two people at A16 in San Francisco at 6 PM on March 1st.
+<<<End: User Instruction>>>
+==============================================================================================================
+dialogue_id: 106_00007
+<<<Start: Conversation no 8>>>
+USER:I would like to reserve for a restaurant on March 8th for two.
+SYSTEM:What type of restaurant do you prefer? What time and city?
+USER:I would the restaurant called Layang Layang in Milpitas at 19:00.
+SYSTEM:Please confirm 2 people for Layang Layang Malaysian Cuisine in Milpitas for 7 pm on March 8th.
+USER:Yes, that is fine. What is their phone number?
+SYSTEM:The reservation has ben successfully made and the number is 408-263-6788.
+USER:Thanks so much. I'd like to watch a movie around there.
+<<<End: Conversation no 8>>>
+<<<Start: User Instruction>>>
+Help me make a reservation for two people at Layang Layang in Milpitas at 7 PM on March 8th.
+<<<End: User Instruction>>>
+=================================================================
+dialogue_id: 106_00008
+<<<Start: Conversation no 9>>>
+USER:I need a dining reservation.
+SYSTEM:Where and what time?
+USER:San Jose at 18:00.
+SYSTEM:Which restaurant?
+USER:Mcdonald's.
+SYSTEM:With your permission I will book a reservation for 2 at 6 pm at Mcdonald's in San Jose for March 1st.
+USER:Permission granted. Do they serve Pizza and Pasta?
+SYSTEM:Breakfast food is served. The reservation is booked.
+USER:Is there a good movie close?
+<<<End: Conversation no 9>>>
+
+<<<Start: User Instruction>>>
+Help me make a reservation for two people at McDonald's in San Jose at 6 PM on March 1st.
+<<<End: User Instruction>>>
+======================================
+dialogue_id: 106_00009
+<<<Start: Conversation no 10>>>
+USER:I would like to make a reservation at the restaurant Hatcho.
+SYSTEM:What time will the reservation be for? Which city am I searching in?
+USER:Make the reservation for next Friday at half past 11 in the morning. I want it in Santa Clara.
+SYSTEM:Please confirm these details: You want a reservation for 2 at Hatcho Japanese Cuisine located in Santa Clara. It will be at 11:30 am on March 8th.
+USER:Yes, that works out for me.
+SYSTEM:Your reservation was successful.
+USER:What is their contact number?
+SYSTEM:Their phone number is 408-248-8500.
+USER:Thank you. I would also want to watch a movie around there.
+<<<End: Conversation no 10>>>
+<<<Start: User Instruction>>>
+Help me make a reservation for two people at Hatcho Japanese Cuisine in Santa Clara at 11:30 AM on March 8th.
+<<<End: User Instruction>>>
+=====================================================================
+dialogue_id: 106_00010
+<<<Start: Conversation no 11>>>
+USER:Can you make me a reservation for 3 at Golden Garlic next Friday?
+SYSTEM:Sure, what time and what city?
+USER:It's in San Jose at 6 in the evening.
+SYSTEM:Okay, can you confirm you'd like a table for 3 at Golden Garlic in San Jose at 6 pm on march 8th?
+USER:Yup, that's correct.
+SYSTEM:Your reservation has been made.
+<<<End: Conversation no 11>>>
+<<<Start: User Instruction>>>
+Help me make a reservation for three people at Golden Garlic in San Jose at 6 PM on March 8th.
+<<<End: User Instruction>>>
+=========================================
+dialogue_id: 106_00011
+<<<Start: Conversation no 12>>>
+USER:I wish to have a reservation at a restaurant.
+SYSTEM:In which city do you need and what is your preferred time? Do you have any preferred restaurant?
+USER:The restaurant Kamakura is at Alameda. Reserve it at 7 pm.
+SYSTEM:Kindly ensure that, on March 1st, reservation has been booked for 2 persons at Kamakura Japanese Restaurant at Alameda. It is at 7 pm.
+USER:Yes. It is good for me.
+SYSTEM:Your booking is done.
+USER:Thank you so much. I wish to see a 3d show movie there.
+<<<End: Conversation no 12>>>
+<<<Start: User Instruction>>>
+Help me make a reservation for two people at Kamakura Japanese Restaurant in Alameda at 7 PM on March 1st.
+<<<End: User Instruction>>>
+
+=================================================================
+dialogue_id: 106_00012
+<<<Start: Conversation no 13>>>
+USER:i am looking for a restaurant
+SYSTEM:Do you have any preference? what time would you like to go
+USER:i prefer royal thai at 12:30
+SYSTEM:what city is royal thai located in
+USER:look for martinez city on march 2nd
+SYSTEM:please confirm your reservation with royal thai restaurant for 2 people in city of martinez on march 2nd at 12:30 pm
+USER:yes thats correct. Do they sell liquor
+SYSTEM:your reservation is confirm and they do not serve alcohol
+USER:are they pricy
+SYSTEM:price range is moderate
+USER:I also want to watch a movie afterward, please find me a regular show
+<<<End: Conversation no 13>>>
+<<<Start: User Instruction>>>
+Help me make a reservation for two people at Royal Thai Restaurant in Martinez at 12:30 PM on March 2nd.
+<<<End: User Instruction>>>
+===============================================================================
+dialogue_id: 106_00013
+<<<Start: Conversation no 14>>>
+USER:I need a place to eat, so I want to make a reservation at a restaurant.
+SYSTEM:Which city would you like for the restaurant to be located at?
+USER:I want the restaurant to be in SFO.
+SYSTEM:Is there a specific restaurant you prefer?
+USER:I really like the restaurant called Noir. I want the reservation to be for two people in afternoon 12:15.
+SYSTEM:Can you please confirm that you want to book a table for 2 people at Noir Lounge restaurant in San Francisco at 12:15 pm on March 1st?
+USER:That suits me well. Can you check if they serve liquor?
+SYSTEM:I am glad to confirm that they serve liquor, but unfortunately I could not book the table. Do you want to try again to book a table for 2 people at Noir Lounge restaurant for March 1st at 12 pm?
+USER:That's seems right for me.
+SYSTEM:Your table has been booked.
+USER:Can you give me their address?
+SYSTEM:You can find the restaurant at 581 Hayes Street.
+USER:I appreciate it very much. I feel like I also want to watch a movie when I will be around there.
+<<<End: Conversation no 14>>>
+
+<<<Start: User Instruction>>>
+Help me make a reservation for two people at Noir Lounge restaurant in San Francisco at 12 PM on March 1st.
+<<<End: User Instruction>>>
+==========================================================================================================
+dialogue_id: 106_00014
+<<<Start: Conversation no 15>>>
+USER:I would like to make a reservation at a restaurant.
+SYSTEM:In what city you want to be and at what time?Do you have a favorite restaurant?
+USER:Restaurant name is Spalti and is located in Palo Alto.Reservation I want to be at afternoon 12:30.
+SYSTEM:Book a table for 2 people at Spalti Ristorante in Palo Alto on March 1st at 12:30 pm.Is that okay for you?
+USER:Yes good.Tell me if liquor is served and if they have live music.
+SYSTEM:Alcohol is not available and they not have live music.Soory but reservation was not been made.You want me to try for 2 people on March 1st at 1 pm ?Because Spalti Ristorante is a nice place.
+USER:Yes is good.
+SYSTEM:Reservation was made.
+USER:Thank you for all.
+SYSTEM:Anything else I can do for you?
+<<<End: Conversation no 15>>>
+
+<<<Start: User Instruction>>>
+Help me make a reservation for two people at Spalti Ristorante in Palo Alto at 1 PM on March 1st.
+<<<End: User Instruction>>>
+=========================================
+dialogue_id: 106_00015
+<<<Start: Conversation no 16>>>
+USER:I need to make a restaurant reservation in SF.
+SYSTEM:Is there a specific restaurant you would like to eat at and what time would you like the reservation for?
+USER:Yes, the restaurant is Sakana Sushi and I need a reservation for quarter to 6 in the evening please.
+SYSTEM:Ok, you would like to make a reservation for 2 at Sakana Sushi Bar & Grill in San Francisco on March 1st at 5:45 pm. Is that correct?
+USER:No, the reservation should be on the 11th not the 1st.
+SYSTEM:OK, you would like to reserve a tabe at Sakana Sushi Bar & Grill on March 11th. Is that right?
+USER:Yes, perfect.
+SYSTEM:I'm sorry, I could not make a reservation at that time. Would a reservation for 2 people at 6 pm on March 11th at Sakana Sushi Bar & Grill work instead?
+USER:Yes, that would be great.
+SYSTEM:Great, I have confirmed your reservation.
+USER:Thanks. Can you search for movies nearby?
+<<<End: Conversation no 16>>>
+
+
+===================================================
+dialogue_id: 106_00016
+<<<Start: Conversation no 17>>>
+USER:I have a small plan to eat outside for which I need to reserve a table in a restaurant. Can you help me to do?
+SYSTEM:Yes, in which restaurant do you want to book the table? Is that any choice in your mind?
+USER:Yes, try with Drying Shed.
+SYSTEM:in which City?
+USER:I think San Jose is perfect. Search there for this restaurant.
+SYSTEM:What is your planned time to go to that restaurant, if you inform it then I will make the booking.
+USER:Make the booking at one in the afternoon what will be convenient to me.
+SYSTEM:Please confirm to book a table for 2 in Drying Shed restaurant in San Jose on March 1st at 1 pm.
+USER:Please make it for next Friday.
+SYSTEM:then, need your final confirmation to book it on March 8th at 1 pm.
+USER:Yes, confirmed to proceed with booking.
+SYSTEM:booking was confirmed as per your wish.
+USER:Thanks for your help and I need one more. I like to watch movie out side. Can you search for the one in Fantasy category at Century Oakridge?
+<<<End: Conversation no 17>>>
+=======================================================================================================================================================
+dialogue_id: 106_00017
+<<<Start: Conversation no 18>>>
+USER:Will you make a reservation at Ca' Momi Osteria on 8th of this month at afternoon 12:30?
+SYSTEM:Which city?
+USER:Napa.
+SYSTEM:Please confirm a table for 2 at Ca' Momi Osteria in Napa on March 8th at 12:30 pm.
+USER:Cool. How pricey? What's their number?
+SYSTEM:I've completed the reservation. Price is moderate. You can reach them at 707-224-6664.
+<<<End: Conversation no 18>>>
+================================================================================================
+dialogue_id: 106_00018
+<<<Start: Conversation no 19>>>
+USER:I'm looking for a restaurant reservation in Santa Clara on the 8th of this month at five pm.
+SYSTEM:Do you have a preferred restaurant?
+USER:Yes, the restaurant is McDonalds.
+SYSTEM:Okay, I have a reservation at McDonald's in Santa Clara for 2 people on March 8th at 5 pm, correct?
+USER:Yes, that is correct.
+SYSTEM:I have successfully confirmed the reservation.
+USER:Thanks, does the restaurant serve Chinese food?
+SYSTEM:No, they serve sandwich cuisine.
+USER:What is the address?
+SYSTEM:The street address 2850 Augustine Drive.
+USER:Thanks! I'd also like to find a movie near there.
+<<<End: Conversation no 19>>>
+===========================================================
+dialogue_id: 106_00019
+<<<Start: Conversation no 20>>>
+USER:I want a reservation at the restaurant Troya.
+SYSTEM:What time would you like it for? What city is it in?
+USER:It is in SFO. I want it for 7:15 in the evening.
+SYSTEM:A table for 2 at Troya Restaurant in San Francisco at 7:15 pm on March 1st. Is this right?
+USER:Make it the Krua restaurant instead.
+SYSTEM:A table for 2 at Krua Thai. Is this right?
+USER:I want it at seven in the evening now for 4 people.
+SYSTEM:A reservation for 7 pm with 4 people. Is this right?
+USER:Yes, that's it. Where are they located? Do they sell alcohol?
+SYSTEM:Your reservation has been booked. They sell alcohol. Their address is 3214 16th Street.
+<<<End: Conversation no 20>>>
