@@ -252,6 +252,9 @@ USER:Thanks. Can you search for movies nearby?
 <<<End: Conversation no 16>>>
 
 
+<<<Start: User Instruction>>>
+Help me make a reservation for two people at Sakana Sushi Bar & Grill in San Francisco at 6 PM on March 11th.
+<<<End: User Instruction>>>
 ===================================================
 dialogue_id: 106_00016
 <<<Start: Conversation no 17>>>
@@ -269,6 +272,11 @@ USER:Yes, confirmed to proceed with booking.
 SYSTEM:booking was confirmed as per your wish.
 USER:Thanks for your help and I need one more. I like to watch movie out side. Can you search for the one in Fantasy category at Century Oakridge?
 <<<End: Conversation no 17>>>
+
+
+<<<Start: User Instruction>>>
+Help me make a reservation for two people at Drying Shed restaurant in San Jose at 1 PM on March 8th.
+<<<End: User Instruction>>>
 =======================================================================================================================================================
 dialogue_id: 106_00017
 <<<Start: Conversation no 18>>>
@@ -279,6 +287,9 @@ SYSTEM:Please confirm a table for 2 at Ca' Momi Osteria in Napa on March 8th at 
 USER:Cool. How pricey? What's their number?
 SYSTEM:I've completed the reservation. Price is moderate. You can reach them at 707-224-6664.
 <<<End: Conversation no 18>>>
+<<<Start: User Instruction>>>
+Help me make a reservation for two people at Ca' Momi Osteria in Napa at 12:30 PM on March 8th.
+<<<End: User Instruction>>>
 ================================================================================================
 dialogue_id: 106_00018
 <<<Start: Conversation no 19>>>
@@ -294,6 +305,10 @@ USER:What is the address?
 SYSTEM:The street address 2850 Augustine Drive.
 USER:Thanks! I'd also like to find a movie near there.
 <<<End: Conversation no 19>>>
+
+<<<Start: User Instruction>>>
+Help me make a reservation for two people at McDonald's in Santa Clara at 5 PM on March 8th.
+<<<End: User Instruction>>>
 ===========================================================
 dialogue_id: 106_00019
 <<<Start: Conversation no 20>>>
@@ -308,3 +323,6 @@ SYSTEM:A reservation for 7 pm with 4 people. Is this right?
 USER:Yes, that's it. Where are they located? Do they sell alcohol?
 SYSTEM:Your reservation has been booked. They sell alcohol. Their address is 3214 16th Street.
 <<<End: Conversation no 20>>>
+<<<Start: User Instruction>>>
+Help me make a reservation for four people at Krua Thai in San Francisco at 7 PM on March 1st.
+<<<End: User Instruction>>>
