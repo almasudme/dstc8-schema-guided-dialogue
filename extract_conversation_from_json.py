@@ -3,6 +3,11 @@ import json
 
 list_json_files = glob.glob("train/*.json")
 # print(list_json_files)
+restaurant_tags = ['Restaurants_1','Restaurants_2']
+hotel_tags = ['Hotels_1','Hotels_2','Hotels_3','Hotels_4']
+tags = restaurant_tags + hotel_tags
+print(tags)
+
 
 
 conversation_count = 0
@@ -13,31 +18,32 @@ for json_file in list_json_files:
         for dict_item in list_dict_items:
             if not 'services' in dict_item:
                 continue
-            if 'Restaurants_1' in dict_item.get('services'):
-                
-                # print(dict_item.get('dialogue_id'),dict_item.get('services'))
-                dialogue_id = dict_item.get('dialogue_id') 
-                print(f'dialogue_id: {dialogue_id}')
-                conversation_count += 1
-                print(f"<<<Start: Conversation no {conversation_count}>>>")
-                for turn in dict_item.get('turns'):
-                    list_frames = turn.get('frames')
-                    services = [frame.get('service') for frame in list_frames]
-                    if not 'Restaurants_1' in services: 
-                        continue
+            for tag in tags:
+                if tag in dict_item.get('services'):
                     
-                    speaker = turn.get('speaker')
-                    utterance = turn.get('utterance')
+                    # print(dict_item.get('dialogue_id'),dict_item.get('services'))
+                    dialogue_id = dict_item.get('dialogue_id') 
+                    print(f'dialogue_id: {dialogue_id}')
+                    conversation_count += 1
+                    print(f"<<<Start: Conversation no {conversation_count}>>>")
+                    for turn in dict_item.get('turns'):
+                        list_frames = turn.get('frames')
+                        services = [frame.get('service') for frame in list_frames]
+                        if not 'Restaurants_1' in services: 
+                            continue
+                        
+                        speaker = turn.get('speaker')
+                        utterance = turn.get('utterance')
 
-                    # print(services)
-                    if turn.get('speaker') == 'USER':
-                        utterance = turn.get('utterance')
-                        print(f'USER:{utterance}')
-                    if turn.get('speaker') == 'SYSTEM':
-                        utterance = turn.get('utterance')
-                        print(f'SYSTEM:{utterance}')
-                print(f"<<<End: Conversation no {conversation_count}>>>") 
-                print('='*(len(utterance)+10))
+                        # print(services)
+                        if turn.get('speaker') == 'USER':
+                            utterance = turn.get('utterance')
+                            print(f'USER:{utterance}')
+                        if turn.get('speaker') == 'SYSTEM':
+                            utterance = turn.get('utterance')
+                            print(f'SYSTEM:{utterance}')
+                    print(f"<<<End: Conversation no {conversation_count}>>>") 
+                    # print('='*(len(utterance)+10))
             
             
             
