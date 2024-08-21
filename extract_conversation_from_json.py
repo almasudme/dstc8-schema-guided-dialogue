@@ -2,7 +2,7 @@ import glob
 import json
 
 target_intent = 'Reserve'
-target_domain = 'Hotel'
+target_domain = 'Restaurant'
 
 target_intent_domain = target_intent+target_domain
 folder = 'train'
@@ -10,7 +10,7 @@ list_json_files = glob.glob(folder + "/*.json")
 # print(list_json_files)
 # restaurant_tags = ['Restaurants_1','Restaurants_2']
 # hotel_tags = [] #['Hotels_1','Hotels_2','Hotels_3','Hotels_4']
-service_tags = ['Hotels'] #,'Hotels']
+service_tags = ['Restaurants'] #,'Hotels']
 #=======================================================================
 
 def is_service_in_scope(services):
@@ -75,14 +75,15 @@ with open (folder+'_'+target_intent_domain+'.txt','w') as file:
                         system_utterance = f'SYSTEM:{turn.get("utterance")}'
                         # print(system_utterance)
                         conversation = conversation +  system_utterance + '\n'
-                end_str = f"<<<End: Conversation no {conversation_count}>>>"
+                
                 # print(end_str)
-                conversation = conversation + end_str + '\n'
+                
                 if target_intent_domain in intents:
                     
                     conversation_count += 1
                     start_str = f"<<<Start: Conversation no {conversation_count}>>>"
-                    file.write(start_str + '\n' + conversation)
+                    end_str = f"<<<End: Conversation no {conversation_count}>>>"
+                    file.write(start_str + '\n' + conversation + end_str + '\n')
                 # print(conversation)
                 print(f"services: {services}")
                 print(f"intent: {list(set(intents))}") 
