@@ -1,6 +1,6 @@
 import glob
 import json
-
+import os
 target_intent = 'Reserve'
 target_domain = 'Restaurant'
 
@@ -28,8 +28,8 @@ def is_intent(actions):
             return action.get('values')
     return []
 
-
-with open (folder+'_'+target_intent_domain+'.txt','w') as file:
+file_name = folder+'_'+target_intent_domain+'.txt'
+with open (file_name,'w') as file:
 
     conversation_count = 0
     for json_file in list_json_files:
@@ -48,7 +48,7 @@ with open (folder+'_'+target_intent_domain+'.txt','w') as file:
                 print(dict_item.get('dialogue_id'),dict_item.get('services'))
                 dialogue_id = dict_item.get('dialogue_id') 
                 method = dict_item.get('method') 
-                print(f'dialogue_id: {dialogue_id} , method: {method}')
+                # print(f'dialogue_id: {dialogue_id} , method: {method}')
                 
                 conversation = ""
                 
@@ -59,6 +59,10 @@ with open (folder+'_'+target_intent_domain+'.txt','w') as file:
                 for turn in dict_item.get('turns'):
                     list_frames = turn.get('frames') or []
                     services = [frame.get('service') for frame in list_frames] or []
+                    ''' SOmetimes there are more than one service is asked in a conversation. Dialogue 80_00003 seeks
+                    rideshare , mediccal practitionar, and restaurant asll.
+                    '''
+                    if not service_tags[0] in services[0]: continue
                     intent = [is_intent(frame.get('actions')) for frame in list_frames if is_intent(frame.get('actions'))] 
                     if intent : intents.append(intent[0][0]) 
                     # print(f"actions: {actions}") 
@@ -81,14 +85,17 @@ with open (folder+'_'+target_intent_domain+'.txt','w') as file:
                 if target_intent_domain in intents:
                     
                     conversation_count += 1
-                    start_str = f"<<<Start: Conversation no {conversation_count}>>>"
+                    start_str = f"<<<Start: Conversation no {conversation_count} dialogue id {dialogue_id}>>>"
                     end_str = f"<<<End: Conversation no {conversation_count}>>>"
                     file.write(start_str + '\n' + conversation + end_str + '\n')
-                # print(conversation)
-                print(f"services: {services}")
-                print(f"intent: {list(set(intents))}") 
-                print('='*(len(utterance)+10))
-            
+                    # print(conversation)
+                    file.write(f"services: {services} \n")
+                    file.write(f"intent: {list(set(intents))} \n") 
+                    file.write('='*(len(utterance)+10))
+                    file.write('\n\n')
+
+if os.path.exists(file_name):
+    print(f"Written {file_name}")            
                 
         
     
