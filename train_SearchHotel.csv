@@ -1,0 +1,172 @@
+dialogue_id,conversation,services,intent,service_calls
+66_00090,"USER:Thank you! Are there any hotels I can stay in that area?
+[{'method': 'SearchHotel', 'parameters': {'location': 'Chicago'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Chicago'}}]"
+66_00091,"USER:I also need three hotel rooms.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Atlanta', 'number_of_rooms': '3', 'pets_welcome': 'True'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Atlanta', 'number_of_rooms': '3', 'pets_welcome': 'True'}}]"
+66_00092,"USER:Thanks, find a hotel there.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Chicago'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Chicago'}}]"
+66_00093,"USER:Thanks for the help! I want 1 room at a hotel in San Fran.
+[{'method': 'SearchHotel', 'parameters': {'location': 'San Francisco', 'number_of_rooms': '1'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'San Francisco', 'number_of_rooms': '1'}}]"
+66_00094,"USER:I also need 2 rooms at a pet-friendly hotel.
+[{'method': 'SearchHotel', 'parameters': {'location': 'San Francisco', 'number_of_rooms': '2', 'pets_welcome': 'True'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'San Francisco', 'number_of_rooms': '2', 'pets_welcome': 'True'}}]"
+66_00095,"USER:I need to find a hotel there also. Thanks.
+[{'method': 'SearchHotel', 'parameters': {'location': 'New York'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York'}}]"
+66_00096,"USER:You have been so much help. Can you also help with a hotel reservation for while I am there?
+[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles'}}]"
+66_00097,"USER:Cool, thanks for the help. Can you find me a nice hotel to stay in?
+[{'method': 'SearchHotel', 'parameters': {'location': 'Chicago'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Chicago'}}]"
+66_00098,"USER:Thanks. I want to find a hotel.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles'}}]"
+66_00099,"USER:Thanks a lot. I would need a hotel to stay in when I get there.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles'}}]"
+66_00100,"USER:Thanks, I need 2 hotel rooms there.
+[{'method': 'SearchHotel', 'parameters': {'location': 'New York', 'number_of_rooms': '2'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York', 'number_of_rooms': '2'}}]"
+66_00101,"USER:Thanks a lot. Now I need to find a hotel.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Portland'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Portland'}}]"
+66_00102,"USER:I'd like to look for a hotel nearby.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Philadelphia'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Philadelphia'}}]"
+66_00103,"USER:I need three hotel rooms there too.
+[{'method': 'SearchHotel', 'parameters': {'location': 'San Francisco', 'number_of_rooms': '3'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'San Francisco', 'number_of_rooms': '3'}}]"
+66_00104,"USER:Awesome thank you. Can you also help me book 1 room at a hotel?
+[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles', 'number_of_rooms': '1'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles', 'number_of_rooms': '1'}}]"
+66_00105,"USER:Thanks I also need a hotel there.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Portland'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Portland'}}]"
+66_00106,"USER:I need a hotel there as well.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Phoenix'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Phoenix'}}]"
+66_00107,"USER:I need one hotel room there.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Atlanta', 'number_of_rooms': '1'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Atlanta', 'number_of_rooms': '1'}}]"
+66_00108,"USER:That's okay. Thanks for telling me. Now I want to find a hotel in Atlanta.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Atlanta'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Atlanta'}}]"
+66_00109,"USER:Okay. Thank you for helping me book my flight. Moving on, I'll be needing somewhere to stay. Help me find a hotel there.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Seattle'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Seattle'}}]"
+66_00110,"USER:Thanks. I need a hotel aswell.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles'}}]"
+66_00111,"USER:I also need a hotel there.
+[{'method': 'SearchHotel', 'parameters': {'location': 'San Francisco'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'San Francisco'}}]"
+66_00112,"USER:Could you also help me search for a hotel in that area?
+[{'method': 'SearchHotel', 'parameters': {'location': 'Seattle'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Seattle'}}]"
+66_00113,"USER:Thank you for your help. Can you find me a nearby hotel?
+[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles'}}]"
+66_00114,"USER:Thank you, I also would like to book 1 room in a hotel there please.
+[{'method': 'SearchHotel', 'parameters': {'location': 'New York', 'number_of_rooms': '1'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York', 'number_of_rooms': '1'}}]"
+66_00115,"USER:I would also like to find one hotel room there.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Philadelphia', 'number_of_rooms': '1'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Philadelphia', 'number_of_rooms': '1'}}]"
+66_00116,"USER:Thanks. Will you find 1 hotel room?
+[{'method': 'SearchHotel', 'parameters': {'location': 'Seattle', 'number_of_rooms': '1'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Seattle', 'number_of_rooms': '1'}}]"
+66_00117,"USER:I need a hotel, 1 room.
+[{'method': 'SearchHotel', 'parameters': {'location': 'San Francisco', 'number_of_rooms': '1', 'pets_welcome': 'True'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'San Francisco', 'number_of_rooms': '1', 'pets_welcome': 'True'}}]"
+66_00118,"USER:How about a hotel?
+[{'method': 'SearchHotel', 'parameters': {'location': 'Portland'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Portland'}}]"
+66_00119,"USER:Will you find one room in pet-friendly hotel?
+[{'method': 'SearchHotel', 'parameters': {'location': 'New York', 'number_of_rooms': '1', 'pets_welcome': 'True'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York', 'number_of_rooms': '1', 'pets_welcome': 'True'}}]"
+66_00120,"USER:Ok. I'll need to find a hotel there.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Portland'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Portland'}}]"
+66_00121,"USER:I'd like to look for a hotel in the area and reserve 1 room.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Portland', 'number_of_rooms': '1'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Portland', 'number_of_rooms': '1'}}]"
+66_00122,"USER:Please find me two hotel rooms at destination.
+[{'method': 'SearchHotel', 'parameters': {'location': 'New York', 'number_of_rooms': '2'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York', 'number_of_rooms': '2'}}]"
+66_00123,"USER:I would like to book an hotel.
+[{'method': 'SearchHotel', 'parameters': {'location': 'Chicago'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Chicago'}}]"
+66_00124,"USER:I want a hotel
+[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles'}}]
+",['Travel_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles'}}]"
+82_00000,"USER:Find me 1 hotel room.
+SYSTEM:What city do you want to stay in?
+USER:I want to stay in Sacramento.
+[{'method': 'SearchHotel', 'parameters': {'destination': 'Sacramento', 'number_of_rooms': '1'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'Sacramento', 'number_of_rooms': '1'}}]"
+82_00001,"USER:I like to search hotel room around NY.
+[{'method': 'SearchHotel', 'parameters': {'destination': 'New York'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'New York'}}]"
+82_00002,"USER:Help me look for a hotel room in Vancouver, BC.
+[{'method': 'SearchHotel', 'parameters': {'destination': 'Vancouver'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'Vancouver'}}]"
+82_00003,"USER:I want 2 rooms
+SYSTEM:what city do I need to look in?
+USER:I want a hotel in seattle that is 2 stars
+[{'method': 'SearchHotel', 'parameters': {'destination': 'Seattle', 'has_wifi': 'True', 'number_of_rooms': '2', 'star_rating': '2'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'Seattle', 'has_wifi': 'True', 'number_of_rooms': '2', 'star_rating': '2'}}]"
+82_00004,"USER:Hello! I wish to book two rooms in a hotel that provides wifi connection in New York? Can you suggest me some good hotels with these amenities?
+[{'method': 'SearchHotel', 'parameters': {'destination': 'New York', 'has_wifi': 'True', 'number_of_rooms': '2'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'New York', 'has_wifi': 'True', 'number_of_rooms': '2'}}]"
+82_00005,"USER:Hey, help me get a room at a 2 star hotel with WiFi in a Washington, D.C.
+[{'method': 'SearchHotel', 'parameters': {'destination': 'Washington D.C.', 'has_wifi': 'True', 'star_rating': '2'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'Washington D.C.', 'has_wifi': 'True', 'star_rating': '2'}}]"
+82_00006,"USER:Will you find a hotel room in New York?
+[{'method': 'SearchHotel', 'parameters': {'destination': 'New York'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'New York'}}]"
+82_00007,"USER:I would like to find a hotel room please.
+SYSTEM:What city are looking for?
+USER:In NY please.
+[{'method': 'SearchHotel', 'parameters': {'destination': 'New York'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'New York'}}]"
+82_00008,"USER:I would like to book a hotel room.
+SYSTEM:What city would you like?
+USER:The city is Anaheim, CA.
+[{'method': 'SearchHotel', 'parameters': {'destination': 'Anaheim'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'Anaheim'}}]"
+82_00009,"USER:I need a hotel room.
+SYSTEM:Any particular city?
+USER:Somewhere in LA.
+[{'method': 'SearchHotel', 'parameters': {'destination': 'Los Angeles'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'Los Angeles'}}]"
+82_00010,"USER:Can you find me a room in a hotel located in Philly?
+[{'method': 'SearchHotel', 'parameters': {'destination': 'Philadelphia'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'Philadelphia'}}]"
+82_00011,"USER:Can you help me find a hotel room?
+SYSTEM:Where are you looking?
+USER:Something in New York would be great.
+[{'method': 'SearchHotel', 'parameters': {'destination': 'New York'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'New York'}}]"
+82_00012,"USER:I need a hotel room.
+SYSTEM:In which city?
+USER:In NYC please.
+[{'method': 'SearchHotel', 'parameters': {'destination': 'New York'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'New York'}}]"
+82_00013,"USER:Find me a two room hotel in New York City.
+[{'method': 'SearchHotel', 'parameters': {'destination': 'New York', 'number_of_rooms': '2'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'New York', 'number_of_rooms': '2'}}]"
+82_00014,"USER:I'm in need of a hotel room, look for 3 star hotel
+SYSTEM:where do you want the hotel to be?
+USER:Portland, OR is fine
+[{'method': 'SearchHotel', 'parameters': {'destination': 'Portland', 'star_rating': '3'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'Portland', 'star_rating': '3'}}]"
+82_00015,"USER:Hello! Can you help me find a hotel room?
+SYSTEM:I'd be happy to help. Where should I begin the search?
+USER:I'm looking for something in New York.
+[{'method': 'SearchHotel', 'parameters': {'destination': 'New York'}}]
+",['Music_1'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'destination': 'New York'}}]"

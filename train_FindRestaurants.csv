@@ -1,0 +1,234 @@
+dialogue_id,conversation,services,intent,service_calls
+80_00000,"USER:I want to find restaurant to eat at as well.
+SYSTEM:What kind of food are you thinking of?
+USER:Some Cantonese would be great!
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Carlos', 'cuisine': 'Chinese'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Carlos', 'cuisine': 'Chinese'}}]"
+80_00002,"USER:Now I'd like to find an Asian Fusion restaurant nearby.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Castro Valley', 'cuisine': 'Sushi'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Castro Valley', 'cuisine': 'Sushi'}}]"
+80_00003,"USER:I will need to get a bite to eat when I get there.
+SYSTEM:What type of cuisine?
+USER:I want to eat noodles.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Ramon', 'cuisine': 'Chinese'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Ramon', 'cuisine': 'Chinese'}}]"
+80_00005,"USER:Yes please, could you help to find a restaurant to dine in?
+SYSTEM:Do you have any preference on the type of food you would like, such as Chinese or Mexican?
+USER:I would prefer some Southern food at a place which plays live music please.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'American', 'has_live_music': 'True'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'American', 'has_live_music': 'True'}}]"
+80_00007,"USER:I haven't had a chance to eat. Please find me a restaurant there.
+SYSTEM:Did you have a particular cuisine such as Chinese, American or anything else in mind?
+USER:Any place serving Burgers works for me.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Napa', 'cuisine': 'Steakhouse'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Napa', 'cuisine': 'Steakhouse'}}]"
+80_00008,"USER:Okay, now can you help me find a place to eat there as well?
+SYSTEM:Sure, do you have a particular type of cuisine in mind?
+USER:Yes, some average priced barbecue sounds really good.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Santa Rosa', 'cuisine': 'American', 'price_range': 'moderate'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Santa Rosa', 'cuisine': 'American', 'price_range': 'moderate'}}]"
+80_00010,"USER:Ok, thanks. Can you see what restaurants are around there also?
+SYSTEM:Sure, what kind of food do you want?
+USER:I'm just looking for a light meal, and any price range is fine.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Cupertino', 'cuisine': 'Tapas'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Cupertino', 'cuisine': 'Tapas'}}]"
+80_00013,"USER:Can you also find me a restaurant near there?
+SYSTEM:What kind of food would you like me to look for?
+USER:Find me some American food.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'American'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'American'}}]"
+80_00014,"USER:please also find me a restaurant
+SYSTEM:what do you like
+USER:i want some tacos
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Gilroy', 'cuisine': 'Mexican'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Gilroy', 'cuisine': 'Mexican'}}]"
+80_00019,"USER:I also need to find a restaurant there.
+SYSTEM:Is there any kind of food you are interested in? You can specify Italian, Chinese, or something else.
+USER:American food would be ideal for me.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Redwood City', 'cuisine': 'American'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Redwood City', 'cuisine': 'American'}}]"
+80_00022,"USER:I'd also like to know what restraurants are around there? How about Persian, something economical.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'Mediterranean', 'price_range': 'moderate'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'Mediterranean', 'price_range': 'moderate'}}]"
+80_00023,"USER:Yeah I'd also like to find a restaurant near there.
+SYSTEM:What kind of food are you looking for?
+USER:I think some California style food would be great.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'St. Helena', 'cuisine': 'California'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'St. Helena', 'cuisine': 'California'}}]"
+80_00029,"USER:I also want a restaurant there.
+SYSTEM:What type of food do you want? Would you like Italian or Indian food?
+USER:I want some sushi.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Santa Rosa', 'cuisine': 'Sushi'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Santa Rosa', 'cuisine': 'Sushi'}}]"
+80_00030,"USER:I want to find a restaurant also.
+SYSTEM:What kind of food? Mexican, Indian, etc.?
+USER:I want to find some curry.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'Indian'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'Indian'}}]"
+80_00031,"USER:Thank you. I would now like to find a restaurant nearby.
+SYSTEM:Wouls you like Indian or Chinese, or perhaps another kind of cuisine?
+USER:I would prefer something affordable, and a place that serves lobster.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Seafood', 'price_range': 'moderate'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Seafood', 'price_range': 'moderate'}}]"
+80_00032,"USER:Please find me a restaurant there.
+SYSTEM:What kind of food?
+USER:I like Afghan.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Livermore', 'cuisine': 'Afghan'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Livermore', 'cuisine': 'Afghan'}}]"
+80_00033,"USER:I also like to search a restaurant there.
+SYSTEM:What type of food you searching for? like indian, Chinese or other than that.
+USER:French type of food will be perfect for me.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'French'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'French'}}]"
+80_00034,"USER:I also want to find a restaurant near there.
+SYSTEM:What kind of restaurant? Indian, Chinese, or something else?
+USER:Can you find me a reasonably priced Thai restaurant?
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Thai', 'price_range': 'moderate'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Thai', 'price_range': 'moderate'}}]"
+80_00035,"USER:Please find me a restaurant that's not very costly there.
+SYSTEM:Did you have a particular cuisine, such as Chinese, Indian or anything else in mind?
+USER:I'm in love with Parisian food.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Walnut Creek', 'cuisine': 'French', 'price_range': 'moderate'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Walnut Creek', 'cuisine': 'French', 'price_range': 'moderate'}}]"
+80_00037,"USER:Could you help me find places I can dine in at that area?
+SYSTEM:Any food preferences you might have?
+USER:A light meal will suffice for me.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Santa Clara', 'cuisine': 'Tapas'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Santa Clara', 'cuisine': 'Tapas'}}]"
+80_00038,"USER:Can you find a Bistro restaurant in the area?
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Novato', 'cuisine': 'Bistro'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Novato', 'cuisine': 'Bistro'}}]"
+80_00040,"USER:I require to find a low-cost restaurant which also serves alcohol
+SYSTEM:What is your preferred food type- Indian, Chinese or anything else?
+USER:For me some breakfast type of food is perfect.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'Breakfast', 'price_range': 'inexpensive', 'serves_alcohol': 'True'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'Breakfast', 'price_range': 'inexpensive', 'serves_alcohol': 'True'}}]"
+80_00044,"USER:I would also find a restaurant.
+SYSTEM:What type of food would you like?
+USER:Vegetarian food would be great.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Antioch', 'cuisine': 'Vegetarian'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Antioch', 'cuisine': 'Vegetarian'}}]"
+80_00045,"USER:I need to find a restaurant for Burmese kind of food
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Daly City', 'cuisine': 'Burmese'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Daly City', 'cuisine': 'Burmese'}}]"
+80_00049,"USER:Can you recommend a restaurant in that area?
+SYSTEM:What type of cuisine are you hungry for?
+USER:I'd like a light meal.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Livermore', 'cuisine': 'Brunch'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Livermore', 'cuisine': 'Brunch'}}]"
+80_00053,"USER:find some restaurant over there?
+SYSTEM:what kind of food are you search for?
+USER:some pizza kind of food will be comfortable for me.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Napa', 'cuisine': 'Italian'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Napa', 'cuisine': 'Italian'}}]"
+80_00054,"USER:Cool, I'd also like to find a restaurant there to eat at.
+SYSTEM:What type of cuisine are you feeling tonight?
+USER:I think Filipino would be delicious.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Vacaville', 'cuisine': 'Filipino'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Vacaville', 'cuisine': 'Filipino'}}]"
+80_00055,"USER:I was thinking that since I'm there, I better reserve a table at a restaurant with affordable prices and where I can buy alcohol. Pizza and pasta food would be nice
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Santa Rosa', 'cuisine': 'Italian', 'price_range': 'moderate', 'serves_alcohol': 'True'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Santa Rosa', 'cuisine': 'Italian', 'price_range': 'moderate', 'serves_alcohol': 'True'}}]"
+77_00002,"USER:I'm also looking for a restaurant around there, intermediate priced.
+SYSTEM:What kind of food would you like?
+USER:I'm looking for Oriental food.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Carlos', 'cuisine': 'Asian', 'price_range': 'moderate'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Carlos', 'cuisine': 'Asian', 'price_range': 'moderate'}}]"
+77_00007,"USER:I want to find a barbecue restaurant and don't care the price.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'American'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'American'}}]"
+77_00008,"USER:Italian food that is intermediate priced
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Burlingame', 'cuisine': 'Italian', 'price_range': 'moderate'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Burlingame', 'cuisine': 'Italian', 'price_range': 'moderate'}}]"
+77_00010,"USER:Thanks much. Please can you find some good restaurant over there.
+SYSTEM:Do you prefer to have Indian, Chinese, American or any other cuisine?
+USER:I wish to have Halal kind of food, mostly meat.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Fremont', 'cuisine': 'Halal'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Fremont', 'cuisine': 'Halal'}}]"
+77_00011,"USER:Will you find a restaurant there
+SYSTEM:Any preference?
+USER:Pizza and Pasta.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Menlo Park', 'cuisine': 'Italian'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Menlo Park', 'cuisine': 'Italian'}}]"
+77_00012,"USER:I want a restaurant
+SYSTEM:what food do you want?
+USER:I want spicy indian
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Indian'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Indian'}}]"
+77_00013,"USER:I want to find an average priced Latin American food place.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Pleasanton', 'cuisine': 'Mexican', 'price_range': 'moderate', 'serves_alcohol': 'True'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Pleasanton', 'cuisine': 'Mexican', 'price_range': 'moderate', 'serves_alcohol': 'True'}}]"
+77_00014,"USER:I need an economical priced restaurant to eat at there too.
+SYSTEM:Do you like American, Indian, or some other type of food?
+USER:I am in the mood for some Pizza.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Livermore', 'cuisine': 'Italian', 'price_range': 'moderate'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Livermore', 'cuisine': 'Italian', 'price_range': 'moderate'}}]"
+77_00015,"USER:Thanks for that. Now I want to search for a restaurant there, can you help me to find the one?
+SYSTEM:Yes, what is your favorite category of food?
+USER:I would prefer European kind of food.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'European'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'European'}}]"
+77_00017,"USER:I want to find a restaurant now please
+SYSTEM:OK, what kind? Mexican, Italian, or something else?
+USER:I want some Asian Fusion cuisine!
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Asian'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Asian'}}]"
+77_00018,"USER:I'd like to search for a diner there, preferably low-cost priced and with live music.
+SYSTEM:What type of cuisine are you searching for?
+USER:A type of sandwich cuisine would be wonderful.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'Sandwich', 'has_live_music': 'True', 'price_range': 'inexpensive'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'Sandwich', 'has_live_music': 'True', 'price_range': 'inexpensive'}}]"
+77_00020,"USER:I also want to eat somewhere. I want alcohol and don't have a price preference.
+SYSTEM:What kind of food?
+USER:Ramen is so good!
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Palo Alto', 'cuisine': 'Japanese', 'serves_alcohol': 'True'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Palo Alto', 'cuisine': 'Japanese', 'serves_alcohol': 'True'}}]"
+77_00022,"USER:I want to eat at an economical priced Sichuan restaurant after the appointment.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Milpitas', 'cuisine': 'Chinese', 'price_range': 'moderate'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Milpitas', 'cuisine': 'Chinese', 'price_range': 'moderate'}}]"
+77_00026,"USER:Can you find me a nice restaurant to eat?
+SYSTEM:What is you preferred kind of food?
+USER:I would prefer some Pasta kind of food.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'Italian'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'Italian'}}]"
+77_00028,"USER:I see, could you help me find a restaurant in that area too?
+SYSTEM:Sure, any preference on the type of food you would like, such as Italian or Mexican food?
+USER:A restaurant which serves up some lobster is great!
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Castro Valley', 'cuisine': 'Seafood'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Castro Valley', 'cuisine': 'Seafood'}}]"
+77_00029,"USER:I'd like to find a good Ramen restaurant there.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Japanese'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Japanese'}}]"
+77_00031,"USER:I'd also like to look for a diner there.
+SYSTEM:What sort of cuisine are you searching for?
+USER:I'd love to have some barbecue type of food.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Los Gatos', 'cuisine': 'Barbecue'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Los Gatos', 'cuisine': 'Barbecue'}}]"
+77_00032,"USER:I want to find a restaurant.
+SYSTEM:What kind of food? American, Italian, etc.?
+USER:I want to find pizza.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Corte Madera', 'cuisine': 'Italian'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Corte Madera', 'cuisine': 'Italian'}}]"
+77_00035,"USER:Find me a place to eat nearby.
+SYSTEM:What type of food do you like?
+USER:I am craving some Korean Hot pot food.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Burlingame', 'cuisine': 'Korean'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Burlingame', 'cuisine': 'Korean'}}]"
+77_00037,"USER:I would like a restaurant near there as well.
+SYSTEM:What type of food?
+USER:Some Breakfast & Brunch please.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Palo Alto', 'cuisine': 'Brunch'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Palo Alto', 'cuisine': 'Brunch'}}]"
+77_00038,"USER:find me a not very costly restaurnat with ramen food.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'Japanese', 'price_range': 'moderate'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'Japanese', 'price_range': 'moderate'}}]"
+77_00039,"USER:I want to find a low priced restaurant.
+SYSTEM:What kind of food?
+USER:I want to find dumplings.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Chinese', 'price_range': 'inexpensive'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Chinese', 'price_range': 'inexpensive'}}]"
+77_00044,"USER:Can you find me a restaurant around there?
+SYSTEM:What kind of restaurant would you like?
+USER:I'm in the mood for Italian.
+[{'method': 'FindRestaurants', 'parameters': {'city': 'Oakland', 'cuisine': 'Italian'}}]
+",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Oakland', 'cuisine': 'Italian'}}]"

@@ -1,0 +1,524 @@
+dialogue_id,conversation,services,intent,service_calls
+80_00002,"USER:Now I'd like to find an Asian Fusion restaurant nearby.
+SYSTEM:There is 1 restaurant that you'd like that in Castro Valley called Katsu.
+USER:What is their phone number and address?
+SYSTEM:Their number is 510-889-6084 and their address is 20861 Redwood Road.
+USER:Perfect. I'd like to make a reservation.
+SYSTEM:What time do you need the reservation for?
+USER:I'd like to book for March 1st at seven pm.
+SYSTEM:Okay sure. So you'd like to book a table for 2 at Katsu in Castro Valley on March 1st at 7 pm.
+USER:That sounds great.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Castro Valley', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Katsu', 'time': '19:00'}}]
+",['Restaurants_1'],"['FindRestaurants', 'ReserveRestaurant']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Castro Valley', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Katsu', 'time': '19:00'}}]"
+80_00003,"USER:I will need to get a bite to eat when I get there.
+SYSTEM:What type of cuisine?
+USER:I want to eat noodles.
+SYSTEM:The Inchin's bamboo garden is a lovely restaurant in san ramon.
+USER:Would you like to make a reservation for 1 at 18:00?
+SYSTEM:You would like a table for 1 at inchin's bamboo garden in san ramon for 6 pm on March 1st?
+USER:Yes, that would be great. Is there live music and what is the address?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Ramon', 'date': '2019-03-01', 'party_size': '1', 'restaurant_name': ""Inchin's Bamboo Garden"", 'time': '18:00'}}]
+",['Restaurants_1'],"['FindRestaurants', 'ReserveRestaurant']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Ramon', 'date': '2019-03-01', 'party_size': '1', 'restaurant_name': ""Inchin's Bamboo Garden"", 'time': '18:00'}}]"
+80_00004,"SYSTEM:I found 5 restaurants. Caffe Delle Stelle Restaurant is located in Walnut Creek.
+USER:Sounds good. I want to make a reservation for three.
+SYSTEM:What time?
+USER:I want to make it for the evening 7.
+SYSTEM:Please confirm: a table for 3 at Caffe Delle Stelle Restaurant in Walnut Creek on March 1st at 7 pm.
+USER:Yes, sounds good.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Walnut Creek', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': 'Caffe Delle Stelle Restaurant', 'time': '19:00'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Walnut Creek', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': 'Caffe Delle Stelle Restaurant', 'time': '19:00'}}]"
+80_00005,"USER:Yes please, could you help to find a restaurant to dine in?
+SYSTEM:Do you have any preference on the type of food you would like, such as Chinese or Mexican?
+USER:I would prefer some Southern food at a place which plays live music please.
+SYSTEM:Great, how about Hukilau which is located in the San Jose area?
+USER:That looks great to me! Could you make a reservation there?
+SYSTEM:What time would you like the reservation to be?
+USER:I will be dining in at 19:15.
+SYSTEM:Please confirm your reservation for 2 at HuKilau in San Jose at 7:15 pm on March 1st.
+USER:Yes, this is fine for me.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Jose', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Hukilau', 'time': '19:15'}}]
+",['Restaurants_1'],"['FindRestaurants', 'ReserveRestaurant']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Jose', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Hukilau', 'time': '19:15'}}]"
+80_00009,"SYSTEM:Sure. Do you prefer a particular type of food - Italian, Mexican or something else?
+USER:A place where I can get a Healthy meal that I won't feel guilty about after I eat.
+SYSTEM:Okay. There is 1 restaurant in Daly City you might like called McDonald's.
+USER:Yeah? Is live music and liquor on tap?
+SYSTEM:They do feature live music but no alcohol is served.
+USER:All right. Let's go ahead and reserve a table there for March 1st.
+SYSTEM:What's the time you want for your reservation?
+USER:I'm looking at 7 in the evening.
+SYSTEM:Got it. Are you ready to confirm a reservation for 2 at McDonald's in Daly City on March 1st at 7 pm?
+USER:Yes, confirm that, please, and give me their street location and phone number.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Daly City', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Mcdonald's"", 'time': '19:00'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Daly City', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Mcdonald's"", 'time': '19:00'}}]"
+80_00010,"USER:Ok, thanks. Can you see what restaurants are around there also?
+SYSTEM:Sure, what kind of food do you want?
+USER:I'm just looking for a light meal, and any price range is fine.
+SYSTEM:Ok. It looks like Gochi Cupertino is a popular restaurant in Cupertino. How about that?
+USER:Maybe, do they have live music?
+SYSTEM:No, they don't.
+USER:Ok, that's fine. Can you make a reservation for 4 people there this Saturday?
+SYSTEM:Ok, what time?
+USER:Can you make it for one in the afternoon?
+SYSTEM:Sure. To confirm, you want to make a reservation for 4 people at Gochi Cupertino in Cupertino on March 2nd at 1 pm. Is that right?
+USER:Yes, that's perfect.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Cupertino', 'date': '2019-03-02', 'party_size': '4', 'restaurant_name': 'Gochi Cupertino', 'time': '13:00'}}]
+",['Restaurants_1'],"['FindRestaurants', 'ReserveRestaurant']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Cupertino', 'date': '2019-03-02', 'party_size': '4', 'restaurant_name': 'Gochi Cupertino', 'time': '13:00'}}]"
+80_00011,"SYSTEM:You could try Bistro 10un, which is a good restaurant in San Francisco.
+USER:Yeah, that sounds good. Can you book me a table there for one person at 18:30?
+SYSTEM:Of course, confirming a table for 1 at Bistro 10un in San Francisco on March 1st at 6:30 pm.
+USER:Actually, can you make it 6:45 in the evening, please?
+SYSTEM:Sure, reserving a table at 6:45 pm on March 1st.
+USER:That's great. Can you give me their phone number and address?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '1', 'restaurant_name': 'Bistro 10un', 'time': '18:45'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '1', 'restaurant_name': 'Bistro 10un', 'time': '18:45'}}]"
+80_00013,"USER:Can you also find me a restaurant near there?
+SYSTEM:What kind of food would you like me to look for?
+USER:Find me some American food.
+SYSTEM:There is a nice restaurant called 1760 located in San Francisco.
+USER:That sounds great, can you make me a reservation for one in the evening 5:45 on the 13th.
+SYSTEM:Okay, please confirm your reservation for 1 at 1760 restaurant in San Francisco at 5:45 pm on March 13th.
+USER:Yes that all sounds correct.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-13', 'party_size': '1', 'restaurant_name': '1760', 'time': '17:45'}}]
+",['Restaurants_1'],"['FindRestaurants', 'ReserveRestaurant']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-13', 'party_size': '1', 'restaurant_name': '1760', 'time': '17:45'}}]"
+80_00015,"SYSTEM:There is a good restaurant in Lafayette called Great Wall Restaurant.
+USER:Do they have live music? What is the phone number?
+SYSTEM:They don't do live music. Their number is 925-284-3500.
+USER:That is perfect. Please make a reservation for one person on the 5th at evening 4:45.
+SYSTEM:Please confirm you want a reservation for 1 person at Great Wall Restaurant in Lafayette on March 5th at 4:45 pm.
+USER:That is correct.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Lafayette', 'date': '2019-03-05', 'party_size': '1', 'restaurant_name': 'Great Wall Restaurant', 'time': '16:45'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Lafayette', 'date': '2019-03-05', 'party_size': '1', 'restaurant_name': 'Great Wall Restaurant', 'time': '16:45'}}]"
+80_00016,"SYSTEM:Is there a specific cuisine you like, for example Indian, American, or anything else?
+USER:I really enjoy Pasta.
+SYSTEM:54 Mint Ristorante Italiano in San Francisco is nice.
+USER:What are their prices like?
+SYSTEM:There are priced in the moderate range.
+USER:Okay, cool. Please book em a table.
+SYSTEM:What time do you want the table.
+USER:I want it at seven pm.
+SYSTEM:I'll book you a table for 2 at 54 Mint Ristorante Italiano in San Francisco for March 1st at 7 pm, is that correct?
+USER:Yeah, please book it. Do you have their address, and is there live music there?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': '54 Mint Ristorante Italiano', 'time': '19:00'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': '54 Mint Ristorante Italiano', 'time': '19:00'}}]"
+80_00017,"SYSTEM:I was able to find 1 place called The House, located in San Francisco.
+USER:Great, can you make me a reservation at that restaurant for 5:15 pm on the 10th?
+SYSTEM:Sure before I proceed, please verify the information I have. You would like a reservation for 2 at The House, located in San Francisco, at 5:15 pm, on March 10th. Is that correct?
+USER:Yes, can I also have their phone number and address?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-10', 'party_size': '2', 'restaurant_name': 'The House', 'time': '17:15'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-10', 'party_size': '2', 'restaurant_name': 'The House', 'time': '17:15'}}]"
+80_00018,"SYSTEM:Sure thing. What kind of food are you looking for?
+USER:I'd really like to find a good Pizza place around there.
+SYSTEM:I found 1 pizza place in Los Altos you may like. How about Aldo Los Altos? I hear it's really good.
+USER:What's the address? They got live music by any chance?
+SYSTEM:No, they don't have any live music sorry. Their address is 388 Main Street.
+USER:Okay, thanks that works for me. I'd like to go ahead and make a reservation. Can you get me a table for 4 on the 5th of March?
+SYSTEM:No problem. What time would you like to reserve a table?
+USER:Make it in the evening 4:45.
+SYSTEM:Okay, please confirm the following details for me: Booking a table for 4 at Aldo Los Altos in Los Altos on March 5th at 4:45 pm. Is this correct?
+USER:Yup, that's right. Thanks.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Los Altos', 'date': '2019-03-05', 'party_size': '4', 'restaurant_name': 'Aldo Los Altos', 'time': '16:45'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Los Altos', 'date': '2019-03-05', 'party_size': '4', 'restaurant_name': 'Aldo Los Altos', 'time': '16:45'}}]"
+80_00019,"USER:I also need to find a restaurant there.
+SYSTEM:Is there any kind of food you are interested in? You can specify Italian, Chinese, or something else.
+USER:American food would be ideal for me.
+SYSTEM:I have located 6 restaurants. There is a nice one in Redwood City called Aly's on Main.
+USER:Are there other restaurants that you can suggest? I would like a place that serves alcohol and is afforadable priced.
+SYSTEM:A good restaurant in Redwood City is Scroll Bar Waterside Kitchen.
+USER:Are there any other restaurants you might suggest?
+SYSTEM:The Striped Pig is a good restaurant that can be found in Redwood City.
+USER:Yes, that works well for me. I would like to make a reservation at the restaurant.
+SYSTEM:What time would you like the reservation to be for?
+USER:Make the reservation for 6 pm.
+SYSTEM:Okay, confirm these details: You would like to book a table for 2 at 6 pm on March 1st at The Striped Pig in Redwood City.
+USER:Yes that is fine with me.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Redwood City', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'The Striped Pig', 'time': '18:00'}}]
+",['Restaurants_1'],"['FindRestaurants', 'ReserveRestaurant']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Redwood City', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'The Striped Pig', 'time': '18:00'}}]"
+80_00020,"SYSTEM:Do you have a specific food you want?
+USER:I'm in the mood for Seafood.
+SYSTEM:There's Akiko's Sushi Bar in San Francisco, which is nice.
+USER:That sounds good. Please make a reservation for two for 18:30.
+SYSTEM:You'd like a reservation for 2 people for 6:30 pm at Akiko's Sushi Bar in San Francisco on March 1st, is that correct?
+USER:That is correct, yes.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Akiko's Sushi Bar"", 'time': '18:30'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Akiko's Sushi Bar"", 'time': '18:30'}}]"
+80_00023,"USER:Yeah I'd also like to find a restaurant near there.
+SYSTEM:What kind of food are you looking for?
+USER:I think some California style food would be great.
+SYSTEM:There is the Acacia House By Chris Cosentino which is located in St. Helena.
+USER:Can you find something else, I'm looking for something in a bit more lavish price range.
+SYSTEM:I've found 1 more restaurant. How about The Grill At Meadowood which is a nice restaurant in St. Helena.
+USER:That sounds good to me. I'd like to make a reservation there for two at 7:45 in the evening on the 14th.
+SYSTEM:Please confirm if the following is correct. You'd like to book a table for 2 at The Grill At Meadowood in St. Helena at 7:45 pm on March 14th.
+USER:Yup thats all correct.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'St. Helena', 'date': '2019-03-14', 'party_size': '2', 'restaurant_name': 'The Grill At Meadowood', 'time': '19:45'}}]
+",['Restaurants_1'],"['FindRestaurants', 'ReserveRestaurant']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'St. Helena', 'date': '2019-03-14', 'party_size': '2', 'restaurant_name': 'The Grill At Meadowood', 'time': '19:45'}}]"
+80_00024,"SYSTEM:What kind of food do you want? Chinese, Mexican, etc.?
+USER:Malaysian food sounds good.
+SYSTEM:Sea Noodle Bar is located in Santa Rosa.
+USER:Any other restaurants?
+SYSTEM:Sea Thai Bistro is located in Santa Rosa.
+USER:Yes, that works. I want to make a reservation.
+SYSTEM:What time would you like the reservation for?
+USER:I want to make it for quarter past 11 in the morning.
+SYSTEM:Please confirm: a table for 2 at Sea Thai Bistro in Santa Rosa on March 1st at 11:15 am.
+USER:Yes, that works. Is it pricey? Is there live music?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Santa Rosa', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Sea Thai Bistro', 'time': '11:15'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Santa Rosa', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Sea Thai Bistro', 'time': '11:15'}}]"
+80_00027,"SYSTEM:What kind of food do you want to eat?
+USER:I want to find some southern food.
+SYSTEM:I found 1 restaurant. Leila By The Bay is located in Hercules.
+USER:That sounds good. I want to make a reservation on March 13th in the evening 6:30.
+SYSTEM:Please confirm: a table for 2 at Leila By The Bay in Hercules on March 13th at 6:30 pm.
+USER:Yes, that's correct. What's the phone number? Is it expensive?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Hercules', 'date': '2019-03-13', 'party_size': '2', 'restaurant_name': 'Leila By The Bay', 'time': '18:30'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Hercules', 'date': '2019-03-13', 'party_size': '2', 'restaurant_name': 'Leila By The Bay', 'time': '18:30'}}]"
+80_00028,"SYSTEM:Sure, do you like Italian, Indian, or what kind of food?
+USER:Tacos sounds great right now. It can be any price.
+SYSTEM:I found 4 places for you. Agave Grill & Cantina is a good taco place in Concord.
+USER:Okay, that sounds good. I want to book a table there for 1 person.
+SYSTEM:What time would you like to eat?
+USER:In the evening 7:15.
+SYSTEM:Okay, please confirm: table for 1 at Agave Grill & Cantina in Concord, at 7:15 pm on March 1st.
+USER:That sounds good to me. Can you see if they have live music ever? Also, I need their contact number.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Concord', 'date': '2019-03-01', 'party_size': '1', 'restaurant_name': 'Agave Grill & Cantina', 'time': '19:15'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Concord', 'date': '2019-03-01', 'party_size': '1', 'restaurant_name': 'Agave Grill & Cantina', 'time': '19:15'}}]"
+80_00030,"USER:I want to find a restaurant also.
+SYSTEM:What kind of food? Mexican, Indian, etc.?
+USER:I want to find some curry.
+SYSTEM:8elements is a restaurant in San Jose.
+USER:Is it pricey?
+SYSTEM:The price range is moderate.
+USER:Sounds good. I want to make a reservation.
+SYSTEM:What time?
+USER:Make it for seven pm.
+SYSTEM:Please confirm: a table for 2 at 8elements in San Jose on March 1st at 7 pm.
+USER:Yes, sounds good.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Jose', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': '8elements', 'time': '19:00'}}]
+",['Restaurants_1'],"['FindRestaurants', 'ReserveRestaurant']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Jose', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': '8elements', 'time': '19:00'}}]"
+80_00034,"USER:I also want to find a restaurant near there.
+SYSTEM:What kind of restaurant? Indian, Chinese, or something else?
+USER:Can you find me a reasonably priced Thai restaurant?
+SYSTEM:There's Baan Thai House & Wine Bar in San Francisco.
+USER:Do they have live music?
+SYSTEM:No, they don't have live music.
+USER:Yes, that's fine. I want to make a reservation.
+SYSTEM:For what time?
+USER:Make it for 10:30 am.
+SYSTEM:So you want a reservation for 2 at Baan Thai House & Wine Bar in San Francisco at 10:30 am on March 1st. Is that correct?
+USER:Yes, that's right. What's the address and phone number?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Baan Thai House & Wine Bar', 'time': '10:30'}}]
+",['Restaurants_1'],"['FindRestaurants', 'ReserveRestaurant']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Baan Thai House & Wine Bar', 'time': '10:30'}}]"
+80_00036,"SYSTEM:Dan Izakaya Restaurant in San Jose is 1 of 4 options.
+USER:Great, can you make the reservation?
+SYSTEM:What time would you like the reservation at?
+USER:Quarter to 1 in the afternoon, I'll be meeting someone there, so it's for 2 people.
+SYSTEM:You'd like to make a reservation at Dan Izakaya restaurant in San Jose for 2 people on March 1st at 12:45 pm?
+USER:Yeah, that's right.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Jose', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Dan Izakaya Restaurant', 'time': '12:45'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Jose', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Dan Izakaya Restaurant', 'time': '12:45'}}]"
+80_00037,"USER:Could you help me find places I can dine in at that area?
+SYSTEM:Any food preferences you might have?
+USER:A light meal will suffice for me.
+SYSTEM:Would you like a restaurant called Dae Bak in the Santa Clara area?
+USER:Are there any available alternatives?
+SYSTEM:How about Tapas Tokki in Santa Clara?
+USER:Sure, could you make a reservation for 2 on March 7th there please?
+SYSTEM:And when will you be dining in?
+USER:I will be dining in at half past 7 in the evening.
+SYSTEM:Sure, please confirm your booking for 2 at Tapas Tokki in Santa Clara at 7:30 pm on March 7th.
+USER:Sure, I am fine with that.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Santa Clara', 'date': '2019-03-07', 'party_size': '2', 'restaurant_name': 'Tapas Tokki', 'time': '19:30'}}]
+",['Restaurants_1'],"['FindRestaurants', 'ReserveRestaurant']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Santa Clara', 'date': '2019-03-07', 'party_size': '2', 'restaurant_name': 'Tapas Tokki', 'time': '19:30'}}]"
+80_00038,"USER:Can you find a Bistro restaurant in the area?
+SYSTEM:I've found 1 in Novato called Beso Bistro and Wine Bar.
+USER:Do they serve booze?
+SYSTEM:No, they do not.
+USER:What's their number.
+SYSTEM:415-883-6702.
+USER:I'd like to make a reservation for 4 on the 10th of this month.
+SYSTEM:For what time?
+USER:For 7 in the evening.
+SYSTEM:So a table for 4 at 7 pm on March 10th at Beso Bistro and Wine Bar in Novato?
+USER:Yes please. Do they have any music. What's their address?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Novato', 'date': '2019-03-10', 'party_size': '4', 'restaurant_name': 'Beso Bistro And Wine Bar', 'time': '19:00'}}]
+",['Restaurants_1'],"['FindRestaurants', 'ReserveRestaurant']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Novato', 'date': '2019-03-10', 'party_size': '4', 'restaurant_name': 'Beso Bistro And Wine Bar', 'time': '19:00'}}]"
+80_00039,"SYSTEM:What type of food are you looking for?
+USER:I would like some Pizza and Pasta which will be perfect.
+SYSTEM:Mill Valley has a nice restaurant called La Ginestra.
+USER:Tell me their address.
+SYSTEM:They are located at 127 Throckmorton Avenue.
+USER:What is their price?
+SYSTEM:Their price range is moderate.
+USER:Yes, that is great. I would like to make a reservation at that restaurant.
+SYSTEM:Tell me the time for the reservation
+USER:Make it at 5:30 pm on the 14th.
+SYSTEM:Please confirm a booking or La Ginestra in Mill Valley at 5:30 pm for 2 people on March 14th.
+USER:Yes, that will work for me.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Mill Valley', 'date': '2019-03-14', 'party_size': '2', 'restaurant_name': 'La Ginestra', 'time': '17:30'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Mill Valley', 'date': '2019-03-14', 'party_size': '2', 'restaurant_name': 'La Ginestra', 'time': '17:30'}}]"
+80_00043,"SYSTEM:What do you prefer, Chinese, Indian or any other?
+USER:Brasserie will do.
+SYSTEM:You can have it from Bistro 10un in San Francisco.
+USER:Fine, that sounds good for me. Please make a reservation there for 2 people on Friday next week at 6:45 in the evening.
+SYSTEM:Please confirm the details: You requested for a table at Bistro 10un in San Francisco at 6:45 pm on March 8th. You will be 2 people there.
+USER:Correct. How can I contact them? What is their rates?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-08', 'party_size': '2', 'restaurant_name': 'Bistro 10un', 'time': '18:45'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-08', 'party_size': '2', 'restaurant_name': 'Bistro 10un', 'time': '18:45'}}]"
+80_00046,"SYSTEM:What kind of food?
+USER:Dumplings!
+SYSTEM:I found 3 options including Andy & Yu's in Pleasanton.
+USER:Do they have alcohol??
+SYSTEM:No, they do not serve alcohol.
+USER:I want to make reservations for three people on Wednesday next week at quarter past 11 in the morning.
+SYSTEM:Please confirm, reserving a table at Andy & Yu's in Pleasanton on March 6th at 11:15 am for 3 people.
+USER:Yes, that is perfect.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Pleasanton', 'date': '2019-03-06', 'party_size': '3', 'restaurant_name': ""Andy & Yu's"", 'time': '11:15'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Pleasanton', 'date': '2019-03-06', 'party_size': '3', 'restaurant_name': ""Andy & Yu's"", 'time': '11:15'}}]"
+80_00047,"SYSTEM:So, what cuisine you wish to dine?
+USER:Please look for some Burger shop.
+SYSTEM:The restaurant A'trio at Walnut Creek is a good one.
+USER:What's their price? Is it higher or cheap? Do they provide alcohol?
+SYSTEM:Nope, they don't serve alcohol. They are neither high nor low, but its moderate.
+USER:Please can you suggest me any thing else for am looking for a above average priced restaurant.
+SYSTEM:Okay! how about booking with Rooftop Restaurant & Bar in Walnut Creek?
+USER:Yup, that works for me. Please can you book for 2 people at this restaurant.
+SYSTEM:At what time you wish to visit here?
+USER:I wish to go here at 12:45 in the afternoon.
+SYSTEM:Please can you confirm me that you wish to book a table at Rooftop Restaurant & Bar in the city of Walnut Creek at 12:45 pm for 2 people on March 1st, right?
+USER:Nope, please change the timing to 1:30 in the afternoon for three people.
+SYSTEM:Okay! Please can you confirm me that you wish to book a table for 3 people at the hotel at 1:30 pm, right?
+USER:Yup, that would work.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Walnut Creek', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': 'Rooftop Restaurant & Bar', 'time': '13:30'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Walnut Creek', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': 'Rooftop Restaurant & Bar', 'time': '13:30'}}]"
+80_00048,"SYSTEM:Please tell me what kind of cuisine would you prefer.
+USER:I'd go for some Latin American.
+SYSTEM:There are 8 meeting your criteria in San Francisco out of which I recommend Aatxe.
+USER:Perfect, let's make a reservation.
+SYSTEM:For what time.
+USER:Evening 6 please.
+SYSTEM:Can you please confirm that you want a table for 2 at Aatxe in San Francisco on March 1st t 6 pm.
+USER:Yes, that's correct.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Aatxe', 'time': '18:00'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Aatxe', 'time': '18:00'}}]"
+80_00049,"USER:Can you recommend a restaurant in that area?
+SYSTEM:What type of cuisine are you hungry for?
+USER:I'd like a light meal.
+SYSTEM:May I suggest Simply Fondue in Livermore.
+USER:That sounds delicious.
+SYSTEM:Is there anything else I can do for you?
+USER:Yes, I would like to make a reservation at that restaurant.
+SYSTEM:What time works best for you?
+USER:I'd like to make it for 5:30 in the evening if possible.
+SYSTEM:You'd like a table for 2 at Simply Fondue in Livermore at 5:30 pm on March 1st. Is that correct?
+USER:Yes, that is correct.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Livermore', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Simply Fondue', 'time': '17:30'}}]
+",['Restaurants_1'],"['FindRestaurants', 'ReserveRestaurant']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Livermore', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Simply Fondue', 'time': '17:30'}}]"
+80_00050,"SYSTEM:Sure, any preference on the type of food?
+USER:Some Chinese food will be great for me.
+SYSTEM:How about the Gary Chu's restaurant in Santa Rosa?
+USER:That is fine with me, could you make me a reservation there?
+SYSTEM:When will you be dining in?
+USER:Most likely at 7 in the evening.
+SYSTEM:Please confirm your reservation for 2 at Gary Chu's in Santa Rosa at 7 pm on March 1st.
+USER:Sorry, could you change the reservation to 10th of March instead?
+SYSTEM:Sure, please confirm your reservation for 2 at Gary Chu's in Santa Rosa at 7 pm on March 10th.
+USER:That is fine with me!
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Santa Rosa', 'date': '2019-03-10', 'party_size': '2', 'restaurant_name': ""Gary Chu's"", 'time': '19:00'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Santa Rosa', 'date': '2019-03-10', 'party_size': '2', 'restaurant_name': ""Gary Chu's"", 'time': '19:00'}}]"
+80_00052,"SYSTEM:would you like mexican or chinese
+USER:i want some seafood
+SYSTEM:i found 4 restaurants. What about aniki's sushi in fremont
+USER:what else can you find
+SYSTEM:what about cut the crab in fremont
+USER:yes please, please make a reservation
+SYSTEM:what time would you like to go
+USER:please make it half past 11 in the morning for 2 people
+SYSTEM:please confirm your reservation for 2 people at cut the crab in fremont on march 1st at 11:30 am
+USER:yes please. do they serve alcohol? what is their address
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Fremont', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Cut The Crab', 'time': '11:30'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Fremont', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Cut The Crab', 'time': '11:30'}}]"
+80_00053,"USER:find some restaurant over there?
+SYSTEM:what kind of food are you search for?
+USER:some pizza kind of food will be comfortable for me.
+SYSTEM:i found 9 restaurants. how about allegria which is a nice restaurant located in napa?
+USER:whether they have live music?
+SYSTEM:no they don't have live music.
+USER:ok that works for me. i need to make a reservation at a restaurant.
+SYSTEM:at what time is the reservation for?
+USER:book it at 17:45
+SYSTEM:please confirm the following details. book a table at allegria in napa at 5:45 pm for 2 people and date is march 1st.
+USER:ok that sounds good to me. what is their contact number and its price range whether it will be very fancy?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Napa', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Allegria', 'time': '17:45'}}]
+",['Restaurants_1'],"['FindRestaurants', 'ReserveRestaurant']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Napa', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Allegria', 'time': '17:45'}}]"
+80_00055,"USER:I was thinking that since I'm there, I better reserve a table at a restaurant with affordable prices and where I can buy alcohol. Pizza and pasta food would be nice
+SYSTEM:in santa rosa I can recommend italian affair
+USER:I like the sound of it
+SYSTEM:Do you have more requests?
+USER:Yes, I want to book a table for two at that restaurant. I'll be there on 1st of march at 12:30
+SYSTEM:before I satisfy your demand, read and check that everything is correct. You want a table for 2 at italian affair in santa rosa. you'll be there on march 1st around 12:30 pm
+USER:no, the time is evening 5:15 and it's for 4 people
+SYSTEM:I fixed it, please check: you want to book a table for 4 people and you want it at 5:15 pm
+USER:yeah right. Send me the address
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Santa Rosa', 'date': '2019-03-01', 'party_size': '4', 'restaurant_name': 'Italian Affair', 'time': '17:15'}}]
+",['Restaurants_1'],"['FindRestaurants', 'ReserveRestaurant']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Santa Rosa', 'date': '2019-03-01', 'party_size': '4', 'restaurant_name': 'Italian Affair', 'time': '17:15'}}]"
+80_00056,"SYSTEM:What type of food?
+USER:I prefer PHO food.
+SYSTEM:I found 10 options. Anh Hong is located in San Francisco.
+USER:Okay. great. Please reserve a table for 4 on the 13th of March at quarter to 8 in the evening.
+SYSTEM:Please confirm you want me to book a table for 4 at Anh Hong in San Francisco on March 13th at 7:45 pm.
+USER:Yes. That's right.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-13', 'party_size': '4', 'restaurant_name': 'Anh Hong', 'time': '19:45'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-13', 'party_size': '4', 'restaurant_name': 'Anh Hong', 'time': '19:45'}}]"
+3_00009,"USER:I need a restaurant reservation.
+SYSTEM:Any specific city?
+USER:It has to be in San Fran.
+SYSTEM:For what time?
+USER:It'll be afternoon 12.
+SYSTEM:Any particular restaurant preferences?
+USER:I'd like Palmer's.
+SYSTEM:Just to make sure, you want a reservation for 2 at Palmer's Tavern in San Francisco for today at 12 pm.
+USER:Perfect. What's their cuisine type and number?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Palmer's Tavern"", 'time': '12:00'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Palmer's Tavern"", 'time': '12:00'}}]"
+3_00010,"USER:On March 2nd we are going to celebrate my wedding anniversary. So please check for a reservation at a restaurant.
+SYSTEM:That sounds great. Are you particular with any restaurant and what time you are looking for?
+USER:Yes, I prefer jannah restaurant at 4:30 pm
+SYSTEM:Any city preferred?
+USER:It must be in SFO
+SYSTEM:Ok, please verify, Tomorrow at 4:30 pm reservation for 2 people at Jannah in San Francisco
+USER:Sorry, Please change it the 8th at 11:30
+SYSTEM:Its alright, now please confirm, reservation on the next Friday at 11:30 am
+USER:Great, thank you
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-08', 'party_size': '2', 'restaurant_name': 'Jannah', 'time': '11:30'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-08', 'party_size': '2', 'restaurant_name': 'Jannah', 'time': '11:30'}}]"
+3_00011,"USER:id like to make a reservation for friday next week.
+SYSTEM:do you have a restaurant in mind?
+USER:yes, its called marnee in San Francisco.
+SYSTEM:what time would you like the reservation?
+USER:id like it for 19:00.
+SYSTEM:okay, just to confirm. im reserving a table for you at Marnee thai in san francisco at 7 pm next friday for 2 people.
+USER:yes thats right, do they have live music? how expensive it the menu?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-08', 'party_size': '2', 'restaurant_name': 'Marnee Thai', 'time': '19:00'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-08', 'party_size': '2', 'restaurant_name': 'Marnee Thai', 'time': '19:00'}}]"
+3_00012,"USER:I would like to make a reservation at the restaurant Eric's.
+SYSTEM:Which city is that located in?
+USER:It's in the SF area.
+SYSTEM:What time would you like the reservation for?
+USER:I was thinking 17:45, for two guests.
+SYSTEM:Sounds great. Can you please confirm the reservation for 2 people today at Eric's Restaurant in San Francisco at 5:45 pm?
+USER:Yes that is perfect.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Eric's Restaurant"", 'time': '17:45'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Eric's Restaurant"", 'time': '17:45'}}]"
+3_00013,"USER:I want to make a reservation at a restaurant.
+SYSTEM:Do you have a preferred restaurant? What time do you want it reserved?
+USER:I want a reservation at Mcdonald's at 4:45 pm.
+SYSTEM:Which city should I search in?
+USER:I want it in SF.
+SYSTEM:Just to confirm, you want to make a reservation at Mcdonald's today for 2 people at 4:45 pm in San Francisco.
+USER:Yes, that's works for me.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Mcdonald's"", 'time': '16:45'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Mcdonald's"", 'time': '16:45'}}]"
+3_00014,"USER:Hey! I would like to have dining today in the restaurant Clementine's. Please can you reserve me a table?
+SYSTEM:Okay! In which city you would prefer to reserve?
+USER:Please can you make it in San Ramon.
+SYSTEM:Sure! When will you be available for your dining?
+USER:I would be available at 16:45.
+SYSTEM:Okay! Here are the details. For 2 persons, a table is booked for dining at the hotel Clementine's in San Ramon at 4:45 pm today. Please can you confirm me.
+USER:Nope, Please can you reserve at Sunnyvale.
+SYSTEM:Sure! No Problem! I've booked a table for you at the restaurant Clementine's in Sunnyvale. Please can you confirm me.
+USER:Yup! perfect!
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Sunnyvale', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Clementine's"", 'time': '16:45'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Sunnyvale', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Clementine's"", 'time': '16:45'}}]"
+3_00015,"USER:I'm taking a client out to dinner and I want to make a dinner reservation.
+SYSTEM:Sure! What city are you in? Do you have a preferred place and time?
+USER:I want a reservation for Hisui in Vacaville at, say, quarter to 8 in the evening.
+SYSTEM:All right. Let me confirm the details with you. You would like a reservation for 2 at Hisui | Japanese Restaurant in Vacaville at 7:45 pm today.
+USER:Yes, that's what I want.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Vacaville', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Hisui | Japanese Restaurant', 'time': '19:45'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Vacaville', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Hisui | Japanese Restaurant', 'time': '19:45'}}]"
+3_00016,"USER:I want to book a reservation at a restaurant.
+SYSTEM:Okay, which city are you looking in?
+USER:Look in San Fran.
+SYSTEM:Okay, any restaurant in particular? And what time do you want to go?
+USER:Book a table for four at Kusakabe for later today. Make the reservation for evening 6:45.
+SYSTEM:Please confirm that I'm booking a table for 4 at Kusakabe in San Francisco at 6:45 pm today.
+USER:Actually change it to March 5th in El Cerrito.
+SYSTEM:Okay, please confirm that I'm booking in El Cerrito for next Tuesday.
+USER:No, I want you to book at Yoshio and make it for three people instead.
+SYSTEM:Got it. Please confirm that I'm booking a table for 3 at Yoshio Sushi.
+USER:Yes, that sounds right. What's their number, and do they serve alcohol?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'El Cerrito', 'date': '2019-03-05', 'party_size': '3', 'restaurant_name': 'Yoshio Sushi', 'time': '18:45'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'El Cerrito', 'date': '2019-03-05', 'party_size': '3', 'restaurant_name': 'Yoshio Sushi', 'time': '18:45'}}]"
+3_00017,"USER:It's my friend's birthday and I want to take them to Aquitaine in SF, can you book me a reservation?
+SYSTEM:What time would you like the reservation to be?
+USER:Book the reservation for 12 o""clock in the afternoon
+SYSTEM:Is this correct? I will be booking a reservation for 2 people at Aquitaine Wine Bar & Bistro for 12 pm today. It is in the city of San Francisco.
+USER:That's incorrect, I was it to be on the 14th of this month.
+SYSTEM:Please tell me if this is correct. The reservation is on March 14th at 12 pm
+USER:Yes that works great
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-14', 'party_size': '2', 'restaurant_name': 'Aquitaine Wine Bar & Bistro', 'time': '12:00'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-14', 'party_size': '2', 'restaurant_name': 'Aquitaine Wine Bar & Bistro', 'time': '12:00'}}]"
+3_00018,"USER:I want to get a reservation in Berkeley.
+SYSTEM:is there a specific resturant you are looking for. what time is good for you?
+USER:6:15 in the evening at Bistro liaison.
+SYSTEM:please confirm, a table for 2 at Bistro liaison in Berkeley for today 6:15 pm
+USER:yeah. what do they serve?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Berkeley', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Bistro Liaison', 'time': '18:15'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Berkeley', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Bistro Liaison', 'time': '18:15'}}]"
+3_00019,"USER:I want to reserve a table at a restaurant.
+SYSTEM:In which city and at what time would you like to dine? Do you have any preferred restaurants?
+USER:I'd prefer the Lark restaurant in San Fran at five in the evening.
+SYSTEM:Okay. Shall I go ahead and reserve a table for 2 at the Lark restaurant in San Francisco at 5 pm today?
+USER:That sounds great. Can I know their address? Do they serve Spicy Indian food?
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Lark', 'time': '17:00'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Lark', 'time': '17:00'}}]"
+3_00020,"USER:I want to book the Taste of Burma restaurant for 2 persons. Can you help me?
+SYSTEM:When and where should I search for?
+USER:I need to book it at quarter past 7 in the evening in Daly City.
+SYSTEM:Please confirm to book a table in Hotel Taste of Burma located in Daly City at 7:15 pm today for 2 people.
+USER:Yes, that is correct. Please make it.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Daly City', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Taste Of Burma', 'time': '19:15'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Daly City', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Taste Of Burma', 'time': '19:15'}}]"
+3_00021,"USER:Can you help me make a reservation at 1:15 pm in Concord?
+SYSTEM:Any preferred restaurant?
+USER:Agave Grill please, for March 10th
+SYSTEM:So you want a reservation for 2 people at Agave Grill & Cantina in Concord at 1:15 pm on March 10th right?
+USER:Yes that's fine
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Concord', 'date': '2019-03-10', 'party_size': '2', 'restaurant_name': 'Agave Grill & Cantina', 'time': '13:15'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Concord', 'date': '2019-03-10', 'party_size': '2', 'restaurant_name': 'Agave Grill & Cantina', 'time': '13:15'}}]"
+3_00022,"USER:Can you reserve a table for me?
+SYSTEM:When and what city? Do you know a particular restraunt you want?
+USER:I want SF. I want to eat at Crazy Pepper. Schedule fo night 8.
+SYSTEM:Ok, I think I have it: Crazy pepper in San Francisco at 8 pm today. You have 2 people?
+USER:No. I have 3 people.
+SYSTEM:Ok. San Francisco, 3 people?
+USER:Got it. That's what I want.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': 'Crazy Pepper', 'time': '20:00'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': 'Crazy Pepper', 'time': '20:00'}}]"
+3_00023,"USER:I'd like to book a spot at a diner.
+SYSTEM:What metropolis do you want me to look in, and what time is the booking for?
+USER:I'd like to have it in Hayward at evening 5.
+SYSTEM:Is there a diner you prefer?
+USER:The diner is called Paya.
+SYSTEM:Please verify the following information: reserve a table a Paya Thai in Hayward at 5 pm today for 2 people.
+USER:Nope, I'd like to have it in Cotati, and the diner is China Chef.
+SYSTEM:Please verify the following information: reserve a table at China Chef in Cotati.
+USER:Yeah, that's perfect for me.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Cotati', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'China Chef', 'time': '17:00'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Cotati', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'China Chef', 'time': '17:00'}}]"
+3_00024,"USER:I would like to make reservations for 2 at Pescatore.
+SYSTEM:What tinme would you like the reservation for?
+USER:A quarter to 1 in the afternoon, please.
+SYSTEM:What city shall I make this reservation?
+USER:I would like the reservation in SFO.
+SYSTEM:Ok let me confirm this with you. I have a reservation for 2 at Pescatore, today, in San Francisco at 12:45 pm. Is that correct?
+USER:Yes, that is correct.
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Pescatore', 'time': '12:45'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Pescatore', 'time': '12:45'}}]"
+3_00025,"USER:Please make me a reservation on 9th of this month, at seven pm
+SYSTEM:Any city in particular, and restaurant?
+USER:Yes, the State Bird in SFO
+SYSTEM:Please confirm the following booking: reservation at 7 pm on March 9th for 2 at State Bird Provisions San Francisco
+USER:Yes that fine
+[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-09', 'party_size': '2', 'restaurant_name': 'State Bird Provisions', 'time': '19:00'}}]
+",['Restaurants_1'],['ReserveRestaurant'],"[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-09', 'party_size': '2', 'restaurant_name': 'State Bird Provisions', 'time': '19:00'}}]"
