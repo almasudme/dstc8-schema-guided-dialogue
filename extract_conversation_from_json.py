@@ -76,14 +76,16 @@ def process_files(folder,list_json_files,target_intent_domain,file):
                 # turns is a list and each element in list is one sentence in the converastion.
                 intents = []
                 service_call_made = False
+                services = set()
                 for turn in dict_item.get('turns'):
                     
-                    list_frames = turn.get('frames') or []
-                    services = [frame.get('service') for frame in list_frames] or []
+                    list_frames = turn.get('frames')
+                    # turn_services = [frame.get('service') for frame in list_frames] or []
                     ''' Sometimes there are more than one service is asked in a conversation. Dialogue 80_00003 seeks
                     rideshare , mediccal practitionar, and restaurant asll.
                     '''
-                    if not service_tags[0] in services[0]: continue
+                    # if not service_tags[0] in services[0]: continue
+                    # services.add(set(turn_services))
                     if service_call_made : continue
                     
                     intent = [is_intent(frame.get('actions')) for frame in list_frames if is_intent(frame.get('actions'))] 
@@ -96,7 +98,7 @@ def process_files(folder,list_json_files,target_intent_domain,file):
                     
                     if intent : intents.append(intent[0][0]) 
                     # print(f"actions: {actions}") 
-                    
+                    turn_services = [frame.get('service') for frame in list_frames] or []
                     speaker = turn.get('speaker')
                     utterance = turn.get('utterance')
 
@@ -109,11 +111,11 @@ def process_files(folder,list_json_files,target_intent_domain,file):
                         system_utterance = f'SYSTEM:{turn.get("utterance")}'
                         # print(system_utterance)
                         conversation = conversation +  system_utterance + '\n'
-                
+                    
                 # print(end_str)
                 
                 if target_intent_domain in intents:
-                    if conversation_count >50: break
+                    # if conversation_count >50: break
                     conversation_count += 1
                     # start_str = f"<<<Start: Conversation no {conversation_count} dialogue id {dialogue_id}>>>"
                     # end_str = f"<<<End: Conversation no {conversation_count}>>>"
@@ -127,37 +129,24 @@ def process_files(folder,list_json_files,target_intent_domain,file):
                     temp_dict = {
                         'dialogue_id' : dialogue_id,
                         'conversation' : conversation,
-                        'services':services,
+                        'turn_services':turn_services,
                         'intent':list(set(intents)),
                         'service_calls':service_calls
                     }
                     writer.writerow(temp_dict)
-
-    if os.path.exists(file_name):
-        print(f"Written {file_name}")            
-
 
 if __name__ == '__main__':
     #======================================================================
     target_intent_domains = ['FindRestaurants','ReserveRestaurant','SearchHotel','ReserveHotel']
     folder = 'train'
     list_json_files = glob.glob(folder + "/*.json")
-    file_name = folder+'_'+'.csv'
-    with open (file_name,'w') as file:
-        headers = ['dialogue_id' ,'conversation','services','intent','service_calls']
+    file_name = folder+'.csv'
+    with open (file_name,'w',newline="") as file:
+        headers = ['dialogue_id' ,'conversation','turn_services','intent','service_calls']
         writer = csv.DictWriter(file, fieldnames=headers)
         writer.writeheader()
         for target_intent_domain in target_intent_domains:
             process_files(folder,list_json_files,target_intent_domain,file)
+    if os.path.exists(file_name):
+        print(f"Written {file_name}") 
     #=======================================================================
-        
-        
-                        
-                    
-
-                
-                
-            
-
-
-
