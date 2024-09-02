@@ -115,7 +115,7 @@ def process_files(folder,list_json_files,target_intent_domain,file):
                 # print(end_str)
                 
                 if target_intent_domain in intents:
-                    # if conversation_count >50: break
+                    if conversation_count >50: break
                     conversation_count += 1
                     # start_str = f"<<<Start: Conversation no {conversation_count} dialogue id {dialogue_id}>>>"
                     # end_str = f"<<<End: Conversation no {conversation_count}>>>"
@@ -131,7 +131,8 @@ def process_files(folder,list_json_files,target_intent_domain,file):
                         'conversation' : conversation,
                         'turn_services':turn_services,
                         'intent':list(set(intents)),
-                        'service_calls':service_calls
+                        'service_call_method':service_calls[0].get('method'),
+                        'service_call_parameters':service_calls[0].get('parameters')
                     }
                     writer.writerow(temp_dict)
 
@@ -140,9 +141,9 @@ if __name__ == '__main__':
     target_intent_domains = ['FindRestaurants','ReserveRestaurant','SearchHotel','ReserveHotel']
     folder = 'train'
     list_json_files = glob.glob(folder + "/*.json")
-    file_name = folder+'.csv'
+    file_name = folder+'_mini.csv'
     with open (file_name,'w',newline="") as file:
-        headers = ['dialogue_id' ,'conversation','turn_services','intent','service_calls']
+        headers = ['dialogue_id' ,'conversation','turn_services','intent','service_call_method','service_call_parameters']
         writer = csv.DictWriter(file, fieldnames=headers)
         writer.writeheader()
         for target_intent_domain in target_intent_domains:

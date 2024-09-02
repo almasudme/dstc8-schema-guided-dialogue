@@ -1,238 +1,238 @@
-dialogue_id,conversation,turn_services,intent,service_calls
+dialogue_id,conversation,turn_services,intent,service_call_method,service_call_parameters
 1_00000,"USER:I am feeling hungry so I would like to find a place to eat.
 SYSTEM:Do you have a specific which you want the eating place to be located at?
 USER:I would like for it to be in San Jose.
 SYSTEM:Is there a specific cuisine type you enjoy, such as Mexican, Italian or something else?
 USER:I usually like eating the American type of food.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'American'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'San Jose', 'cuisine': 'American'}"
 1_00001,"USER:Hi i need a help, i am very hungry, I am looking for a restaurant
 SYSTEM:Sure, I will help you, What type of food are you looking for? Which city should i search in?
 USER:Some Punjabi kind of foods in milpitas
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Milpitas', 'cuisine': 'Indian'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Milpitas', 'cuisine': 'Indian'}"
 1_00002,"USER:Help me find a good restaurant.
 SYSTEM:In which city are you looking for the restaurant and do you have any preferred cuisine?
 USER:Find me Ethiopian cuisine in Berkeley.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Berkeley', 'cuisine': 'Ethiopian'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Berkeley', 'cuisine': 'Ethiopian'}"
 1_00003,"USER:I'm looking for a place to eat.
 SYSTEM:Which city should I search in? What kind of food are you looking for?
 USER:Some Freshwater fish kind of food in Palo Alto would be perfect.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Palo Alto', 'cuisine': 'Seafood'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Palo Alto', 'cuisine': 'Seafood'}"
 1_00004,"USER:I'd like to find a place to eat.
 SYSTEM:Where should I look? What kind of food are you in the mood for? You can say things like Mexican, Italian or any other kind of food.
 USER:Lobster sounds great. Please search in San Mateo.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Mateo', 'cuisine': 'Seafood'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'San Mateo', 'cuisine': 'Seafood'}"
 1_00005,"USER:I'm looking for a Filipino place to eat.
 SYSTEM:Which City are you looking at?
 USER:I want to eat in San Bruno
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Bruno', 'cuisine': 'Filipino'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'San Bruno', 'cuisine': 'Filipino'}"
 1_00006,"USER:Can you help find a place to eat?
 SYSTEM:What kind of food like Indian or Chinese?
 USER:I would like Freshwater fish.
 SYSTEM:Do you have a city?
 USER:The city is San Jose.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'Seafood'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'San Jose', 'cuisine': 'Seafood'}"
 1_00007,"USER:My friend and I are looking for a place to eat.
 SYSTEM:Please tell me what type of food you are looking for just say Mexican, Chinese or anything else. Also what city would you like me to search int.
 USER:My family and I are in San Jose and the perfect place would have pizza and pasta. We don't have a price preference.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Jose', 'cuisine': 'Italian'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'San Jose', 'cuisine': 'Italian'}"
 1_00008,"USER:Can you find me something economical to eat in Pleasanton.
 SYSTEM:Are you looking for Italian, Indian or something else?
 USER:I would like some Italian food.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Pleasanton', 'cuisine': 'Italian', 'price_range': 'moderate'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Pleasanton', 'cuisine': 'Italian', 'price_range': 'moderate'}"
 1_00009,"USER:I am looking to eat somewhere
 SYSTEM:What city would you like to go? Do you want American or Italian?
 USER:I want some breakfast in Fairfield
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Fairfield', 'cuisine': 'Breakfast'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Fairfield', 'cuisine': 'Breakfast'}"
 1_00010,"USER:I'm starving! Can you help me find a restaurant that serves Breakfast in Fairfield?
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Fairfield', 'cuisine': 'Breakfast'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Fairfield', 'cuisine': 'Breakfast'}"
 1_00011,"USER:Can you help me find a place to eat at?
 SYSTEM:Which city are you looking in?
 USER:Cupertino, please.
 SYSTEM:What kind of food would you like? American, Indian, or something else?
 USER:Malaysian sounds good right now.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Cupertino', 'cuisine': 'Malaysian'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Cupertino', 'cuisine': 'Malaysian'}"
 1_00012,"USER:Hello, could you help me search for a place to dine in?
 SYSTEM:Sure thing, which area are you interested in and what is your preferred cuisine, such as Italian and Indian?
 USER:I would prefer a restaurant which serves up Cambodian food in SF.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Vietnamese'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'San Francisco', 'cuisine': 'Vietnamese'}"
 1_00013,"USER:I have a plan to eat out side for which I need some best places, can you search one for me?
 SYSTEM:Do you have any interested type of food to eat and in which city?
 USER:Asian kind of food will be good for me and please search it in Fremont City.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Fremont', 'cuisine': 'Asian'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Fremont', 'cuisine': 'Asian'}"
 1_00014,"USER:I want to find a restaurant in Albany.
 SYSTEM:What type of restaurant would you like
 USER:Barbecue is the best.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Albany', 'cuisine': 'American'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Albany', 'cuisine': 'American'}"
 1_00015,"USER:Can you pull up a list of places to eat?
 SYSTEM:Sure, what city should I search? And what kind of food would you like?
 USER:Search San Francisco for Asian Fusion food
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Asian'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'San Francisco', 'cuisine': 'Asian'}"
 1_00016,"USER:I'm looking for a good place to get something to eat, can you help?
 SYSTEM:Sure. What kind of food do you want? You can ask for Mexican, American, Sushi, or anything else. And also, what city should I search in?
 USER:Oh, I'm in Oakland. Please find an American restaurant.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Oakland', 'cuisine': 'American'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Oakland', 'cuisine': 'American'}"
 1_00017,"USER:I'm looking for somewhere to eat.
 SYSTEM:Where should I search?
 USER:In Oakland.
 SYSTEM:What type of cuisine? For example, Chinese, American, or something else?
 USER:I want pizza and pasta.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Oakland', 'cuisine': 'Italian'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Oakland', 'cuisine': 'Italian'}"
 1_00018,"USER:I'm looking for a restaurant.
 SYSTEM:In what city are you located and what type of food.
 USER:Asian Fusion in Concord.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Concord', 'cuisine': 'Sushi'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Concord', 'cuisine': 'Sushi'}"
 1_00019,"USER:Are there any Mexican places in Rohnert Park?
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Rohnert Park', 'cuisine': 'Mexican'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Rohnert Park', 'cuisine': 'Mexican'}"
 1_00020,"USER:I'm getting pretty hungry and need to find a place to eat.
 SYSTEM:What are your preference for a dining location?
 USER:I would like something that I can pick-up in San Fran at any price range.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Take-out'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'San Francisco', 'cuisine': 'Take-out'}"
 1_00021,"USER:Can you help me find a restaurant?
 SYSTEM:Yes, which city shall I search?
 USER:I prefer Redwood City.
 SYSTEM:Do you have a preference regarding the type of food?
 USER:I would like Spanish food, economical pricing preferred.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Redwood City', 'cuisine': 'Spanish', 'price_range': 'moderate'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Redwood City', 'cuisine': 'Spanish', 'price_range': 'moderate'}"
 1_00022,"USER:I am looking for a place to eat. Can you find restaurants specializing in Singaporean cuisine near me?
 SYSTEM:Okay, where would you like to eat?
 USER:I am looking for restaurants located in Millbrae.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Millbrae', 'cuisine': 'Singaporean'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Millbrae', 'cuisine': 'Singaporean'}"
 1_00023,"USER:Can you help me find an afforadable place to eat?
 SYSTEM:What city do you want me to look in?
 USER:Please look for a place in Calistoga.
 SYSTEM:Is there any particular type of food you want, like Chinese, Mexican, or anything else?
 USER:I'm in the mood for Cambodian food.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Calistoga', 'cuisine': 'Thai', 'price_range': 'moderate'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Calistoga', 'cuisine': 'Thai', 'price_range': 'moderate'}"
 1_00024,"USER:I will be going to eat with a friend what expensive restaurants do you recommend?
 SYSTEM:What type of cuisine do you want? Mexican, Chinese or which one?
 USER:I want something with Fish but make it an average priced restaurant.
 SYSTEM:In what city do you want to look for?
 USER:I want to eat in Burlingame.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Burlingame', 'cuisine': 'Seafood', 'price_range': 'moderate'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Burlingame', 'cuisine': 'Seafood', 'price_range': 'moderate'}"
 1_00025,"USER:I am tired of eating my cooking. I want to eat out tonight.
 SYSTEM:What type of cuisine would you like?
 USER:I am in the mood for Izakaya cuisine.
 SYSTEM:Which city would you like me to look in?
 USER:I want something in Rohnert Park
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Rohnert Park', 'cuisine': 'Japanese'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Rohnert Park', 'cuisine': 'Japanese'}"
 1_00026,"USER:I am looking for an inexpensive place to eat that has live music.
 SYSTEM:Which city would you like to search? And what type of food would you prefer such as Mexican, Italian or something else?
 USER:I'd like some soup, and I'm looking in San Ramon.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Ramon', 'cuisine': 'Soup', 'has_live_music': 'True', 'price_range': 'inexpensive'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'San Ramon', 'cuisine': 'Soup', 'has_live_music': 'True', 'price_range': 'inexpensive'}"
 1_00027,"USER:Can you help me find somewhere to eat?
 SYSTEM:Sure, what kind of food are you in the mood for, and in which city?
 USER:Search in Cupertino for Dumplings.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Cupertino', 'cuisine': 'Chinese'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Cupertino', 'cuisine': 'Chinese'}"
 1_00028,"USER:Hey! Today feeling so tired... Wish to have some food outside in a good restaurant... Can you find me one?
 SYSTEM:Yup! What kind of food do you like to have - Chinese, American, Italian etc? Which city you would prefer to have your lunch?
 USER:I would love to taste some Seafood in San Mateo. Please find some good hotels.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Mateo', 'cuisine': 'Seafood'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'San Mateo', 'cuisine': 'Seafood'}"
 1_00029,"USER:I'm looking for somewhere in Dublin to have a meal and a drink.
 SYSTEM:What kind of food do you want to eat?
 USER:I feel like a burger.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Dublin', 'cuisine': 'American', 'serves_alcohol': 'True'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Dublin', 'cuisine': 'American', 'serves_alcohol': 'True'}"
 1_00030,"USER:I am bored of eating food from home , i need a change . Will you find me a place to eat? It can be costly priced and i am very fond of it
 SYSTEM:Which type of food you need whether Indian, Chinese or Anything other variety and In which city i should look for?
 USER:I need Pizza kind of food and i wish to eat in city Napa.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Napa', 'cuisine': 'Italian', 'price_range': 'expensive'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Napa', 'cuisine': 'Italian', 'price_range': 'expensive'}"
 1_00031,"USER:I'm starting to get hungry. I want to go eat at a nice restaurant.
 SYSTEM:Sure. What city would you like to eat in?
 USER:Milpitas.
 SYSTEM:Do you have a particular type of food you are craving? Mexican? American? Something else?
 USER:I feel like Cambodian tonight.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Milpitas', 'cuisine': 'Vietnamese'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Milpitas', 'cuisine': 'Vietnamese'}"
 1_00032,"USER:I'm planning on going out to eat later on. Can you help me find a place to eat at?
 SYSTEM:What sort of food do you want to eat and which city should I look in?
 USER:I'd like to go to a restaurant in Martinez that serves Thai food.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Martinez', 'cuisine': 'Thai'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Martinez', 'cuisine': 'Thai'}"
 1_00033,"USER:I am looking for an intermediate priced eating place in the nearby area.
 SYSTEM:What is your preference in regards to city and type of cuisine? You can say something like Italian, American or anything else.
 USER:Any place in Pleasanton which serves Ramen kind of food and also alcohol will be ideal.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Pleasanton', 'cuisine': 'Japanese', 'price_range': 'moderate', 'serves_alcohol': 'True'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Pleasanton', 'cuisine': 'Japanese', 'price_range': 'moderate', 'serves_alcohol': 'True'}"
 1_00034,"USER:I would like to it in a place in Pleasanton.
 SYSTEM:What food would you like to eat?
 USER:I would love some Noodles
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Pleasanton', 'cuisine': 'Chinese'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Pleasanton', 'cuisine': 'Chinese'}"
 1_00035,"USER:I'd like to find a place to eat.
 SYSTEM:What city would you like to eat in and what kind of food do you like?
 USER:I'd like a Barbecue food restaurant in Campbell.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Campbell', 'cuisine': 'American'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Campbell', 'cuisine': 'American'}"
 1_00036,"USER:Will you find me a place to eat?
 SYSTEM:Which city?
 USER:Palo Alto.
 SYSTEM:What kind of food?
 USER:Brazilian.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Palo Alto', 'cuisine': 'Brazilian'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Palo Alto', 'cuisine': 'Brazilian'}"
 1_00037,"USER:Will you find me somewhere to eat?
 SYSTEM:Sure, what style are you in the mood for? How about Chinese or Mexican?
 USER:I really need good pasta, I'm underweight.
 SYSTEM:Of course, where do you want to go?
 USER:Campbell please, thanks.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Campbell', 'cuisine': 'Italian'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Campbell', 'cuisine': 'Italian'}"
 1_00038,"USER:I want to eat out at an intermediate priced location, can you find me some options?
 SYSTEM:What food do you fancy? Is there anywhere you particularly want to go?
 USER:I want to go to Milpitas. Spicy Indian food sounds perfect.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Milpitas', 'cuisine': 'Indian', 'price_range': 'moderate'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Milpitas', 'cuisine': 'Indian', 'price_range': 'moderate'}"
 1_00039,"USER:I am planning to go out for dinner. Can you find me restaurants nearby?
 SYSTEM:Do you have a specific area in mind where you would like to eat.
 USER:I would like to eat in Milpitas and the restaurant should be in the moderate price range.
 SYSTEM:Is there a particular cuisine you would like?
 USER:I am looking for restaurants that offer Take-out.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Milpitas', 'cuisine': 'Take-out', 'price_range': 'moderate'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Milpitas', 'cuisine': 'Take-out', 'price_range': 'moderate'}"
 1_00040,"USER:I'm feeling hungry, do you know of any places that average priced?
 SYSTEM:Is there any particular food you're looking for, such as Italian, American, or anything else?
 USER:I'm feeling a craving for Noodles.
 SYSTEM:What city would you like me to look in?
 USER:Look for a place in Dublin.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Dublin', 'cuisine': 'Chinese', 'price_range': 'moderate'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Dublin', 'cuisine': 'Chinese', 'price_range': 'moderate'}"
 1_00041,"USER:I'm looking for somewhere to eat with my girlfriend, do you know of any good restaurants?
 SYSTEM:What city should I search for the best restaurants?
 USER:I want something with a moderate priced in Petaluma. It also needs to serve alcohol.
 SYSTEM:What type of food do you want to eat?
 USER:Some type of curry would be great, so Indian or Thai maybe.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Petaluma', 'cuisine': 'Indian', 'price_range': 'moderate', 'serves_alcohol': 'True'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Petaluma', 'cuisine': 'Indian', 'price_range': 'moderate', 'serves_alcohol': 'True'}"
 1_00042,"USER:I'm on a budget and I am looking for a cafe that is not very costly.
 SYSTEM:What type of food are you in the mood for? How about Italian, Indian, something else?
 USER:I am really hungry for Pizza and Pasta.
 SYSTEM:Where would you like to eat at, what city?
 USER:I have to have something in San Francisco.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Italian', 'price_range': 'moderate'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'San Francisco', 'cuisine': 'Italian', 'price_range': 'moderate'}"
 1_00043,"USER:I'm hungry. Find places to eat please.
 SYSTEM:Sure thing. Which city would you like to eat in?
 USER:Let's go with Foster City please.
 SYSTEM:Sure. What kind of food are you hungry for?
 USER:Spicy Indian sound really good.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Foster City', 'cuisine': 'Indian'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Foster City', 'cuisine': 'Indian'}"
 1_00044,"USER:Can you find a place to eat?
 SYSTEM:What kind of food are you looking for? An example can be Chinese, American or anything else.
 USER:Some Sichuan food would be good.
 SYSTEM:Which city should I search in?
 USER:Look in Mountain View.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Mountain View', 'cuisine': 'Chinese'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Mountain View', 'cuisine': 'Chinese'}"
 1_00045,"USER:I would like to find a Chinese food restaurant.
 SYSTEM:In which city?
 USER:Search in San Mateo.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Mateo', 'cuisine': 'Chinese'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'San Mateo', 'cuisine': 'Chinese'}"
 1_00046,"USER:Can you find me place to eat?
 SYSTEM:What kind of food would you like to have and where would you like me to search in?
 USER:Food kind of California will be perfect in SF.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'California'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'San Francisco', 'cuisine': 'California'}"
 1_00047,"USER:I am searching for a eating place with a intermediate priced
 SYSTEM:Which city you are interested and what is the type of food you are searching for like American, Mexican etc
 USER:Some Izakaya kind of food good in Foster City
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Foster City', 'cuisine': 'Japanese', 'price_range': 'moderate'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Foster City', 'cuisine': 'Japanese', 'price_range': 'moderate'}"
 1_00048,"USER:i am meeting my friend after a long time and i wish to eat along with him. Will you find a place to eat and i don't have a price preference.
 SYSTEM:Fine, Its sounds good. What type of food are you looking for ? whether American, Indian or anything else. Which city do you prefer?
 USER:I like Pizza and Pasta kind of food and the place should be in San Francisco.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'San Francisco', 'cuisine': 'Italian'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'San Francisco', 'cuisine': 'Italian'}"
 1_00049,"USER:Can you help me locate a place to eat?
 SYSTEM:Which city should I look in and what type of food would you like? Please say Chinese, American or anything else.
 USER:Some Punjabi food would be great. Please look in Pleasanton.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Pleasanton', 'cuisine': 'Indian'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Pleasanton', 'cuisine': 'Indian'}"
 1_00050,"USER:I'm looking for somewhere to eat.
 SYSTEM:Where should I look? And what type of cuisine?
 USER:I'd like pizza and somewhere in Sunnyvale.
-",['Restaurants_1'],['FindRestaurants'],"[{'method': 'FindRestaurants', 'parameters': {'city': 'Sunnyvale', 'cuisine': 'Italian'}}]"
+",['Restaurants_1'],['FindRestaurants'],FindRestaurants,"{'city': 'Sunnyvale', 'cuisine': 'Italian'}"
 1_00000,"USER:I am feeling hungry so I would like to find a place to eat.
 SYSTEM:Do you have a specific which you want the eating place to be located at?
 USER:I would like for it to be in San Jose.
@@ -252,7 +252,7 @@ SYSTEM:For which time do you want the booking to be?
 USER:I will be eating there at 11:30 am so make it for then.
 SYSTEM:Can you please confirm that you want to book a table for 2 at 11:30 am at the Bird Dog restaurant in Palo Alto for today.
 USER:That suits me well. Can you tell me if they feature live music?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Palo Alto', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Bird Dog', 'time': '11:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Palo Alto', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Bird Dog', 'time': '11:30'}"
 1_00002,"USER:Help me find a good restaurant.
 SYSTEM:In which city are you looking for the restaurant and do you have any preferred cuisine?
 USER:Find me Ethiopian cuisine in Berkeley.
@@ -264,7 +264,7 @@ SYSTEM:At what time will you be arriving at the restaurant?
 USER:Reserve the table for the 2nd of this month at 17:15.
 SYSTEM:Please confirm that you want to reserve a table for 2 at the Addis Restaurant in Berkeley for tomorrow at 5:15 pm.
 USER:That's right. Do they serve alcohol? And how expensive is the place?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Berkeley', 'date': '2019-03-02', 'party_size': '2', 'restaurant_name': 'Addis Restaurant', 'time': '17:15'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Berkeley', 'date': '2019-03-02', 'party_size': '2', 'restaurant_name': 'Addis Restaurant', 'time': '17:15'}"
 1_00004,"USER:I'd like to find a place to eat.
 SYSTEM:Where should I look? What kind of food are you in the mood for? You can say things like Mexican, Italian or any other kind of food.
 USER:Lobster sounds great. Please search in San Mateo.
@@ -280,7 +280,7 @@ SYSTEM:Golden Wok would be a great choice in San Mateo.
 USER:That would work great. I would like to make a reservation there at evening 5:30 on March 14th.
 SYSTEM:Please confirm the following: You want to eat at Golden Wok in San Mateo on March 14th starting at 5:30 pm. The reservation would be for 2 people.
 USER:Yes, that would be great. Do they serve liquor or have live music?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Mateo', 'date': '2019-03-14', 'party_size': '2', 'restaurant_name': 'Golden Wok', 'time': '17:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Mateo', 'date': '2019-03-14', 'party_size': '2', 'restaurant_name': 'Golden Wok', 'time': '17:30'}"
 1_00005,"USER:I'm looking for a Filipino place to eat.
 SYSTEM:Which City are you looking at?
 USER:I want to eat in San Bruno
@@ -294,7 +294,7 @@ SYSTEM:What time for?
 USER:On the 12th at six pm
 SYSTEM:Please confirm: Booking a table for 2 at Isla Restaurant in San Bruno. It is on March 12th at 6 pm.
 USER:That's good. Do they serve liquor and what is there number?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Bruno', 'date': '2019-03-12', 'party_size': '2', 'restaurant_name': 'Isla Restaurant', 'time': '18:00'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Bruno', 'date': '2019-03-12', 'party_size': '2', 'restaurant_name': 'Isla Restaurant', 'time': '18:00'}"
 1_00007,"USER:My friend and I are looking for a place to eat.
 SYSTEM:Please tell me what type of food you are looking for just say Mexican, Chinese or anything else. Also what city would you like me to search int.
 USER:My family and I are in San Jose and the perfect place would have pizza and pasta. We don't have a price preference.
@@ -308,7 +308,7 @@ SYSTEM:There is another nice restaurant called Antonella's Ristorante in San Jos
 USER:That restaurant will work can you please make a reservation for 12:30.
 SYSTEM:I will be booking a table at Antonella's Ristorante in San Jose. The reservation will be set at 12:30 pm for today. And it is for 2 people is this correct.
 USER:Yes, thank you that is correct.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Jose', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Antonella's Ristorante"", 'time': '12:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Jose', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Antonella's Ristorante"", 'time': '12:30'}"
 1_00008,"USER:Can you find me something economical to eat in Pleasanton.
 SYSTEM:Are you looking for Italian, Indian or something else?
 USER:I would like some Italian food.
@@ -330,7 +330,7 @@ SYSTEM:Alright, please confirm that the reservation is at 7 pm for 1 person.
 USER:No, change it on next friday.
 SYSTEM:Sure. Please confirm that the date is now next Friday and for 1 person.
 USER:Yes. Sounds good.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Pleasanton', 'date': '2019-03-08', 'party_size': '1', 'restaurant_name': ""Gay 90's Pizza Co."", 'time': '19:00'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Pleasanton', 'date': '2019-03-08', 'party_size': '1', 'restaurant_name': ""Gay 90's Pizza Co."", 'time': '19:00'}"
 1_00011,"USER:Can you help me find a place to eat at?
 SYSTEM:Which city are you looking in?
 USER:Cupertino, please.
@@ -350,7 +350,7 @@ SYSTEM:So you'd like a reservation at 5:15 pm on March 13th?
 USER:No, I'd like it at half past 12 in the afternoon.
 SYSTEM:So you'd like a reservation at 12:30 pm on March 13th?
 USER:Yes, sounds good.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Cupertino', 'date': '2019-03-13', 'party_size': '2', 'restaurant_name': 'Rasa Sayang', 'time': '12:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Cupertino', 'date': '2019-03-13', 'party_size': '2', 'restaurant_name': 'Rasa Sayang', 'time': '12:30'}"
 1_00015,"USER:Can you pull up a list of places to eat?
 SYSTEM:Sure, what city should I search? And what kind of food would you like?
 USER:Search San Francisco for Asian Fusion food
@@ -364,7 +364,7 @@ SYSTEM:Sure, what time?
 USER:half past 5 in the evening please.
 SYSTEM:Okay, got it. I will book a table at 8 Immortals Restaurant in San Francisco for 5:30 pm today, for 6 people.
 USER:That's correct. What's the address?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '6', 'restaurant_name': '8 Immortals Restaurant', 'time': '17:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '6', 'restaurant_name': '8 Immortals Restaurant', 'time': '17:30'}"
 1_00016,"USER:I'm looking for a good place to get something to eat, can you help?
 SYSTEM:Sure. What kind of food do you want? You can ask for Mexican, American, Sushi, or anything else. And also, what city should I search in?
 USER:Oh, I'm in Oakland. Please find an American restaurant.
@@ -376,7 +376,7 @@ SYSTEM:What time would you like it?
 USER:Please reserve it for six pm.
 SYSTEM:Sure, please confirm that you'd like to book a table for 2 at Chop Bar in Oakland from 6 pm today.
 USER:Yes that's perfect. What's their address? Do they have a live band?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Oakland', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Chop Bar', 'time': '18:00'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Oakland', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Chop Bar', 'time': '18:00'}"
 1_00019,"USER:Are there any Mexican places in Rohnert Park?
 SYSTEM:Chili's Grill & Bar is in Rohnert Park.
 USER:Is it an inexpensive restaurant?
@@ -390,7 +390,7 @@ SYSTEM:Is there anything else I can do?
 USER:Make a reservation this morning 11:15 for three people.
 SYSTEM:Just to confirm: I am booking a table for 3 today at 11:15 am at the Rohnert Park location of Kyoto.
 USER:That's correct. What's their address?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Rohnert Park', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': 'Kyoto', 'time': '11:15'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Rohnert Park', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': 'Kyoto', 'time': '11:15'}"
 1_00024,"USER:I will be going to eat with a friend what expensive restaurants do you recommend?
 SYSTEM:What type of cuisine do you want? Mexican, Chinese or which one?
 USER:I want something with Fish but make it an average priced restaurant.
@@ -402,7 +402,7 @@ SYSTEM:At what time do you want to go?
 USER:At quarter to 1 in the afternoon.
 SYSTEM:Please confirm: Booking a table for 2 people at 12:45 pm for today at the Grand Harbor in Burlingame.
 USER:Yes, that is correct. Do you have the phone number?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Burlingame', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Grand Harbor', 'time': '12:45'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Burlingame', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Grand Harbor', 'time': '12:45'}"
 1_00027,"USER:Can you help me find somewhere to eat?
 SYSTEM:Sure, what kind of food are you in the mood for, and in which city?
 USER:Search in Cupertino for Dumplings.
@@ -418,7 +418,7 @@ SYSTEM:Yes, what time should I make it?
 USER:How about 7:30 pm.
 SYSTEM:Can you confirm the details for me? You're booking a table for 2 next Thursday at 7:30 pm at China Stix in Santa Clara.
 USER:Yes, that's right. Do they serve alcohol?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Santa Clara', 'date': '2019-03-07', 'party_size': '2', 'restaurant_name': 'China Stix', 'time': '19:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Santa Clara', 'date': '2019-03-07', 'party_size': '2', 'restaurant_name': 'China Stix', 'time': '19:30'}"
 1_00028,"USER:Hey! Today feeling so tired... Wish to have some food outside in a good restaurant... Can you find me one?
 SYSTEM:Yup! What kind of food do you like to have - Chinese, American, Italian etc? Which city you would prefer to have your lunch?
 USER:I would love to taste some Seafood in San Mateo. Please find some good hotels.
@@ -430,7 +430,7 @@ SYSTEM:Sure! At what time you wish to make your reservation?
 USER:Probably at quarter past 1 in the afternoon.
 SYSTEM:Okay! Confirm me the details that you wish to book a table at Andes Cafe San Mateo in San Mateo at 1:15 pm by today and the reservation would be for 2 persons, right?
 USER:Yup! sounds good. I've a question... Did liquor is provided at this restaurant?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Mateo', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Andes Cafe San Mateo', 'time': '13:15'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Mateo', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Andes Cafe San Mateo', 'time': '13:15'}"
 1_00029,"USER:I'm looking for somewhere in Dublin to have a meal and a drink.
 SYSTEM:What kind of food do you want to eat?
 USER:I feel like a burger.
@@ -446,7 +446,7 @@ SYSTEM:Sure, what time?
 USER:5 pm please. There's 3 people in the group.
 SYSTEM:Okay. Please confirm that you'd like a booking for 3 at Hot Crab in Dublin today at 5 pm.
 USER:Yeah that works fine. What's their address and phone number?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Dublin', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': 'Hot Crab', 'time': '17:00'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Dublin', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': 'Hot Crab', 'time': '17:00'}"
 1_00032,"USER:I'm planning on going out to eat later on. Can you help me find a place to eat at?
 SYSTEM:What sort of food do you want to eat and which city should I look in?
 USER:I'd like to go to a restaurant in Martinez that serves Thai food.
@@ -460,7 +460,7 @@ SYSTEM:Alright, please confirm that you'd like me to book a table for 2 at Lemon
 USER:No, make it for 1 person on next Monday please.
 SYSTEM:Okay, so you'd like a reservation for 1 person on next Monday, right?
 USER:Yup, that's right. Can you tell me if they have a live band?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Martinez', 'date': '2019-03-04', 'party_size': '1', 'restaurant_name': 'Lemongrass Bistro', 'time': '19:00'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Martinez', 'date': '2019-03-04', 'party_size': '1', 'restaurant_name': 'Lemongrass Bistro', 'time': '19:00'}"
 1_00033,"USER:I am looking for an intermediate priced eating place in the nearby area.
 SYSTEM:What is your preference in regards to city and type of cuisine? You can say something like Italian, American or anything else.
 USER:Any place in Pleasanton which serves Ramen kind of food and also alcohol will be ideal.
@@ -470,7 +470,7 @@ SYSTEM:What is the time for Reservation?
 USER:Reserve it for Twelve pm.
 SYSTEM:So, a table reservation at Meiko Sushi in Pleasanton will be for 12 pm on the day after tomorrow for 6 people. Please confirm the aforementioned details.
 USER:Yes that is good.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Pleasanton', 'date': '2019-03-03', 'party_size': '6', 'restaurant_name': 'Meiko Sushi', 'time': '12:00'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Pleasanton', 'date': '2019-03-03', 'party_size': '6', 'restaurant_name': 'Meiko Sushi', 'time': '12:00'}"
 1_00036,"USER:Will you find me a place to eat?
 SYSTEM:Which city?
 USER:Palo Alto.
@@ -484,7 +484,7 @@ SYSTEM:Please confirm a table at Pampas in Palo Alto at 5:15 pm for 2 people tod
 USER:No, change it to evening 6:15.
 SYSTEM:Okay. A table at Pampas at 6:15 pm.
 USER:Great. How pricey? What's their number?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Palo Alto', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Pampas', 'time': '18:15'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Palo Alto', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Pampas', 'time': '18:15'}"
 1_00038,"USER:I want to eat out at an intermediate priced location, can you find me some options?
 SYSTEM:What food do you fancy? Is there anywhere you particularly want to go?
 USER:I want to go to Milpitas. Spicy Indian food sounds perfect.
@@ -496,7 +496,7 @@ SYSTEM:So I'll book a table for 4 at Anjappar Chettinad Restaurant in Milpitas f
 USER:No, actually I want it for 3 people, and at evening 7:45.
 SYSTEM:I've updated the reservation for 3 people, at 7:45 pm. Is that okay?
 USER:Yes, that sounds good.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Milpitas', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': 'Anjappar Chettinad Restaurant', 'time': '19:45'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Milpitas', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': 'Anjappar Chettinad Restaurant', 'time': '19:45'}"
 1_00039,"USER:I am planning to go out for dinner. Can you find me restaurants nearby?
 SYSTEM:Do you have a specific area in mind where you would like to eat.
 USER:I would like to eat in Milpitas and the restaurant should be in the moderate price range.
@@ -516,7 +516,7 @@ SYSTEM:The reservation is in Milpitas on March 14th. Is this correct?
 USER:Please make the reservation for 18:00.
 SYSTEM:The reservation is for March 14th and 6 pm. Is this correct?
 USER:Yes, that is correct.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Milpitas', 'date': '2019-03-14', 'party_size': '2', 'restaurant_name': 'Red Chillies The Malabar Cuisine', 'time': '18:00'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Milpitas', 'date': '2019-03-14', 'party_size': '2', 'restaurant_name': 'Red Chillies The Malabar Cuisine', 'time': '18:00'}"
 1_00042,"USER:I'm on a budget and I am looking for a cafe that is not very costly.
 SYSTEM:What type of food are you in the mood for? How about Italian, Indian, something else?
 USER:I am really hungry for Pizza and Pasta.
@@ -528,7 +528,7 @@ SYSTEM:when would you like to eat?
 USER:Please reserve at quarter past 5 in the evening.
 SYSTEM:Let me clarify your plans: You want a table at 54 Mint Ristorante Italiano in San Francisco at 5:15 pm. today for 2?
 USER:Yes, exactly please.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': '54 Mint Ristorante Italiano', 'time': '17:15'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': '54 Mint Ristorante Italiano', 'time': '17:15'}"
 1_00044,"USER:Can you find a place to eat?
 SYSTEM:What kind of food are you looking for? An example can be Chinese, American or anything else.
 USER:Some Sichuan food would be good.
@@ -546,7 +546,7 @@ SYSTEM:What time should I reserve for?
 USER:6 in the evening.
 SYSTEM:Ok, I will reserve a table for 4 at Hunan Chili in Mountain View. The reservation is today at 6 pm.
 USER:That works for me. What is the restaurant's phone number?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Mountain View', 'date': '2019-03-01', 'party_size': '4', 'restaurant_name': 'Hunan Chili', 'time': '18:00'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Mountain View', 'date': '2019-03-01', 'party_size': '4', 'restaurant_name': 'Hunan Chili', 'time': '18:00'}"
 1_00045,"USER:I would like to find a Chinese food restaurant.
 SYSTEM:In which city?
 USER:Search in San Mateo.
@@ -562,7 +562,7 @@ SYSTEM:The address is 1441 Polk Street.
 USER:Ok, make a reservation at 12 o""clock in the afternoon.
 SYSTEM:Please confirm you are booking a table for 2 at Bamboo Restaurant, located in San Francisco today at 12 pm.
 USER:Yes, how expensive are they?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Bamboo Restaurant', 'time': '12:00'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Bamboo Restaurant', 'time': '12:00'}"
 1_00046,"USER:Can you find me place to eat?
 SYSTEM:What kind of food would you like to have and where would you like me to search in?
 USER:Food kind of California will be perfect in SF.
@@ -582,7 +582,7 @@ SYSTEM:What time should i make the reservation for?
 USER:The timing will be half past 7 in the evening.
 SYSTEM:Please confirm the details: You want me to make a reservation at Aq in San Francisco for today at 7:30 pm for 2 people.
 USER:Yes, that sounds great to me.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Aq', 'time': '19:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Aq', 'time': '19:30'}"
 1_00047,"USER:I am searching for a eating place with a intermediate priced
 SYSTEM:Which city you are interested and what is the type of food you are searching for like American, Mexican etc
 USER:Some Izakaya kind of food good in Foster City
@@ -596,7 +596,7 @@ SYSTEM:What is the reservation time?
 USER:Do the reservation at evening 6:30
 SYSTEM:please give the confirmation details:Booking the table at Tokyo Village Grill & Sushi at Foster City and the reservation is for 2 people at 6:30 pm on next monday
 USER:This is perfect. what is the address and contact number?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Foster City', 'date': '2019-03-04', 'party_size': '2', 'restaurant_name': 'Tokyo Village Grill & Sushi', 'time': '18:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Foster City', 'date': '2019-03-04', 'party_size': '2', 'restaurant_name': 'Tokyo Village Grill & Sushi', 'time': '18:30'}"
 1_00049,"USER:Can you help me locate a place to eat?
 SYSTEM:Which city should I look in and what type of food would you like? Please say Chinese, American or anything else.
 USER:Some Punjabi food would be great. Please look in Pleasanton.
@@ -608,7 +608,7 @@ SYSTEM:What time would you like the reservation for?
 USER:Please make if at 12:15.
 SYSTEM:Please confirm the following details: Booking a table for 2 at Aappakadai in Pleasanton for today at 12:15 pm.
 USER:Yes, that is correct. What is their address and phone number?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Pleasanton', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Aappakadai', 'time': '12:15'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Pleasanton', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Aappakadai', 'time': '12:15'}"
 1_00050,"USER:I'm looking for somewhere to eat.
 SYSTEM:Where should I look? And what type of cuisine?
 USER:I'd like pizza and somewhere in Sunnyvale.
@@ -626,7 +626,7 @@ SYSTEM:Okay, so a reservation for 2 at 12:30 pm?
 USER:No, I want it to be for next tuesday, and only for one person.
 SYSTEM:Okay, a table for 1 next tuesday?
 USER:Yes.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Sunnyvale', 'date': '2019-03-05', 'party_size': '1', 'restaurant_name': ""Gumba's"", 'time': '12:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Sunnyvale', 'date': '2019-03-05', 'party_size': '1', 'restaurant_name': ""Gumba's"", 'time': '12:30'}"
 1_00053,"USER:Please search for an economical priced place to eat that serves alcohol.
 SYSTEM:What kind of food do you prefer? Which city should the search use?
 USER:I prefer it in Oakland. I am craving Pizza.
@@ -644,7 +644,7 @@ SYSTEM:Please say yes to confirm the following. Booking a table at Contrasto in 
 USER:Its actually a party of 4.
 SYSTEM:Please say yes to confirm the following. The city is Oakland, and the reservation is for a party of 4.
 USER:That will do.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Oakland', 'date': '2019-03-01', 'party_size': '4', 'restaurant_name': 'Contrasto', 'time': '11:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Oakland', 'date': '2019-03-01', 'party_size': '4', 'restaurant_name': 'Contrasto', 'time': '11:30'}"
 1_00054,"USER:I want a good place to eat that is fancy priced
 SYSTEM:what kind of food do you want? There is Mexican, Indian or anything else. What city do I need to search in?
 USER:I need it in SFO. French food will be perfect.
@@ -654,7 +654,7 @@ SYSTEM:what time for the reservation?
 USER:I want it at 13:15
 SYSTEM:Confirm Bistro Aix and the city is San Francisco. Reservation os 1:15 pm and for 2 people today
 USER:Is there live music?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Bistro Aix', 'time': '13:15'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Bistro Aix', 'time': '13:15'}"
 1_00055,"USER:I would like to look for a place where I could eat.
 SYSTEM:What kind of food do you prefer to eat? Which city are you located now?
 USER:Please look in Dublin, a burger is perfect to have now.
@@ -668,7 +668,7 @@ SYSTEM:Please do confirm the following details: book seats at McDonald's in Dubl
 USER:Actually its for 3 people on 14th of March.
 SYSTEM:Please do confirm the following details: book seats at McDonald's in Dublin for 3 people on March 14th.
 USER:Yes, that's right. How about the price range, is it very fancy?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Dublin', 'date': '2019-03-14', 'party_size': '3', 'restaurant_name': ""Mcdonald's"", 'time': '19:00'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Dublin', 'date': '2019-03-14', 'party_size': '3', 'restaurant_name': ""Mcdonald's"", 'time': '19:00'}"
 1_00057,"USER:Do you know of any places to eat in San Francisco?
 SYSTEM:Is there a specific food you're looking for, for example Indian, Italian, or anything else?
 USER:American food would really hit the spot.
@@ -680,7 +680,7 @@ SYSTEM:You can call them at 415-775-1800. And they do not serve alcohol.
 USER:Okay, that works. Please make me a reservation for 12:45 pm.
 SYSTEM:So you'd like a 12:45 pm reservation today at Academy Bar and Kitchen in San Francisco for 2 people, is that right?
 USER:Yeah, that's it.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Academy Bar And Kitchen', 'time': '12:45'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Academy Bar And Kitchen', 'time': '12:45'}"
 1_00058,"USER:I'm looking for restaurants.
 SYSTEM:In which city?
 USER:In Oakland.
@@ -698,7 +698,7 @@ SYSTEM:For what time?
 USER:For two people, 10:30 in the morning.
 SYSTEM:Please confirm: Table for 2 at Lake Chalet, 10:30 am today in Oakland.
 USER:That works. What's their address and number?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Oakland', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Lake Chalet', 'time': '10:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Oakland', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Lake Chalet', 'time': '10:30'}"
 1_00059,"USER:I would like to find a place to eat.
 SYSTEM:What kind of food are you wanting? And where should I search?
 USER:Find me a sushi place in Alameda.
@@ -708,7 +708,7 @@ SYSTEM:What time should the reservation be?
 USER:I would like it at afternoon 1:15.
 SYSTEM:Please confirm the following: You want a table at Angel Fish in Alameda at 1:15 pm today for 2 people.
 USER:Yup, that's correct.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Alameda', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Angel Fish', 'time': '13:15'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Alameda', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Angel Fish', 'time': '13:15'}"
 1_00061,"USER:I'd like to find a place to eat in this city.
 SYSTEM:What kind of restaurants are you interested in? Which city should I search?
 USER:Look for burger restaurants in Campbell.
@@ -724,7 +724,7 @@ SYSTEM:Please confirm the city you're booking in is Campbell and the date is for
 USER:No the reservation is for 3 people.
 SYSTEM:Please confirm: the reservation you want is for 6:30 pm for 3 people.
 USER:Yes, sounds good.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Campbell', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': ""Effie's Restaurant & Bar"", 'time': '18:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Campbell', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': ""Effie's Restaurant & Bar"", 'time': '18:30'}"
 1_00062,"USER:What would be a good place to eat?
 SYSTEM:What sort of food are you looking for? Mexican, American, etc? And which city should I search in?
 USER:I want some Noodles, and search in Berkeley.
@@ -736,7 +736,7 @@ SYSTEM:What time should the reservation be for?
 USER:11:30 in the morning seems good.
 SYSTEM:Okay, please confirm the details one more time: Booking a table for 2 people at Crave Asia in Berkeley, the reservation should be for 11:30 AM and the date is today, correct?
 USER:Yeah, that's good. Do they serve liquor, and what is their address?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Berkeley', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Crave Asia', 'time': '11:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Berkeley', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Crave Asia', 'time': '11:30'}"
 1_00064,"USER:I need a place to eat.
 SYSTEM:In which city should I search and what type of food are you interested in. Please specify if you want American, Mexican or something else.
 USER:I'm looking for brunch in San Fran.
@@ -754,7 +754,7 @@ SYSTEM:What time would you like me to reserve?
 USER:I need it for 11:00.
 SYSTEM:Please confirm you want me to reserve a table for 2 people at 11 am at Aperto in San Francisco today.
 USER:Yes, perfect. Is it in the very fancy price range?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Aperto', 'time': '11:00'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Aperto', 'time': '11:00'}"
 1_00066,"USER:Do you know a place to eat?
 SYSTEM:Which city are you looking?
 USER:Do you know a place to eat in Petaluma?
@@ -768,7 +768,7 @@ SYSTEM:What time do you want the reservation?
 USER:At 5 pm.
 SYSTEM:You want to make a reservation at 5 pm today for 6 people at Brixx Pizzeria in Petaluma?
 USER:Yes that's right. What's the address?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Petaluma', 'date': '2019-03-01', 'party_size': '6', 'restaurant_name': 'Brixx Pizzeria', 'time': '17:00'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Petaluma', 'date': '2019-03-01', 'party_size': '6', 'restaurant_name': 'Brixx Pizzeria', 'time': '17:00'}"
 1_00070,"USER:I think dining out will be a wonderful thing. Look for a suitable place please.
 SYSTEM:Do you prefer any city and what should be the menu?
 USER:It will be fine at San Francisco and pizza and pasta will cherish me.
@@ -782,7 +782,7 @@ SYSTEM:It is ok, now verify for 3 people on day after tomorrow.
 USER:will you make it at 11:30 am on 7th of March?
 SYSTEM:The details of reservation are, time 11:30 am on next Thursday.
 USER:Ok, its fine. thank you.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-07', 'party_size': '3', 'restaurant_name': '54 Mint Ristorante Italiano', 'time': '11:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Francisco', 'date': '2019-03-07', 'party_size': '3', 'restaurant_name': '54 Mint Ristorante Italiano', 'time': '11:30'}"
 1_00071,"USER:I am meeting a friend for food later. Can you find me a pricey place nearby?
 SYSTEM:Are you looking for Mexican, American, or some other type of food?
 USER:A place with pasta will be perfect?
@@ -804,7 +804,7 @@ SYSTEM:To confirm, the reservation is at Cala in San Francisco at 1 pm next Thur
 USER:Please change it to a quarter past 12 in the afternoon.
 SYSTEM:To confirm, the reservation is at 12:15 pm for 2 people.
 USER:Yes, that is good. Do they have live music?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-07', 'party_size': '2', 'restaurant_name': 'Cala', 'time': '12:15'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Francisco', 'date': '2019-03-07', 'party_size': '2', 'restaurant_name': 'Cala', 'time': '12:15'}"
 1_00073,"USER:I would like to eat at outside, can you find some nice place?
 SYSTEM:Do you like any particular kind of food like Italian, Chinese or any other?
 USER:Yes, some salad type food with low-cost will be perfect. Also I need live music there.
@@ -824,7 +824,7 @@ SYSTEM:Please confirm to book the table for 1 person in San Jose.
 USER:Sorry, please change it to 3 persons and the date will be 2nd of March.
 SYSTEM:Please confirm to book the table for 3 persons on tomorrow.
 USER:Yes, that is correct. continue.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Jose', 'date': '2019-03-02', 'party_size': '3', 'restaurant_name': ""Mcdonald's"", 'time': '11:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Jose', 'date': '2019-03-02', 'party_size': '3', 'restaurant_name': ""Mcdonald's"", 'time': '11:30'}"
 1_00076,"USER:Where can I go to eat that also serves alcohol?
 SYSTEM:Are you looking for American or Chinese food, or something else?
 USER:I want to go somewhere where I can get a reasonably priced burger.
@@ -836,7 +836,7 @@ SYSTEM:When would you like the reservation for?
 USER:Half past 1 in the afternoon will be fine.
 SYSTEM:I have booked a table for 2 at B&b Kitchen & Wine Bar for today at 1:30 pm in Berkeley. Is this correct?
 USER:That sounds great. Is there live music and where are they located.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Berkeley', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'B&b Kitchen & Wine Bar', 'time': '13:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Berkeley', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'B&b Kitchen & Wine Bar', 'time': '13:30'}"
 1_00080,"USER:I would like to eat out side this time, can you search for a nice place?
 SYSTEM:Yes, of course, which City do you like to eat? any preference?
 USER:Ya, I like to eat at some nice place in Calistoga.
@@ -850,7 +850,7 @@ SYSTEM:at what time?
 USER:1:30 in the afternoon will be fine.
 SYSTEM:Please confirm: Booking for a table for 4 persons at Soo Yuan Restaurant in Calistoga at 1:30 pm today.
 USER:Yes, that will be fine.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Calistoga', 'date': '2019-03-01', 'party_size': '4', 'restaurant_name': 'Soo Yuan Restaurant', 'time': '13:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Calistoga', 'date': '2019-03-01', 'party_size': '4', 'restaurant_name': 'Soo Yuan Restaurant', 'time': '13:30'}"
 1_00082,"USER:Can you recommend a restaurant where I can go for a meal.
 SYSTEM:Would you like me to search by any particular type of cuisine and city?
 USER:I would like a reasonably priced restaurant that serves Sushi in San Rafael.
@@ -866,7 +866,7 @@ SYSTEM:What time would you like me to make the reservation for?
 USER:I would like to reserve for 7 in the evening for Monday next week.
 SYSTEM:Excellent. Can you make a reservation at Yet Wah Restaurant in San Rafael for 7 pm next Monday for 2 people?
 USER:Sure, that's perfect.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Rafael', 'date': '2019-03-04', 'party_size': '2', 'restaurant_name': 'Yet Wah Restaurant', 'time': '19:00'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Rafael', 'date': '2019-03-04', 'party_size': '2', 'restaurant_name': 'Yet Wah Restaurant', 'time': '19:00'}"
 1_00086,"USER:Give me a place to eat at.
 SYSTEM:Which city should I search? Is there a specific food type you would like to eat, such as American or Italian?
 USER:San Bruno, I am looking for low priced, Taiwanese food.
@@ -882,7 +882,7 @@ SYSTEM:I found 1 restaurant: Ming's in San Bruno.
 USER:That works. I'd like to make a reservation at half past 12 in the afternoon for 6 people.
 SYSTEM:Please confirm: I am booking a table at Ming's, in San Bruno. The reservation is for 6 people, today at 12:30 pm.
 USER:Correct. What is their address?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Bruno', 'date': '2019-03-01', 'party_size': '6', 'restaurant_name': ""Ming's"", 'time': '12:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Bruno', 'date': '2019-03-01', 'party_size': '6', 'restaurant_name': ""Ming's"", 'time': '12:30'}"
 1_00087,"USER:I am looking for a Greek place to eat please.
 SYSTEM:Which city should I search in?
 USER:Please locate one in San Carlos.
@@ -896,7 +896,7 @@ SYSTEM:What time would you like?
 USER:Please make if for 12:45.
 SYSTEM:Please confirm the following: Booking a table for 2 today at Thai Time in the city of San Carlos for 12:45 pm.
 USER:Yes, that is correct. Can you please provide me their phone number and address?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Carlos', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Thai Time', 'time': '12:45'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Carlos', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Thai Time', 'time': '12:45'}"
 1_00088,"USER:Please help me find a restaurant.
 SYSTEM:Please name the city I should search.
 USER:I am looking for a restaurant in Petaluma.
@@ -910,7 +910,7 @@ SYSTEM:Please confirm your reservation details: Reservation for 1 person at 1:15
 USER:Actually, no. Make it the 13th of this month for 3 people.
 SYSTEM:Please confirm your reservation details: March 13th for 3 people.
 USER:Yes, that's correct. Does this restaurant serve liquor?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Petaluma', 'date': '2019-03-13', 'party_size': '3', 'restaurant_name': 'Flowering Tea House', 'time': '13:15'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Petaluma', 'date': '2019-03-13', 'party_size': '3', 'restaurant_name': 'Flowering Tea House', 'time': '13:15'}"
 1_00091,"USER:I want to get something to eat, something that's pricey, help me look for a place.
 SYSTEM:What city would you like me to search in?
 USER:Search in Pleasanton.
@@ -924,7 +924,7 @@ SYSTEM:What time would you like the reservation for?
 USER:I want it to be at 13:45.
 SYSTEM:Okay, I'll make you a reservation for 2 at Baci Bistro And Bar in Pleasanton at 1:45 pm today, is that correct?
 USER:Yeah, that's correct. Also, what's their address, and do they serve liquor there?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Pleasanton', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Baci Bistro And Bar', 'time': '13:45'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Pleasanton', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Baci Bistro And Bar', 'time': '13:45'}"
 1_00092,"USER:I'm hungry, do you have any recommendations on where to eat?
 SYSTEM:Where are you looking for to eat? What type of food do you want? Do you want American, Indian, or some other cuisine?
 USER:I'm craving some Sushi in San Francisco if possible.
@@ -940,7 +940,7 @@ SYSTEM:Please confirm: Making a reservation for 3 people today at 12 pm at 2g Ja
 USER:In second though I want it to be at 12:30 in the afternoon.
 SYSTEM:Making a reservation for 3 people today at 12:30 pm at 2g Japanese Brasserie in San Francisco.
 USER:That is correct. What is the address of the restaurant?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': '2g Japanese Brasserie', 'time': '12:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '3', 'restaurant_name': '2g Japanese Brasserie', 'time': '12:30'}"
 1_00094,"USER:What's a good place to grab a bite?
 SYSTEM:What type of food. Italian? Indian?
 USER:I'm in the mood for a burger.
@@ -952,7 +952,7 @@ SYSTEM:For what time?
 USER:1 in the afternoon.
 SYSTEM:Mcdonald's in Vallejo for 2 at 1 pm today. Correct?
 USER:Yes, that is correct.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'Vallejo', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Mcdonald's"", 'time': '13:00'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'Vallejo', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': ""Mcdonald's"", 'time': '13:00'}"
 1_00095,"USER:I'm searching for a place to dine at.
 SYSTEM:What metropolis should I look in, and what types of food do you want?
 USER:I'd like for a moderate costing meal in Mountain View, preferably French.
@@ -968,7 +968,7 @@ SYSTEM:When would you like the booking for?
 USER:Put it for morning 10:30.
 SYSTEM:Please verify the following information: Reserve a table for 2 people at Amelie San Francisco for 10:30 am today in San Francisco.
 USER:Yeah, that's what I want. Can you give me their phone number?
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Amelie San Francisco', 'time': '10:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': 'Amelie San Francisco', 'time': '10:30'}"
 1_00097,"USER:what can I have for breakfast
 SYSTEM:There is American, Chinese, or anything else what do you want to eat?
 USER:Anyone that is burger like in nature
@@ -980,7 +980,7 @@ SYSTEM:when do u want it booked?
 USER:evening 4:45 is perfect
 SYSTEM:booking table at 1760, city San francisco, time 4:45 pm, date today, reservation for 2 people. Confirm the details above
 USER:That is okay with me
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': '1760', 'time': '16:45'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Francisco', 'date': '2019-03-01', 'party_size': '2', 'restaurant_name': '1760', 'time': '16:45'}"
 1_00099,"USER:I am looking for a restaurant.
 SYSTEM:What kind of food do you want? What city are you in?
 USER:I am looking for asian food in SFO.
@@ -1000,191 +1000,191 @@ SYSTEM:Please confirm you want the reservation in San Francisco on March 14th.
 USER:Actually, we are going as a group of three.
 SYSTEM:Please confirm you want a reservation for 3 people on March 14th.
 USER:That is correct.
-",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']","[{'method': 'ReserveRestaurant', 'parameters': {'city': 'San Francisco', 'date': '2019-03-14', 'party_size': '3', 'restaurant_name': 'Chaat Corner', 'time': '19:30'}}]"
+",['Restaurants_1'],"['ReserveRestaurant', 'FindRestaurants']",ReserveRestaurant,"{'city': 'San Francisco', 'date': '2019-03-14', 'party_size': '3', 'restaurant_name': 'Chaat Corner', 'time': '19:30'}"
 41_00051,"USER:Could you find me hotels?
 SYSTEM:Which area would you like to search in?
 USER:I want to find hotels in Kuala Lumpur.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Kuala Lumpur'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'Kuala Lumpur'}
 41_00052,"USER:Can you look for hotels for me?
 SYSTEM:Where would you like to stay?
 USER:I'm looking for hotels in Vancouver.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Vancouver'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'Vancouver'}
 41_00053,"USER:I'd like to book a hotel room in SD, can you help me find some?
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'San Diego'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'San Diego'}
 41_00054,"USER:I have the necessity to book 1 hotel room.
 SYSTEM:okay, can you be more specific about the area?
 USER:Yes, look in New York area.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'New York', 'number_of_rooms': '1'}"
 41_00055,"USER:I need to travel for a business trip . Will you find me some good hotels around Atlanta where pets are allowed?
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Atlanta', 'pets_welcome': 'True'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'Atlanta', 'pets_welcome': 'True'}"
 41_00056,"USER:I need to book a hotel room. Can you find me one?
 SYSTEM:Sure. What city are you staying in?
 USER:I'm going to San Diego.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'San Diego'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'San Diego'}
 41_00057,"USER:I'm going on a trip. Can you find me a hotel?
 SYSTEM:Sure, where will you be going?
 USER:I'll be going to Sydney.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Sydney'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'Sydney'}
 41_00058,"USER:I want to go to some nice hotels, can you help me to find one?
 SYSTEM:Do you have any preferred area to search for the hotels?
 USER:Please search it around London, UK, that will be perfect for me.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'London'}
 41_00059,"USER:search hotels for me please.
 SYSTEM:sure, no problem. What area would you prefer I search?
 USER:Please search Paris.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Paris'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'Paris'}
 41_00060,"USER:Could you help me search for a hotel, please?
 SYSTEM:What area would you like me to search?
 USER:Search in London, UK.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'London'}
 41_00061,"USER:Hi, it's my wife and I'd anniversary and we'd like to go to London. Can you find me some hotels around there?
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'London'}
 41_00062,"USER:I wish to search for hotels around SFO. Could you please help me?
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'San Francisco'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'San Francisco'}
 41_00063,"USER:Hello! My name is William. I've a trip to London, UK for a couple of days. I would love if you can help me to find some good hotels around London and book two rooms for me.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London', 'number_of_rooms': '2'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'London', 'number_of_rooms': '2'}"
 41_00064,"USER:I'm interested in finding a hotel. Can you help?
 SYSTEM:Yes, I'd love to help. Where are you looking to stay?
 USER:I will be staying in the Phoenix, AZ area.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Phoenix'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'Phoenix'}
 41_00065,"USER:Hey, I just got the news that I my vacation days have been approved. Now, I sure could use your help to pull up some hotel options, if you please.
 SYSTEM:I'll be glad to offer you some hotel options. In what city would you like me to search?
 USER:Let's go for hotels around London, England.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'London'}
 41_00066,"USER:I want to book 1 hotel room.
 SYSTEM:In which area.
 USER:Around NY.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'New York', 'number_of_rooms': '1'}"
 41_00067,"USER:Can you help me find hotels in New York?
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'New York'}
 41_00068,"USER:Can you help me to search for Hotels around London, UK, I may need 2 rooms?
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London', 'number_of_rooms': '2'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'London', 'number_of_rooms': '2'}"
 41_00069,"USER:can you help me to search some hotels? I need one rooms to book.
 SYSTEM:Whats your prefered area?
 USER:I need the hotels around Toronto, Canada
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Toronto', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'Toronto', 'number_of_rooms': '1'}"
 41_00070,"USER:I would like to find a hotel.
 SYSTEM:In what city are you looking for a hotel
 USER:I would like to find a hotel in the SD area.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'San Diego'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'San Diego'}
 41_00071,"USER:Hi, Good morning. How are you doing today? I would like to make a reservation for this week end. Do you have vacancies in some good hotels?
 SYSTEM:Good Morning. Doing good. How about you? Do you have any area preference to stay in?
 USER:Yup! I would prefer to stay in a good hotel around Paris, France that has a good customer reviews and rating.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Paris'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'Paris'}
 41_00072,"USER:I would like to find a hotel to sleep in, so can you help with that?
 SYSTEM:Do you have a specific area in mind for where I should look for?
 USER:I would like to find a hotel which is somewhere in Sydney, NSW.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Sydney'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'Sydney'}
 41_00073,"USER:Search Hotels, I need to book one room please.
 SYSTEM:Sure, No problem. What are would you like me to search?
 USER:Located hotels close to London, England please.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'London', 'number_of_rooms': '1'}"
 41_00074,"USER:I'm looking for some hotels.
 SYSTEM:What area are you interested in?
 USER:I need a hotel in Sydney, Australia.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Sydney'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'Sydney'}
 41_00075,"USER:Could you help me find hotels?
 SYSTEM:In what area would you like to find hotels?
 USER:I need hotels around LA.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'Los Angeles'}
 41_00076,"USER:I'm going on a trip soon. Can you help me book a hotel?
 SYSTEM:Sure, where are you going?
 USER:I need one room that's pet-friendly somewhere around Atlanta.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Atlanta', 'number_of_rooms': '1', 'pets_welcome': 'True'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'Atlanta', 'number_of_rooms': '1', 'pets_welcome': 'True'}"
 41_00077,"USER:I need some help finding a hotel.
 SYSTEM:What city do you want to look in?
 USER:I just want one room in London, England.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'London', 'number_of_rooms': '1'}"
 41_00078,"USER:We have to arrange a party in the hotel for my relatives on a memorable occasion. Is there any suitable hotel to book 2 rooms.
 SYSTEM:Are you particular with any area?
 USER:It would be better in SFO.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'San Francisco', 'number_of_rooms': '2'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'San Francisco', 'number_of_rooms': '2'}"
 41_00079,"USER:Please help me find a hotel. I need to book 1 room.
 SYSTEM:I can do that. In what area do you want to stay?
 USER:I need a hotel in London, UK please.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'London', 'number_of_rooms': '1'}"
 41_00080,"USER:Can you search for some hotels for me?
 SYSTEM:Which area you need me to look in?
 USER:I require hotels around New York City
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'New York'}
 41_00081,"USER:Can you search some hotels for me? I want to search around Paris, France
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Paris'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'Paris'}
 41_00082,"USER:Will you help me find hotels?
 SYSTEM:Where?
 USER:Around London, UK.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'London'}
 41_00083,"USER:Due to certain reasons I have to dine outside. Can you find a suitable hotel for me?
 SYSTEM:Where do you want to dine at?
 USER:Around New York City.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'New York'}
 41_00084,"USER:In want to find some hotels in KL, can you find for me?
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Kuala Lumpur'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'Kuala Lumpur'}
 41_00085,"USER:I need help finding a hotel.
 SYSTEM:In which area?
 USER:Around NYC.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'New York'}
 41_00086,"USER:I'm going on a short trip with my boyfriend. Can you find me some hotels?
 SYSTEM:In which city?
 USER:Paris, France. Please.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Paris'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'Paris'}
 41_00087,"USER:Please get me a room.
 SYSTEM:Where will you travel to?
 USER:London England please.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'London'}
 41_00088,"USER:I want to go out of town. I need to find a hotel.
 SYSTEM:Which city would you like me to look in?
 USER:I need two rooms in a hotel in NY.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York', 'number_of_rooms': '2'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'New York', 'number_of_rooms': '2'}"
 41_00089,"USER:I need a hotel around London
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'London'}
 41_00090,"USER:I will be having some vacations so I need you to find me some hotels which I can stay in. Though the hotels I am looking for should allow the pets because I have a cat.
 SYSTEM:Do you have a specific are where you would like the hotel to be in?
 USER:I will be having the vacations in Portland, OR so I would like for the hotel to be there.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Portland', 'pets_welcome': 'True'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'Portland', 'pets_welcome': 'True'}"
 41_00091,"USER:Would you look for some hotels for me?
 SYSTEM:What is your desired search area?
 USER:I'd like to find some hotels near SD.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'San Diego'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'San Diego'}
 41_00092,"USER:Hello, Good Evening. I would like to book 2 room for next week. Can you help me to find some good hotels?
 SYSTEM:Sure, Madam. May I know the specific area you would prefer to stay?
 USER:Please can you locate some good hotels in and around Vancouver?
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Vancouver', 'number_of_rooms': '2'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'Vancouver', 'number_of_rooms': '2'}"
 41_00093,"USER:Could you find me some hotels? I need 1 room, where pets are allowed.
 SYSTEM:Where would you like me to search?
 USER:I'd like hotels near LAX.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Los Angeles', 'number_of_rooms': '1', 'pets_welcome': 'True'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'Los Angeles', 'number_of_rooms': '1', 'pets_welcome': 'True'}"
 41_00094,"USER:Could you find me some hotels?
 SYSTEM:Where should i search?
 USER:I'd like to search NYC.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'New York'}
 41_00095,"USER:I need to book one hotel room
 SYSTEM:Sure. What city?
 USER:A hotel in NYC
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'New York', 'number_of_rooms': '1'}"
 41_00096,"USER:I want to stay in a hotel.
 SYSTEM:Where are you traveling to?
 USER:I will be staying in London, UK.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'London'}
 41_00097,"USER:Could you find some hotels for me?
 SYSTEM:In which area should I look for hotels?
 USER:I need hotels in London, UK.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'London'}
 41_00098,"USER:Have you ever wondered what birthday gift to get the guy who has everything? That's the question I have today, my friend. However, I think I have an idea. Can you help me with some recommendations for a hotel? I want to get him a room in a nice hotel as a surprise.
 SYSTEM:Okay. I can help you with that. In what city do you want to search for the hotel?
 USER:I'm thinking a hotel in London would be fantastic.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'London'}
 41_00099,"USER:Please help me find a hotel.
 SYSTEM:I can do that. In what area would you like a hotel?
 USER:I am looking for hotels near Paris, France.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'Paris'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'Paris'}
 41_00100,"USER:I wish to go for excursion along with my friends. Will you find me some good two rooms?
 SYSTEM:Which area i need to find?
 USER:I am willing to go to London, so please find it over there?
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'London', 'number_of_rooms': '2'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,"{'location': 'London', 'number_of_rooms': '2'}"
 41_00101,"USER:I need help locating some hotels.
 SYSTEM:What area are you interested in?
 USER:NY is my area of interest.
-",['Hotels_3'],['SearchHotel'],"[{'method': 'SearchHotel', 'parameters': {'location': 'New York'}}]"
+",['Hotels_3'],['SearchHotel'],SearchHotel,{'location': 'New York'}
 40_00099,"USER:I would like to make a reservation at Springhill Suites Fresno.
 SYSTEM:What date would you like to check in and what area shall I search in?
 USER:Check in on 11th of this month and search around Fresno.
@@ -1192,7 +1192,7 @@ SYSTEM:What date will you be checking out?
 USER:Check out on the 14th.
 SYSTEM:Ok, you would like to make a reservation for 1 room at Springhill Suites By Marriott Fresno in Fresno, checking in on March 11th and checking out on March 14th. Is that correct?
 USER:Yes, that is correct. Could you tell me the rating of this hotel?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-11', 'check_out_date': '2019-03-14', 'hotel_name': 'Springhill Suites By Marriott Fresno', 'location': 'Fresno', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-11', 'check_out_date': '2019-03-14', 'hotel_name': 'Springhill Suites By Marriott Fresno', 'location': 'Fresno', 'number_of_rooms': '1'}"
 40_00100,"USER:It just came up in my mind that I need to make a hotel reservation and I need an assistant in doing so.
 SYSTEM:Have you also thought about the hotel you want to stay in? And what about the check in date?
 USER:Yes, check for vacancies at Novotel London Tower Bridge for wednesday next week.
@@ -1202,7 +1202,7 @@ SYSTEM:When do you think you'll check out?
 USER:On the 13th of this month, I guess.
 SYSTEM:Roger that, tell me if I got this right. You want me to make a reservation for 1 room at Novotel London Tower Bridge Hotel in London. Check in is due next Wednesday and check out is March 13th.
 USER:Yes, I can confirm you that. Is the hotel pet friendly?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-06', 'check_out_date': '2019-03-13', 'hotel_name': 'Novotel London Tower Bridge Hotel', 'location': 'London', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-06', 'check_out_date': '2019-03-13', 'hotel_name': 'Novotel London Tower Bridge Hotel', 'location': 'London', 'number_of_rooms': '1'}"
 40_00101,"USER:I want to make a hotel reservation at Chicago Lake Shore checking in the 2nd of this month.
 SYSTEM:Okay, what city do you want me to search for hotels?
 USER:I want to find hotels near Chi-town.
@@ -1214,7 +1214,7 @@ SYSTEM:Okay, I have 2 rooms at The Westin San Diego Gaslamp Quarter.
 USER:No, I want hotels around SD and I need three rooms.
 SYSTEM:Okay, the hotel in San Diego for 3 rooms.
 USER:Yes, that is correct.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-02', 'check_out_date': '2019-03-07', 'hotel_name': 'The Westin San Diego Gaslamp Quarter', 'location': 'San Diego', 'number_of_rooms': '3'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-02', 'check_out_date': '2019-03-07', 'hotel_name': 'The Westin San Diego Gaslamp Quarter', 'location': 'San Diego', 'number_of_rooms': '3'}"
 40_00102,"USER:Hi, Good morning, how are you doing? I would be travelling for a business meeting and would like to make a hotel reservation. Can you assist me?
 SYSTEM:Sure! What facilities you look for? Which would be the best location for you to stay in?
 USER:I would like to have Free-Wifi and In-room accessibility and please let me know if the Holiday Inn Express London have those options, for I wish to stay there?
@@ -1224,7 +1224,7 @@ SYSTEM:When are you planning to check-in?
 USER:Probably by Tuesday next week.
 SYSTEM:Okay! So, you wish to make your reservation at Holiday Inn Express London - Excel, located in London and you be arriving the hotel by next Tuesday and leaving by next Friday and the confirmation will be for 1 room. Is that right?
 USER:Yup! perfect.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-05', 'check_out_date': '2019-03-08', 'hotel_name': 'Holiday Inn Express London - Excel', 'location': 'London', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-05', 'check_out_date': '2019-03-08', 'hotel_name': 'Holiday Inn Express London - Excel', 'location': 'London', 'number_of_rooms': '1'}"
 40_00103,"USER:I would like to book a hotel check out on March 12th
 SYSTEM:Where would you like to stay and when would you like to check in
 USER:I want to stay in around Paris and check in on March 1st
@@ -1236,7 +1236,7 @@ SYSTEM:Please confirm your booking: 1 room checking in next Monday
 USER:No, please search in LAX area for SLS hotel
 SYSTEM:Please confirm your booking with SLS Hotel, A Luxury Collection Hotel, Beverly Hills in Los Angeles
 USER:Yes thats right
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-04', 'check_out_date': '2019-03-12', 'hotel_name': 'Sls Hotel, A Luxury Collection Hotel, Beverly Hills', 'location': 'Los Angeles', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-04', 'check_out_date': '2019-03-12', 'hotel_name': 'Sls Hotel, A Luxury Collection Hotel, Beverly Hills', 'location': 'Los Angeles', 'number_of_rooms': '1'}"
 40_00104,"USER:I would like to book 1 room at a hotel.
 SYSTEM:What dates would you like to arrive and leave?
 USER:I want to arrive on the 5th and leave on the 13th of March.
@@ -1246,7 +1246,7 @@ SYSTEM:Where would you like the hotel to be?
 USER:In Anaheim, CA.
 SYSTEM:Let me make sure I have this right. You want to reserve 2 rooms in Anaheim at the Travelodge Anaheim Inn And Suite. Check in will be next Tuesday and check out would be March 13th. Is that correct?
 USER:Yes that is correct. What number can I use to reach the hotel?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-05', 'check_out_date': '2019-03-13', 'hotel_name': 'Travelodge Anaheim Inn And Suite', 'location': 'Anaheim', 'number_of_rooms': '2'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-05', 'check_out_date': '2019-03-13', 'hotel_name': 'Travelodge Anaheim Inn And Suite', 'location': 'Anaheim', 'number_of_rooms': '2'}"
 40_00105,"USER:I would like to book a hotel room
 SYSTEM:When would you like to check in and check out? What hotel are you looking to stay?
 USER:I would like to stay with Holiday Inn Paris and checking in on March 9th , check out on 12th of March
@@ -1258,7 +1258,7 @@ SYSTEM:Please confirm your booking checking in on the day after tomorrow and che
 USER:Please disregard and look for two rooms with Radisson Admiral Hotel Toronto-Harbourfront
 SYSTEM:I got you booked with Radisson Admiral Hotel Toronto-Harbourfront with 2 rooms
 USER:thats great
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-03', 'check_out_date': '2019-03-13', 'hotel_name': 'Radisson Admiral Hotel Toronto-Harbourfront', 'location': 'Paris', 'number_of_rooms': '2'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-03', 'check_out_date': '2019-03-13', 'hotel_name': 'Radisson Admiral Hotel Toronto-Harbourfront', 'location': 'Paris', 'number_of_rooms': '2'}"
 40_00106,"USER:I am planning to book a hotel in the Sydney, Australia area.
 SYSTEM:When would be checking in and what hotel are you look for?
 USER:I think I prefer the Ibis Sydney World Square. I would be checking out on March 14th.
@@ -1266,7 +1266,7 @@ SYSTEM:When is your checking-in date?
 USER:I would be checking in on the 2nd of this month.
 SYSTEM:Let me confirm if I got it right. You want to make a reservation at the Ibis Sydney World Square which is located in Sydney. You would be checking in tomorrow and checking out on March 14th. You would be booking 1 room.
 USER:Yes. That is correct.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-02', 'check_out_date': '2019-03-14', 'hotel_name': 'Ibis Sydney World Square', 'location': 'Sydney', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-02', 'check_out_date': '2019-03-14', 'hotel_name': 'Ibis Sydney World Square', 'location': 'Sydney', 'number_of_rooms': '1'}"
 40_00107,"USER:I'd like to make a hotel reservation, please.
 SYSTEM:When would you like to check out? Which hotel would you like to stay in?
 USER:I'd like to stay at Citadines OpeRa Paris (Apart Hotel Paris). I'd like to check out on March 11th.
@@ -1274,7 +1274,7 @@ SYSTEM:And when will you check in? What area would you like to search in?
 USER:I'd like to find hotels around Paris, and check in on the 4th of this month.
 SYSTEM:Please confirm: You'd like a reservation at Citadines OpeRa Paris (Apart Hotel Paris), which is located in Paris. You'll check-in next Monday, and check out on March 11th. You'd like to book 1 room.
 USER:Yes, that's great. What's the hotel's rating?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-04', 'check_out_date': '2019-03-11', 'hotel_name': 'Citadines OpeRa Paris (Apart Hotel Paris)', 'location': 'Paris', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-04', 'check_out_date': '2019-03-11', 'hotel_name': 'Citadines OpeRa Paris (Apart Hotel Paris)', 'location': 'Paris', 'number_of_rooms': '1'}"
 40_00108,"USER:Hey there. I need to make a hotel reservation on March 4th for a business trip.
 SYSTEM:Sure. Where you want to book a hotel? When will you be leaving?
 USER:I need one in Seattle, WA. I'll be coming back on March 13th.
@@ -1282,7 +1282,7 @@ SYSTEM:Which hotel would you prefer to stay at?
 USER:I really like the Even Hotel Seattle Downtown.
 SYSTEM:Okay. I can book 1 room at the Even Hotel Seattle Downtown - Lake Union in Seattle next Monday. You would be checking out on March 13th. Does that sound right?
 USER:Sounds great. What is their number?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-04', 'check_out_date': '2019-03-13', 'hotel_name': 'Even Hotel Seattle Downtown - Lake Union', 'location': 'Seattle', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-04', 'check_out_date': '2019-03-13', 'hotel_name': 'Even Hotel Seattle Downtown - Lake Union', 'location': 'Seattle', 'number_of_rooms': '1'}"
 40_00109,"USER:I want to stay in a hotel. Please find hotels in Paris, France.
 SYSTEM:What's your check-in date?
 USER:March 12th.
@@ -1290,7 +1290,7 @@ SYSTEM:What hotel would you like to stay in and what day do you plan on checking
 USER:I want to stay at the Renaissance Paris Vendome and check out on the 13th of March.
 SYSTEM:Please confirm the reservation details: 1 room at the Renaissance Paris Vendome Hotel in Paris. Your check-in date is March 12th and your check-out date is March 13th.
 USER:Yes, that works. What is the hotel address?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-12', 'check_out_date': '2019-03-13', 'hotel_name': 'Renaissance Paris Vendome Hotel', 'location': 'Paris', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-12', 'check_out_date': '2019-03-13', 'hotel_name': 'Renaissance Paris Vendome Hotel', 'location': 'Paris', 'number_of_rooms': '1'}"
 40_00110,"USER:Hello! Nancy here! I'm going for a vacation for about one and half weeks and looking for some good hotels. Please can you help me to reserve some good rooms in some good hotels?
 SYSTEM:Sure! I can do that for you? How long will be your stay and when will be your check-in date? Do you any location preference for your stay?
 USER:Yup! I'm looking for good hotels in Paris. I will be there by 13th of this month and stay till 2nd of this month.
@@ -1298,7 +1298,7 @@ SYSTEM:Fine. Do you prefer good rating hotels? In which hotel you wish to make y
 USER:Will rooms be available at Kyriad Paris Bercy Village?
 SYSTEM:Yup! Rooms are available. Confirm me that you wish to stay at Kyriad Paris Bercy Village hotel in Paris from tomorrow till March 13th and you wish to book 1 room in your name. Is that right? Please can I have your credit card details for booking?
 USER:Yup, sounds good. I've pinged you the credit card details..
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-02', 'check_out_date': '2019-03-13', 'hotel_name': 'Kyriad Paris Bercy Village', 'location': 'Paris', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-02', 'check_out_date': '2019-03-13', 'hotel_name': 'Kyriad Paris Bercy Village', 'location': 'Paris', 'number_of_rooms': '1'}"
 40_00111,"USER:Hello, can you help me make a hotel reservation?
 SYSTEM:Do you have a specific city you would like to search in? Or a specific hotel?
 USER:I was thinking about staying at the Hilton Garden Inn Mccormick Place, but I am interested in finding hotels in Chicago.
@@ -1308,7 +1308,7 @@ SYSTEM:Please confirm the following details: The reservation will be for the Hil
 USER:Actually, can I reserve a room at the Extended Stay America Orange County? My check-out date would be on the 12th of March.
 SYSTEM:Please confirm: The reservation is for the Extended Stay America Orange County - Anaheim Convention Center. Check out date is March 12th.
 USER:Yes, that is correct.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-04', 'check_out_date': '2019-03-12', 'hotel_name': 'Extended Stay America Orange County - Anaheim Convention Center', 'location': 'Chicago', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-04', 'check_out_date': '2019-03-12', 'hotel_name': 'Extended Stay America Orange County - Anaheim Convention Center', 'location': 'Chicago', 'number_of_rooms': '1'}"
 40_00112,"USER:I want to make a hotel reservation for Saturday this week
 SYSTEM:Ok great, where are you travelling? What is the check out date?
 USER:I am going to Portland, OR, and I want to check out on the 12th
@@ -1316,7 +1316,7 @@ SYSTEM:What hotel do you want?
 USER:The Crowne Plaza Portland-Downtown Conv Ctr.
 SYSTEM:Just to confirm, you want to book 1 room at the The Crowne Plaza Portland-Downtown Conv Ctr in Portland. Check in is tomorrow and check out is March 12th?
 USER:Sounds great, what is the cost?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-02', 'check_out_date': '2019-03-12', 'hotel_name': 'Crowne Plaza Portland-Downtown Conv Ctr', 'location': 'Portland', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-02', 'check_out_date': '2019-03-12', 'hotel_name': 'Crowne Plaza Portland-Downtown Conv Ctr', 'location': 'Portland', 'number_of_rooms': '1'}"
 40_00113,"USER:I need to make a hotel reservation.
 SYSTEM:What hotel? What is your check-in and check-out date?
 USER:I want to stay at the Tropicana Inn beginning on Sunday this week and checking out the 9th of March.
@@ -1324,7 +1324,7 @@ SYSTEM:What area do you need to search?
 USER:I want hotels in Anaheim.
 SYSTEM:Please confirm, reservation for 1 room at Tropicana Inn & Suites in Anaheim. Checking in the day after tomorrow, leaving March 9th.
 USER:Yes, that is perfect.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-03', 'check_out_date': '2019-03-09', 'hotel_name': 'Tropicana Inn & Suites', 'location': 'Anaheim', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-03', 'check_out_date': '2019-03-09', 'hotel_name': 'Tropicana Inn & Suites', 'location': 'Anaheim', 'number_of_rooms': '1'}"
 40_00114,"USER:I have to book a room in the hotel
 SYSTEM:In which hotel? What is the expected arrival and departure date?
 USER:I would love to stay at Timhotel Paris Place D'Italie; check in on 3rd of March and chec out on March 10th
@@ -1332,7 +1332,7 @@ SYSTEM:In which area should I search?
 USER:Around Paris, thank you
 SYSTEM:1 rooms at Timhotel Paris Place D'Italie in Paris, check-in day after tomorrow, check-out March 10th: it's correct?
 USER:Yes, It is. Can you give me the phone number and the hotel address?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-03', 'check_out_date': '2019-03-10', 'hotel_name': ""Timhotel Paris Place D'Italie"", 'location': 'Paris', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-03', 'check_out_date': '2019-03-10', 'hotel_name': ""Timhotel Paris Place D'Italie"", 'location': 'Paris', 'number_of_rooms': '1'}"
 40_00115,"USER:I want to make a hotel reservation.
 SYSTEM:Which hotel? When do you want to check out?
 USER:The Ac Hotel Chicago, please. I want to check out on the 8th of this month.
@@ -1342,7 +1342,7 @@ SYSTEM:So you want 1 room at the Ac Hotel By Marriott Chicago Downtown in Chicag
 USER:No, actually, I want to check in on the 9th of March.
 SYSTEM:So you want to reserve 1 room and check in on March 9th?
 USER:Yes. What's the phone number of the hotel?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-09', 'check_out_date': '2019-03-08', 'hotel_name': 'Ac Hotel By Marriott Chicago Downtown', 'location': 'Chicago', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-09', 'check_out_date': '2019-03-08', 'hotel_name': 'Ac Hotel By Marriott Chicago Downtown', 'location': 'Chicago', 'number_of_rooms': '1'}"
 40_00116,"USER:I need to reserve 3 rooms at a hotel.
 SYSTEM:Ok, what city would you like to stay in and when will you be checking.
 USER:I would like to stay in London, UK with a check-out date of March 14th.
@@ -1352,7 +1352,7 @@ SYSTEM:Please confirm you would like to reserve 3 rooms at the Travelodge London
 USER:No, I just need one room and would actually like to stay at the Holiday Inn Express.
 SYSTEM:You would like 1 room at the Holiday Inn Express & Suites Hollywood Walk of Fame, is that correct?
 USER:Yes, that would be great.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-01', 'check_out_date': '2019-03-14', 'hotel_name': 'Holiday Inn Express & Suites Hollywood Walk Of Fame', 'location': 'London', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-01', 'check_out_date': '2019-03-14', 'hotel_name': 'Holiday Inn Express & Suites Hollywood Walk Of Fame', 'location': 'London', 'number_of_rooms': '1'}"
 40_00117,"USER:I need to book a hotel room for March 14th.
 SYSTEM:Sure. Do you know which hotel you would like to go to?
 USER:I'd like to go to Amastan Paris.
@@ -1362,7 +1362,7 @@ SYSTEM:When will you be arriving there?
 USER:Today, so the 1st of this month.
 SYSTEM:You want to reserve 1 room at Amastan Paris in Paris from today until March 14th. Is that correct?
 USER:That is perfect.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-01', 'check_out_date': '2019-03-14', 'hotel_name': 'Amastan Paris', 'location': 'Paris', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-01', 'check_out_date': '2019-03-14', 'hotel_name': 'Amastan Paris', 'location': 'Paris', 'number_of_rooms': '1'}"
 40_00118,"USER:Hey. I want to find a hotel in or around San Francisco.
 SYSTEM:Which hotel are you looking for and when do you want to check in and check out?
 USER:I'd like to stay at the Hotel Griffon starting on the 9th of this month and ending on the 11th of this month.
@@ -1370,13 +1370,13 @@ SYSTEM:Alright. So, I'll make a reservation at the Hotel Griffon in San Francisc
 USER:No, actually, change that. I'd like to check in on the 2nd of this month.
 SYSTEM:Okay. So, that's checking in tomorrow for 1 room?
 USER:Yeah, that would work perfectly.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-02', 'check_out_date': '2019-03-11', 'hotel_name': 'Hotel Griffon', 'location': 'San Francisco', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-02', 'check_out_date': '2019-03-11', 'hotel_name': 'Hotel Griffon', 'location': 'San Francisco', 'number_of_rooms': '1'}"
 40_00119,"USER:Please can you check for some good hotels around Portland for I've to visit for a trip?
 SYSTEM:Do you have any preferred hotels? What is the exact date for your check-in? How long are you planning to stay?
 USER:I would be visiting by today and will be leaving on the 13th and I would prefer rooms at Hampton Inn Portland-Airport.
 SYSTEM:I can help you with your reservation for this hotel. Please give me a moment. Here you go! The booking details are - At Hampton Inn Portland-Airport located at Portland you will be checking in by today and leaving by March 13th and the reservation is done for 1 room. Please can you confirm me?
 USER:Yup! You're right. Do they have any contact number to speak with? What about the ratings and customer review of the hotel?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-01', 'check_out_date': '2019-03-13', 'hotel_name': 'Hampton Inn Portland-Airport', 'location': 'Portland', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-01', 'check_out_date': '2019-03-13', 'hotel_name': 'Hampton Inn Portland-Airport', 'location': 'Portland', 'number_of_rooms': '1'}"
 40_00120,"USER:I would like to reserve 1 room at a hotel checking out on March 14th.
 SYSTEM:When will you be arriving at this hotel and do you have a preferred hotel?
 USER:I would like to stay at the Fairfield Inn Central Park hotel and I wll be arriving on March 3rd.
@@ -1384,7 +1384,7 @@ SYSTEM:What area is this hotel located?
 USER:Please search in the NYC area.
 SYSTEM:I have 1 room at the Fairfield Inn & Suites By Marriott New York Manhattan/Central Park locatd in New York city with an arrival date the day after tomorrow and checking out on March 14th.
 USER:That is correct.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-03', 'check_out_date': '2019-03-14', 'hotel_name': 'Fairfield Inn & Suites By Marriott New York Manhattan/Central Park', 'location': 'New York', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-03', 'check_out_date': '2019-03-14', 'hotel_name': 'Fairfield Inn & Suites By Marriott New York Manhattan/Central Park', 'location': 'New York', 'number_of_rooms': '1'}"
 40_00121,"USER:I want to book a room in a hotel.
 SYSTEM:When are your planned check-in and check-out dates? Do you have any preferred hotel?
 USER:I'd like to check in tomorrow and check out on the 13th of March. If Dossier is available, I'd very much prefer that.
@@ -1392,7 +1392,7 @@ SYSTEM:In which area are you planning to stay?
 USER:I'm looking for hotels around Portland, OR.
 SYSTEM:Okay. So you want to book 1 room at the Dossier in Portland where you plan to check in tomorrow and check out on March 13th. Is that correct?
 USER:That sounds good. What is the pet policy of the hotel? What's the rating of Dossier?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-02', 'check_out_date': '2019-03-13', 'hotel_name': 'Dossier', 'location': 'Portland', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-02', 'check_out_date': '2019-03-13', 'hotel_name': 'Dossier', 'location': 'Portland', 'number_of_rooms': '1'}"
 40_00122,"USER:I need a hotel reservation.
 SYSTEM:Where do you want and when are you checking out?
 USER:I need a hotel in NY and want to check out next Tuesday.
@@ -1402,7 +1402,7 @@ SYSTEM:When are you checking in?
 USER:I prefer to arrive next Monday.
 SYSTEM:You want 1 room at the Doubletree By Hilton Hotel New York City - Chelsea in New York starting next Monday and want to leave next Tuesday. Is that right?
 USER:Yes, that is correct.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-04', 'check_out_date': '2019-03-05', 'hotel_name': 'Doubletree By Hilton Hotel New York City - Chelsea', 'location': 'New York', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-04', 'check_out_date': '2019-03-05', 'hotel_name': 'Doubletree By Hilton Hotel New York City - Chelsea', 'location': 'New York', 'number_of_rooms': '1'}"
 40_00123,"USER:I'm going on a trip, I need to make a hotel reservation for one room.
 SYSTEM:When and where will you be going?
 USER:I'll be going to Philly, arriving later today and leaving on 11th of March.
@@ -1410,7 +1410,7 @@ SYSTEM:Any preference for a hotel?
 USER:I want to stay at Penn'S View Hotel.
 SYSTEM:So I'll reserve 1 room at Penn'S View Hotel in Philadelphia, from today until March 11th. Is that okay?
 USER:Yes, it works for me.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-01', 'check_out_date': '2019-03-11', 'hotel_name': ""Penn'S View Hotel"", 'location': 'Philadelphia', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-01', 'check_out_date': '2019-03-11', 'hotel_name': ""Penn'S View Hotel"", 'location': 'Philadelphia', 'number_of_rooms': '1'}"
 40_00124,"USER:I need a room in New York City please.
 SYSTEM:Of course, when do you want to go there?
 USER:I want to check in on the 3rd and check out on the 9th.
@@ -1420,13 +1420,13 @@ SYSTEM:Of course, I have you checking into Hotel Le Bleu in New York day after t
 USER:You heard me wrong, I want to check in on Saturday this week and stay until the 14th of this month. Please change this.
 SYSTEM:Ok, I think I understand, you will check in tomorrow and not leave until March 14th?
 USER:Yes, correct. Please give the hotel rating to me.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-02', 'check_out_date': '2019-03-14', 'hotel_name': 'Hotel Le Bleu', 'location': 'New York', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-02', 'check_out_date': '2019-03-14', 'hotel_name': 'Hotel Le Bleu', 'location': 'New York', 'number_of_rooms': '1'}"
 40_00125,"USER:I need a place to stay until the 14th.
 SYSTEM:what is your preferred hotel choice? What dates do you need?
 USER:My, most favored place is Furama Bukit Bintang in Kuala Lumpur on the 3rd of March.
 SYSTEM:To be clear: 1 room in Furama Bukit Bintang in Kuala Lumpur. Check in is day after tomorrow and check out is March 14th.
 USER:That's the best possible option. What is the rating of that hotel now?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-03', 'check_out_date': '2019-03-14', 'hotel_name': 'Furama Bukit Bintang', 'location': 'Kuala Lumpur', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-03', 'check_out_date': '2019-03-14', 'hotel_name': 'Furama Bukit Bintang', 'location': 'Kuala Lumpur', 'number_of_rooms': '1'}"
 40_00126,"USER:Please reserve a hotel for me.
 SYSTEM:What area and what is check in and check out?
 USER:London, England with check in 5th of March and check out March 8th.
@@ -1434,7 +1434,7 @@ SYSTEM:Do you have a preferred hotel?
 USER:Yes I prefer Travelodge London Farringdon.
 SYSTEM:Please confirm next Tuesday check in and next Friday check out for 1 room at Travelodge London Farringdon in London.
 USER:Yes, I want it and do they accept pets?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-05', 'check_out_date': '2019-03-08', 'hotel_name': 'Travelodge London Farringdon', 'location': 'London', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-05', 'check_out_date': '2019-03-08', 'hotel_name': 'Travelodge London Farringdon', 'location': 'London', 'number_of_rooms': '1'}"
 40_00127,"USER:I want to make a hotel reservation.
 SYSTEM:Where would you like to search the hotel?
 USER:Search for hotels around NYC.
@@ -1442,7 +1442,7 @@ SYSTEM:What will be your preferred hotel, Check-in and check-out date?
 USER:My preferred hotel will be Eurostars Wall Street and the check-in date is on Wednesday next week and the check-out date is 10th of March.
 SYSTEM:Please confirm the details: You want me to make a reservation for 1 room at Eurostars Wall Street in New York from next Wednesday to March 10th
 USER:Yes, That sounds perfect.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-06', 'check_out_date': '2019-03-10', 'hotel_name': 'Eurostars Wall Street', 'location': 'New York', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-06', 'check_out_date': '2019-03-10', 'hotel_name': 'Eurostars Wall Street', 'location': 'New York', 'number_of_rooms': '1'}"
 41_00000,"USER:I'd like to have a hotel booking.
 SYSTEM:When do you anticipate checking in on? What hotel would you list to stay at, and when do you anticipate to check out?
 USER:I'd like to stay at Hotel Indigo Atlanta Downtown, checking in on this Saturday and checking out on the 14th of this month.
@@ -1450,7 +1450,7 @@ SYSTEM:What place would you like me to look in?
 USER:I'd like to search for hotels near Atlanta, GA.
 SYSTEM:Please verify the following information: Make a booking for 1 room at Hotel Indigo Atlanta Downtown, located in Atlanta. The day for checking in is tomorrow, and checking out date is March 14th.
 USER:Yup, that's perfect for me. What is the hotel phone number?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-02', 'check_out_date': '2019-03-14', 'hotel_name': 'Hotel Indigo Atlanta Downtown', 'location': 'Atlanta', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-02', 'check_out_date': '2019-03-14', 'hotel_name': 'Hotel Indigo Atlanta Downtown', 'location': 'Atlanta', 'number_of_rooms': '1'}"
 41_00001,"USER:I would like to make an hotel reservation
 SYSTEM:What hotel in what area would you like to stay? what is your expect check out date?
 USER:I would like to stay in Victory House and check out on the 12th
@@ -1460,7 +1460,7 @@ SYSTEM:When would you like to check-in
 USER:I want to check in on Tuesday next week
 SYSTEM:Please confirm your booking with Victory House, London Leicester Square in London with your check in date next Tuesday and check out on March 12th with 1 room
 USER:Yes that is correct. Are they pet friendly and what is the total cost of the stay
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-05', 'check_out_date': '2019-03-12', 'hotel_name': 'Victory House, London Leicester Square', 'location': 'London', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-05', 'check_out_date': '2019-03-12', 'hotel_name': 'Victory House, London Leicester Square', 'location': 'London', 'number_of_rooms': '1'}"
 41_00002,"USER:I'd like to reserve a hotel room, can you help me with that?
 SYSTEM:I'll need a little more information: what city should I search in, what date would you like to check in, and what date would you like to check out?
 USER:I'd like to look for hotels around Seattle, checking in on the 2nd of March and checking out on the 14th.
@@ -1468,7 +1468,7 @@ SYSTEM:Is there a particular hotel you're interested in?
 USER:I'd like to search at the Travelodge Seattle.
 SYSTEM:To review: You'd like to book 1 hotel room in Seattle, at the Travelodge Seattle By The Space Needle, checking in tomorrow, and checking out on March 14th.
 USER:Yeah, that sounds right - what's the number for the hotel? I might call them.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-02', 'check_out_date': '2019-03-14', 'hotel_name': 'Travelodge Seattle By The Space Needle', 'location': 'Seattle', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-02', 'check_out_date': '2019-03-14', 'hotel_name': 'Travelodge Seattle By The Space Needle', 'location': 'Seattle', 'number_of_rooms': '1'}"
 41_00003,"USER:I would like to have a booking for a hotel to sleep in.
 SYSTEM:When will you be going there?
 USER:I will be going to sleep there on 2nd of March.
@@ -1480,7 +1480,7 @@ SYSTEM:Can you please confirm to me that you want to have 1 room at Premier Inn 
 USER:That doesn't seem right. I will be going there on Thursday next week.
 SYSTEM:Can you confirm again back to me that you want to make a booking for Premier Inn London Hampstead and that you will be going there next Thursday.
 USER:That suits me well. Can you tell me which is the address of the hotel?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-07', 'check_out_date': '2019-03-06', 'hotel_name': 'Premier Inn London Hampstead', 'location': 'London', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-07', 'check_out_date': '2019-03-06', 'hotel_name': 'Premier Inn London Hampstead', 'location': 'London', 'number_of_rooms': '1'}"
 41_00004,"USER:I am planning to visit some place and I need to book a hotel with 3 rooms.
 SYSTEM:Let me know the exact check-in date, hotel name and Area where you want me to search in?
 USER:Can you book rooms at Hotel Travelodge London Battersea in London for the check-in date March 6th.
@@ -1488,7 +1488,7 @@ SYSTEM:Tell me the Check-out date
 USER:It will be on 14th of March.
 SYSTEM:Please confirm to book 3 rooms at Travelodge London Battersea hotel in London from next Wednesday to March 14th.
 USER:Yes, that's correct.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-06', 'check_out_date': '2019-03-14', 'hotel_name': 'Travelodge London Battersea', 'location': 'London', 'number_of_rooms': '3'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-06', 'check_out_date': '2019-03-14', 'hotel_name': 'Travelodge London Battersea', 'location': 'London', 'number_of_rooms': '3'}"
 41_00005,"USER:Hey! I would be travelling to New York for a Conference and wish to reserve some good hotels.
 SYSTEM:Where are you planning to stay? In which location you want me to find a good hotel for you?
 USER:My Conference will be at Bohemian National Hall. Please can you find some hotels near to that place at New York?
@@ -1500,7 +1500,7 @@ SYSTEM:Sure. Please could you be able to affirm the booking details. One room is
 USER:Sorry! My Check in date will be on 12th of March and not by tomorrow.
 SYSTEM:That's Okay. Please affirm me the booking details. So, your check-in date falls on March 12th and check out date will be on March 14th. Is that right?
 USER:Yup! that would work for me.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-12', 'check_out_date': '2019-03-14', 'hotel_name': 'Piccadilly Inn Airport', 'location': 'Fresno', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-12', 'check_out_date': '2019-03-14', 'hotel_name': 'Piccadilly Inn Airport', 'location': 'Fresno', 'number_of_rooms': '1'}"
 41_00006,"USER:I'm going to be traveling and I want a hotel reservation with checkout date the 6th of this month.
 SYSTEM:When and where will you be traveling to?
 USER:I'm going to be traveling to Atlanta and the check in needs to be the 3rd of this month.
@@ -1508,7 +1508,7 @@ SYSTEM:Do you have a preference in the hotel?
 USER:If possible I would like Clarion Inn.
 SYSTEM:Please confirm: Booking 1 room at Clarion Inn & Suites Atlanta Downtown in Atlanta for the day after tomorrow and checking out next Wednesday.
 USER:That is correct.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-03', 'check_out_date': '2019-03-06', 'hotel_name': 'Clarion Inn & Suites Atlanta Downtown', 'location': 'Atlanta', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-03', 'check_out_date': '2019-03-06', 'hotel_name': 'Clarion Inn & Suites Atlanta Downtown', 'location': 'Atlanta', 'number_of_rooms': '1'}"
 41_00007,"USER:I am looking to make a hotel resevation for one room.
 SYSTEM:When will you be arriving?
 USER:I would like to check in to the hotel next Monday.
@@ -1516,13 +1516,13 @@ SYSTEM:Is there a particular hotel in which you would like to stay and in what a
 USER:Please search for the Best Western JFK in the NY area. I will be leaving on March 14th.
 SYSTEM:I have 1 room reserved at the Best Western JFK Airport Hotel in New York arriving next Monday and leaving on March 14th.
 USER:Yes. Does it say if they allow pets? Also, what is the address?
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-04', 'check_out_date': '2019-03-14', 'hotel_name': 'Best Western Jfk Airport Hotel', 'location': 'New York', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-04', 'check_out_date': '2019-03-14', 'hotel_name': 'Best Western Jfk Airport Hotel', 'location': 'New York', 'number_of_rooms': '1'}"
 41_00008,"USER:I would like to make reservations for a room with a check in date of March 7th.
 SYSTEM:I can help you with that. Do know what hotel you are wanting to stay in and it's location, also what is going to be your check out date?
 USER:I would like to stay at Comfort Inn Buckingham Palace Road in London. I would need 2 rooms and the check out date will be the 13th of March.
 SYSTEM:Okay, I am confirming you 2 rooms to check in next Thursday at Comfort Inn Buckingham Palace Road in London. You check out date will be March 13th, is that right?
 USER:Yes that is correct!
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-07', 'check_out_date': '2019-03-13', 'hotel_name': 'Comfort Inn Buckingham Palace Road', 'location': 'London', 'number_of_rooms': '2'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-07', 'check_out_date': '2019-03-13', 'hotel_name': 'Comfort Inn Buckingham Palace Road', 'location': 'London', 'number_of_rooms': '2'}"
 41_00009,"USER:Hi, please reserve a hotel room for me, right away.
 SYSTEM:Sure, which hotel do you want to stay in? When will you leave there?
 USER:I must have the best room available in Hotel Paris Bercy, Paris. I can't leave it until the 8th of this month.
@@ -1530,13 +1530,13 @@ SYSTEM:When do you intend to get into Paris?
 USER:I'm Here now. I need the room later today.
 SYSTEM:Got it: 1 room in Hotel paris Bercy, in Paris. Checking in today and staying all the way through next Friday.
 USER:You got it toots.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-01', 'check_out_date': '2019-03-08', 'hotel_name': 'Hotel Paris Bercy', 'location': 'Paris', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-01', 'check_out_date': '2019-03-08', 'hotel_name': 'Hotel Paris Bercy', 'location': 'Paris', 'number_of_rooms': '1'}"
 41_00010,"USER:Can you help me find a hotel room to check into on the 6th of this month?
 SYSTEM:Sure. Please tell me the are where you'd like to stay, your check-out date as well as if you prefer a specific hotel.
 USER:I'd like to stay at Nu Hotel in KL, checking out on the 14th of this month.
 SYSTEM:Please confirm that you would like 1 room at Nu Hotel in Kuala Lumpur checking in next Wednesday and checking out March 14th.
 USER:Yes, that's correct.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-06', 'check_out_date': '2019-03-14', 'hotel_name': 'Nu Hotel', 'location': 'Kuala Lumpur', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-06', 'check_out_date': '2019-03-14', 'hotel_name': 'Nu Hotel', 'location': 'Kuala Lumpur', 'number_of_rooms': '1'}"
 41_00011,"USER:I would like to make a reservation at a hotel.
 SYSTEM:Which hotel would you like to stay at?
 USER:I would like to stay at the Beverly Hills Marriott.
@@ -1550,13 +1550,13 @@ SYSTEM:Please confirm the following: You want a reservation at the Beverly Hills
 USER:No, I would like to check out on the 10th of this month.
 SYSTEM:Please confirm the following: You would like to check out of your hotel in Los Angeles on March 10th.
 USER:Yes, that would work.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-02', 'check_out_date': '2019-03-10', 'hotel_name': 'Beverly Hills Marriott', 'location': 'Los Angeles', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-02', 'check_out_date': '2019-03-10', 'hotel_name': 'Beverly Hills Marriott', 'location': 'Los Angeles', 'number_of_rooms': '1'}"
 41_00012,"USER:I need to book a hotel in Sydney, Australia.
 SYSTEM:Sure. Do you know what hotel you want to stay at? Also, when are you checking in, and when do you expect to leave?
 USER:I am going to Vibe Hotel North. I'm checking in on the 6th of March and leaving a week later on the 13th of March.
 SYSTEM:You want 1 room at Vibe Hotel North Sydney in Sydney from Next Wednesday until March 13th. Is that correct?
 USER:Yes, that is perfect.
-",['Hotels_3'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-06', 'check_out_date': '2019-03-13', 'hotel_name': 'Vibe Hotel North Sydney', 'location': 'Sydney', 'number_of_rooms': '1'}}]"
+",['Hotels_3'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-06', 'check_out_date': '2019-03-13', 'hotel_name': 'Vibe Hotel North Sydney', 'location': 'Sydney', 'number_of_rooms': '1'}"
 41_00013,"USER:I want a hotel reservation for one room.
 SYSTEM:What is check in date, where and what hotel?
 USER:Check in is 4th of March and I want a room at Comfort Inn Kings Cross in London, UK.
@@ -1564,13 +1564,13 @@ SYSTEM:How long is your stay?
 USER:The stay is for three days.
 SYSTEM:Confirm check in is next Monday 4th of March and I want a room at Comfort Inn Kings Cross in London, UK for 3 days for 1.
 USER:I accept, is there wifi?
-",['Hotels_1'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-04', 'destination': 'London', 'hotel_name': 'Comfort Inn Kings Cross', 'number_of_days': '3', 'number_of_rooms': '1'}}]"
+",['Hotels_1'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-04', 'destination': 'London', 'hotel_name': 'Comfort Inn Kings Cross', 'number_of_days': '3', 'number_of_rooms': '1'}"
 41_00014,"USER:I'll be out of town for the weekend. I'd like help making a hotel reservation for Saturday this week.
 SYSTEM:In which city would you like me to make the reservation? Please let me know whether you have a preferred hotel, and the length of your stay.
 USER:I would like a room for three days at the Sanctuary Hotel in New York City.
 SYSTEM:Let me see if I got everything correctly: You would like to check in to 1 room tomorrow, for 3 days, at the Sanctuary Hotel New York, in New York.
 USER:Yes, sounds good. Please get me its phone number, and find out if they have wifi.
-",['Hotels_1'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-02', 'destination': 'New York', 'hotel_name': 'Sanctuary Hotel New York', 'number_of_days': '3', 'number_of_rooms': '1'}}]"
+",['Hotels_1'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-02', 'destination': 'New York', 'hotel_name': 'Sanctuary Hotel New York', 'number_of_days': '3', 'number_of_rooms': '1'}"
 41_00015,"USER:I'm traveling on business soon and I'll need a hotel reservation. I'll be checking in 2nd of March and will need one room.
 SYSTEM:Sure, I can help you. Is there a particular hotel you're interested in?
 USER:Yes, I'd like to stay at The Chamberlain Hotel.
@@ -1580,7 +1580,7 @@ SYSTEM:Okay, let's confirm the details. You need 1 room for 4 days, checking in 
 USER:On second thought, I'll only need the room for 2 days.
 SYSTEM:Okay, let's confirm the details. You'll be staying at The Chamberlain Hotel for 2 days. Is that correct?
 USER:Yes, that sounds great. Can you give me the hotel's phone number and how much it costs per night?
-",['Hotels_1'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-02', 'destination': 'London', 'hotel_name': 'The Chamberlain Hotel', 'number_of_days': '2', 'number_of_rooms': '1'}}]"
+",['Hotels_1'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-02', 'destination': 'London', 'hotel_name': 'The Chamberlain Hotel', 'number_of_days': '2', 'number_of_rooms': '1'}"
 41_00016,"USER:Will you reserve three rooms in a hotel with check in of next Tuesday?
 SYSTEM:Which hotel?
 USER:Ibis New Delhi Aerocity.
@@ -1594,7 +1594,7 @@ SYSTEM:Please confirm 2 rooms in Ibis New Delhi Aerocity.
 USER:No, three days.
 SYSTEM:Please confirm 3 days with check in next Tuesday.
 USER:Yes, that's fine. How much per night?
-",['Hotels_1'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-05', 'destination': 'Delhi', 'hotel_name': 'Ibis New Delhi Aerocity', 'number_of_days': '3', 'number_of_rooms': '2'}}]"
+",['Hotels_1'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-05', 'destination': 'Delhi', 'hotel_name': 'Ibis New Delhi Aerocity', 'number_of_days': '3', 'number_of_rooms': '2'}"
 41_00017,"USER:Can you book me a hotel room?
 SYSTEM:Of course. What city do you have in mind? How many days will you be staying?
 USER:I'm going to London, England for 3 days.
@@ -1602,7 +1602,7 @@ SYSTEM:Any particular hotel in mind?
 USER:I need 1 room at the Hanover Hotel Victoria. I'll arrive on the 5th of March
 SYSTEM:Please confirm the details for your stay in London: 1 room at the Hanover Hotel Victoria for 3 days, arriving next Tuesday.
 USER:Yes please. Can I get the hotel's rating? Do they have any wifi?
-",['Hotels_1'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-05', 'destination': 'London', 'hotel_name': 'Hanover Hotel Victoria', 'number_of_days': '3', 'number_of_rooms': '1'}}]"
+",['Hotels_1'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-05', 'destination': 'London', 'hotel_name': 'Hanover Hotel Victoria', 'number_of_days': '3', 'number_of_rooms': '1'}"
 41_00018,"USER:I need a hotel reservation for 2 rooms.
 SYSTEM:What city would you like and have a preference at which hotel?
 USER:Yes in London, England at Hanover Hotel Victoria.
@@ -1612,7 +1612,7 @@ SYSTEM:How many days do you want to stay there?
 USER:I want for three days.
 SYSTEM:In London 2 rooms for 3 days with the check in date today at hotel Hanover Hotel Victoria is that ok?
 USER:Yes is good
-",['Hotels_1'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-01', 'destination': 'London', 'hotel_name': 'Hanover Hotel Victoria', 'number_of_days': '3', 'number_of_rooms': '2'}}]"
+",['Hotels_1'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-01', 'destination': 'London', 'hotel_name': 'Hanover Hotel Victoria', 'number_of_days': '3', 'number_of_rooms': '2'}"
 41_00019,"USER:I need to make a hotel booking, checking in on the 1st.
 SYSTEM:Sure. Which hotel?
 USER:Let's stay at the Doubletree By Hilton Hotel London - Westminster.
@@ -1620,7 +1620,7 @@ SYSTEM:Of course. What city is that in? How many days would you like to stay?
 USER:I need to stay 3 days, but I need two rooms. It's in London, UK
 SYSTEM:Please confirm: staying at the Doubletree By Hilton Hotel London - Westminster, arriving today and staying for 3 days in London, 2 rooms?
 USER:Yes that's right. Do they have wifi? Can you give me their number?
-",['Hotels_1'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-01', 'destination': 'London', 'hotel_name': 'Doubletree By Hilton Hotel London - Westminster', 'number_of_days': '3', 'number_of_rooms': '2'}}]"
+",['Hotels_1'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-01', 'destination': 'London', 'hotel_name': 'Doubletree By Hilton Hotel London - Westminster', 'number_of_days': '3', 'number_of_rooms': '2'}"
 41_00020,"USER:Can you help me make a hotel reservation?
 SYSTEM:When would you like to check in, and how many days would you like a reservation for? Did you have a hotel in mind?
 USER:I'd like to check in next Thursday and reserve a room for three days. I'd like to book at Super 8 Toronto.
@@ -1628,7 +1628,7 @@ SYSTEM:Which city am I searching in?
 USER:Toronto, Ontario please.
 SYSTEM:So you'd like a reservation for 1 room at Super 8 By Wyndham Downtown Toronto in Toronto? The check in date is next Thursday and the reservation is for 3 days.
 USER:Sounds good. Does the hotel have a three star rating?
-",['Hotels_1'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-07', 'destination': 'Toronto', 'hotel_name': 'Super 8 By Wyndham Downtown Toronto', 'number_of_days': '3', 'number_of_rooms': '1'}}]"
+",['Hotels_1'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-07', 'destination': 'Toronto', 'hotel_name': 'Super 8 By Wyndham Downtown Toronto', 'number_of_days': '3', 'number_of_rooms': '1'}"
 41_00021,"USER:I would like to make a hotel reservation for Wednesday next week.
 SYSTEM:What hotel should I reserve and in which city?
 USER:I am looking for a hotel in San Diego at the Towneplace Suites Downtown.
@@ -1636,4 +1636,4 @@ SYSTEM:How many days do you want to spend?
 USER:I would like the room for three days.
 SYSTEM:Please confirm the following details: Booking 1 room for 3 days, checking in next Wednesday in San Diego at the Towneplace Suites By Marriott San Diego Downtown.
 USER:Yes, that is correct.
-",['Hotels_1'],['ReserveHotel'],"[{'method': 'ReserveHotel', 'parameters': {'check_in_date': '2019-03-06', 'destination': 'San Diego', 'hotel_name': 'Towneplace Suites By Marriott San Diego Downtown', 'number_of_days': '3', 'number_of_rooms': '1'}}]"
+",['Hotels_1'],['ReserveHotel'],ReserveHotel,"{'check_in_date': '2019-03-06', 'destination': 'San Diego', 'hotel_name': 'Towneplace Suites By Marriott San Diego Downtown', 'number_of_days': '3', 'number_of_rooms': '1'}"
