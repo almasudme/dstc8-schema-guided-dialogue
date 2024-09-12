@@ -90,6 +90,7 @@ def process_files(folder,list_json_files,target_intent_domain,file):
                     
                     intent = [is_intent(frame.get('actions')) for frame in list_frames if is_intent(frame.get('actions'))] 
                     service_calls = [frame.get('service_call') for frame in list_frames]
+                    service_results = [frame.get('service_results') for frame in list_frames]
                     
                     if service_calls and is_service_call(service_calls,target_intent_domain) : 
                         service_call_made = True
@@ -132,7 +133,8 @@ def process_files(folder,list_json_files,target_intent_domain,file):
                         'turn_services':turn_services,
                         'intent':list(set(intents)),
                         'service_call_method':service_calls[0].get('method'),
-                        'service_call_parameters':service_calls[0].get('parameters')
+                        'service_call_parameters':service_calls[0].get('parameters'),
+                        'service_results':service_results
                     }
                     writer.writerow(temp_dict)
 
@@ -143,7 +145,7 @@ if __name__ == '__main__':
     list_json_files = glob.glob(folder + "/*.json")
     file_name = folder+'_mini.csv'
     with open (file_name,'w',newline="") as file:
-        headers = ['dialogue_id' ,'conversation','turn_services','intent','service_call_method','service_call_parameters']
+        headers = ['dialogue_id' ,'conversation','turn_services','intent','service_call_method','service_call_parameters','service_results']
         writer = csv.DictWriter(file, fieldnames=headers)
         writer.writeheader()
         for target_intent_domain in target_intent_domains:
